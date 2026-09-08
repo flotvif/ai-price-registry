@@ -13,8 +13,8 @@ exactement la liste des valeurs qui ont change ce jour-la.
 
 | Fichier | Contenu |
 |---|---|
-| `registry.csv` | 14037 valeurs publiees, chacune avec sa date d'observation, l'adresse de sa source, le niveau de cette source et l'empreinte SHA-256 du contenu lu |
-| `changes.csv` | 96 changements confirmes, du plus recent au plus ancien |
+| `registry.csv` | 14048 valeurs publiees, chacune avec sa date d'observation, l'adresse de sa source, le niveau de cette source et l'empreinte SHA-256 du contenu lu |
+| `changes.csv` | 109 changements confirmes, du plus recent au plus ancien |
 
 Chaque ligne porte l'adresse de son **recu** : une page permanente qui montre la
 valeur, sa date, sa source et son empreinte. L'identifiant du recu se recalcule
