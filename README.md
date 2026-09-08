@@ -2,23 +2,41 @@
 
 Ce depot contient l'etat publie du registre, commite une fois par jour.
 
-**L'historique git de ce depot est l'historique des prix.** Le fichier est trie
-par identifiant de parametre, jamais par nom : le diff d'un commit est donc
-exactement la liste des valeurs qui ont change ce jour-la.
+**L'historique git de ce depot est l'historique des prix.** Les fichiers sont
+tries par identifiant de parametre, jamais par nom : le diff d'un commit est
+donc lisible ligne a ligne.
 
-    git log --oneline registry.csv
-    git log -p -S "openai:gpt-5-mini#price_output" registry.csv
+    git log --oneline values.csv
+    git log -p -S "openai:gpt-5-mini#price_output" values.csv
 
-## Ce qu'il y a dedans
+## Trois fichiers, et la difference compte
 
-| Fichier | Contenu |
-|---|---|
-| `registry.csv` | 14048 valeurs publiees, chacune avec sa date d'observation, l'adresse de sa source, le niveau de cette source et l'empreinte SHA-256 du contenu lu |
-| `changes.csv` | 109 changements confirmes, du plus recent au plus ancien |
+| Fichier | Contenu | Ce que dit son diff |
+|---|---|---|
+| `values.csv` | 12457 valeurs, sans provenance | **exactement les valeurs qui ont change** |
+| `registry.csv` | les memes, avec date, source, niveau et empreinte SHA-256 | ce qui a ete constate a nouveau, y compris a valeur identique |
+| `measurements.csv` | 1591 mesures continues : disponibilite, latence, debit, taux de change | de nouvelles lectures, tous les jours |
+| `changes.csv` | 109 changements confirmes, du plus recent au plus ancien | |
 
-Chaque ligne porte l'adresse de son **recu** : une page permanente qui montre la
-valeur, sa date, sa source et son empreinte. L'identifiant du recu se recalcule
-depuis ce fichier, par n'importe qui :
+`values.csv` et `registry.csv` portent les memes lignes. Le premier ne contient
+que l'etat, donc une relecture au meme prix n'y touche rien ; le second porte la
+preuve, donc il bouge des qu'un constat est reecrit. Les deux affirmations sont
+utiles et ne sont pas la meme.
+
+**Une mesure n'est pas un parametre publie**, et c'est pourquoi elles vivent
+dans un fichier separe. Un parametre publie est ce que le vendeur affirme : un
+prix, une fenetre de contexte, un plafond de debit. Une mesure est ce que
+quelqu'un a constate a un instant : une disponibilite, une latence. Le premier
+change quand le vendeur decide ; la seconde change tout le temps, et son
+changement n'apprend rien. Melangees, les secondes noient les premieres : au
+deuxieme commit de ce depot, 1 308 lignes modifiees sur 2 107 etaient de la
+mesure continue.
+
+## La provenance
+
+Chaque ligne de `registry.csv` porte l'adresse de son **recu** : une page
+permanente qui montre la valeur, sa date, sa source et son empreinte.
+L'identifiant du recu se recalcule depuis ce fichier, par n'importe qui :
 
     sha256(f"{parameter_id}|{observed_at}|{content_hash}")[:12]
 
@@ -29,7 +47,7 @@ depuis ce fichier, par n'importe qui :
 2. **Toute donnee publiee est tracable.** D'ou elle vient, de quand elle date,
    ce qui a change depuis.
 3. **Aucune identite humaine fabriquee.** Bertrande est un systeme editorial
-   automatise, et le dit.
+   automatise, et une personne nommee en repond.
 
 Une case vide est honorable ; une case inventee detruit le projet. Un parametre
 dont la source est trop faible n'est pas publie, il est retenu et compte.
