@@ -13,10 +13,10 @@ donc lisible ligne a ligne.
 
 | Fichier | Contenu | Ce que dit son diff |
 |---|---|---|
-| `values.csv` | 12814 valeurs, sans provenance | **exactement les valeurs qui ont change** |
+| `values.csv` | 12839 valeurs, sans provenance | **exactement les valeurs qui ont change** |
 | `registry.csv` | les memes, avec date, source, niveau et empreinte SHA-256 | ce qui a ete constate a nouveau, y compris a valeur identique |
-| `measurements.csv` | 2400 mesures continues : disponibilite, latence, debit, taux de change | de nouvelles lectures, tous les jours |
-| `changes.csv` | 459 changements confirmes, du plus recent au plus ancien | |
+| `measurements.csv` | 2406 mesures continues : disponibilite, latence, debit, taux de change | de nouvelles lectures, tous les jours |
+| `changes.csv` | 464 changements confirmes, du plus recent au plus ancien | |
 
 `values.csv` et `registry.csv` portent les memes lignes. Le premier ne contient
 que l'etat, donc une relecture au meme prix n'y touche rien ; le second porte la
