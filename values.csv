@@ -4367,6 +4367,11 @@ deepinfra:deepseek-ai--deepseek-v4.1-flash#rate_cache_read,,0.03,ratio of the in
 deepinfra:deepseek-ai--deepseek-v4.1-flash#rate_discount,,0.3,ratio of the standard price
 deepinfra:deepseek-ai--deepseek-v4.1-flash#rate_tier_flex,,0.8,ratio of the standard price
 deepinfra:deepseek-ai--deepseek-v4.1-flash#rate_tier_priority,,1.5,ratio of the standard price
+deepinfra:deepseek-ai--deepseek-v4.1-flash-turbo#context_length,,1048576.0,tokens
+deepinfra:deepseek-ai--deepseek-v4.1-flash-turbo#price_input,,0.3,USD per 1M tokens
+deepinfra:deepseek-ai--deepseek-v4.1-flash-turbo#price_output,,1.2,USD per 1M tokens
+deepinfra:deepseek-ai--deepseek-v4.1-flash-turbo#rate_cache_read,,0.02,ratio of the input price
+deepinfra:deepseek-ai--deepseek-v4.1-flash-turbo#rate_tier_priority,,1.5,ratio of the standard price
 deepinfra:google--gemini-2.5-flash#context_length,,1000000.0,tokens
 deepinfra:google--gemini-2.5-flash#price_input,,0.3,USD per 1M tokens
 deepinfra:google--gemini-2.5-flash#price_output,,2.5,USD per 1M tokens
@@ -4668,6 +4673,7 @@ deepinfra:qwen--qwen3.6-27b#rate_tier_priority,,1.5,ratio of the standard price
 deepinfra:qwen--qwen3.6-35b-a3b#context_length,,262144.0,tokens
 deepinfra:qwen--qwen3.6-35b-a3b#price_input,,0.1,USD per 1M tokens
 deepinfra:qwen--qwen3.6-35b-a3b#price_output,,0.95,USD per 1M tokens
+deepinfra:qwen--qwen3.6-35b-a3b#rate_cache_read,,1.0,ratio of the input price
 deepinfra:qwen--qwen3.6-35b-a3b#rate_tier_flex,,0.8,ratio of the standard price
 deepinfra:qwen--qwen3.6-35b-a3b#rate_tier_priority,,1.5,ratio of the standard price
 deepinfra:qwen--qwen3.7-max#context_length,,256000.0,tokens
@@ -7883,10 +7889,10 @@ openrouter:deepseek--deepseek-r1-distill-llama-70b#released_at,,2025-01-23,date
 openrouter:deepseek--deepseek-r1-distill-llama-70b#supported_parameters,,"frequency_penalty, include_reasoning, max_tokens, presence_penalty, reasoning, repetition_penalty, seed, stop, temperature, top_k, top_p",list
 openrouter:deepseek--deepseek-v3.1-terminus#context_length,,163840.0,tokens
 openrouter:deepseek--deepseek-v3.1-terminus#input_modalities,,text,list
-openrouter:deepseek--deepseek-v3.1-terminus#max_output_tokens,,65536.0,tokens
+openrouter:deepseek--deepseek-v3.1-terminus#max_output_tokens,,147456.0,tokens
 openrouter:deepseek--deepseek-v3.1-terminus#output_modalities,,text,list
 openrouter:deepseek--deepseek-v3.1-terminus#price_cache_read,,0.135,USD per 1M tokens
-openrouter:deepseek--deepseek-v3.1-terminus#price_input,,0.3,USD per 1M tokens
+openrouter:deepseek--deepseek-v3.1-terminus#price_input,,0.27,USD per 1M tokens
 openrouter:deepseek--deepseek-v3.1-terminus#price_output,,1.0,USD per 1M tokens
 openrouter:deepseek--deepseek-v3.1-terminus#released_at,,2025-09-22,date
 openrouter:deepseek--deepseek-v3.1-terminus#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_p",list
@@ -7912,17 +7918,17 @@ openrouter:deepseek--deepseek-v4-flash#context_length,,1048576.0,tokens
 openrouter:deepseek--deepseek-v4-flash#input_modalities,,text,list
 openrouter:deepseek--deepseek-v4-flash#max_output_tokens,,384000.0,tokens
 openrouter:deepseek--deepseek-v4-flash#output_modalities,,text,list
-openrouter:deepseek--deepseek-v4-flash#price_cache_read,,0.0084,USD per 1M tokens
-openrouter:deepseek--deepseek-v4-flash#price_input,,0.042,USD per 1M tokens
-openrouter:deepseek--deepseek-v4-flash#price_output,,0.084,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-flash#price_cache_read,,0.0056,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-flash#price_input,,0.028,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-flash#price_output,,0.056,USD per 1M tokens
 openrouter:deepseek--deepseek-v4-flash#released_at,,2026-04-24,date
 openrouter:deepseek--deepseek-v4-flash#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_completion_tokens, max_tokens, min_p, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_a, top_k, top_logprobs, top_p",list
 openrouter:deepseek--deepseek-v4-flash-0731#context_length,,1048576.0,tokens
 openrouter:deepseek--deepseek-v4-flash-0731#input_modalities,,text,list
 openrouter:deepseek--deepseek-v4-flash-0731#max_output_tokens,,943718.0,tokens
 openrouter:deepseek--deepseek-v4-flash-0731#output_modalities,,text,list
-openrouter:deepseek--deepseek-v4-flash-0731#price_cache_read,,0.0115,USD per 1M tokens
-openrouter:deepseek--deepseek-v4-flash-0731#price_input,,0.0115,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-flash-0731#price_cache_read,,0.0046,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-flash-0731#price_input,,0.0051,USD per 1M tokens
 openrouter:deepseek--deepseek-v4-flash-0731#price_output,,1.28,USD per 1M tokens
 openrouter:deepseek--deepseek-v4-flash-0731#released_at,,2026-07-31,date
 openrouter:deepseek--deepseek-v4-flash-0731#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_a, top_k, top_logprobs, top_p",list
@@ -8004,13 +8010,13 @@ openrouter:deepseek--deepseek-v4.1-flash#context_length,,1048576.0,tokens
 openrouter:deepseek--deepseek-v4.1-flash#input_modalities,,"image, text",list
 openrouter:deepseek--deepseek-v4.1-flash#max_output_tokens,,943718.0,tokens
 openrouter:deepseek--deepseek-v4.1-flash#output_modalities,,text,list
-openrouter:deepseek--deepseek-v4.1-flash#price_cache_read,,0.0075,USD per 1M tokens
+openrouter:deepseek--deepseek-v4.1-flash#price_cache_read,,0.006,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_cache_read@weekdays-00-00-to-01-00-utc--weekdays-04-00-to-06-00-utc--we,"weekdays 00:00 to 01:00 UTC; weekdays 04:00 to 06:00 UTC; weekdays 10:00 to 00:00 UTC; weekends (all day, UTC)",0.003,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_cache_read@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,0.006,USD per 1M tokens
-openrouter:deepseek--deepseek-v4.1-flash#price_input,,0.03,USD per 1M tokens
+openrouter:deepseek--deepseek-v4.1-flash#price_input,,0.3,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_input@weekdays-00-00-to-01-00-utc--weekdays-04-00-to-06-00-utc--we,"weekdays 00:00 to 01:00 UTC; weekdays 04:00 to 06:00 UTC; weekdays 10:00 to 00:00 UTC; weekends (all day, UTC)",0.15,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_input@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,0.3,USD per 1M tokens
-openrouter:deepseek--deepseek-v4.1-flash#price_output,,0.75,USD per 1M tokens
+openrouter:deepseek--deepseek-v4.1-flash#price_output,,1.2,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_output@weekdays-00-00-to-01-00-utc--weekdays-04-00-to-06-00-utc--we,"weekdays 00:00 to 01:00 UTC; weekdays 04:00 to 06:00 UTC; weekdays 10:00 to 00:00 UTC; weekends (all day, UTC)",0.6,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_output@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,1.2,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#released_at,,2026-09-10,date
@@ -8435,9 +8441,9 @@ openrouter:google--gemma-4-26b-a4b-it#context_length,,262144.0,tokens
 openrouter:google--gemma-4-26b-a4b-it#input_modalities,,"image, text, video",list
 openrouter:google--gemma-4-26b-a4b-it#max_output_tokens,,235929.0,tokens
 openrouter:google--gemma-4-26b-a4b-it#output_modalities,,text,list
-openrouter:google--gemma-4-26b-a4b-it#price_cache_read,,0.0425,USD per 1M tokens
-openrouter:google--gemma-4-26b-a4b-it#price_input,,0.0765,USD per 1M tokens
-openrouter:google--gemma-4-26b-a4b-it#price_output,,0.255,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_cache_read,,0.0375,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_input,,0.0675,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_output,,0.225,USD per 1M tokens
 openrouter:google--gemma-4-26b-a4b-it#released_at,,2026-04-03,date
 openrouter:google--gemma-4-26b-a4b-it#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:google--gemma-4-26b-a4b-it:free#context_length,,262144.0,tokens
@@ -8561,11 +8567,11 @@ openrouter:inclusionai--ling-3.0-flash#released_at,,2026-07-23,date
 openrouter:inclusionai--ling-3.0-flash#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:inclusionai--ling-3.0-flash-fin#context_length,,262144.0,tokens
 openrouter:inclusionai--ling-3.0-flash-fin#input_modalities,,text,list
-openrouter:inclusionai--ling-3.0-flash-fin#max_output_tokens,,235929.0,tokens
+openrouter:inclusionai--ling-3.0-flash-fin#max_output_tokens,,32768.0,tokens
 openrouter:inclusionai--ling-3.0-flash-fin#output_modalities,,text,list
-openrouter:inclusionai--ling-3.0-flash-fin#price_cache_read,,0.012,USD per 1M tokens
-openrouter:inclusionai--ling-3.0-flash-fin#price_input,,0.06,USD per 1M tokens
-openrouter:inclusionai--ling-3.0-flash-fin#price_output,,0.18,USD per 1M tokens
+openrouter:inclusionai--ling-3.0-flash-fin#price_cache_read,,0.0084,USD per 1M tokens
+openrouter:inclusionai--ling-3.0-flash-fin#price_input,,0.042,USD per 1M tokens
+openrouter:inclusionai--ling-3.0-flash-fin#price_output,,0.1232,USD per 1M tokens
 openrouter:inclusionai--ling-3.0-flash-fin#released_at,,2026-08-27,date
 openrouter:inclusionai--ling-3.0-flash-fin#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:inclusionai--ling-3.0-flash-fin:free#context_length,,262144.0,tokens
@@ -8601,6 +8607,14 @@ openrouter:inclusionai--ling-3.0-flash-vl:free#price_input,,0.0,USD per 1M token
 openrouter:inclusionai--ling-3.0-flash-vl:free#price_output,,0.0,USD per 1M tokens
 openrouter:inclusionai--ling-3.0-flash-vl:free#released_at,,2026-09-10,date
 openrouter:inclusionai--ling-3.0-flash-vl:free#supported_parameters,,"frequency_penalty, include_reasoning, logprobs, max_tokens, presence_penalty, reasoning, repetition_penalty, seed, stop, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
+openrouter:inclusionai--ling-3.1-flash#context_length,,262144.0,tokens
+openrouter:inclusionai--ling-3.1-flash#input_modalities,,text,list
+openrouter:inclusionai--ling-3.1-flash#max_output_tokens,,32768.0,tokens
+openrouter:inclusionai--ling-3.1-flash#output_modalities,,text,list
+openrouter:inclusionai--ling-3.1-flash#price_input,,0.0,USD per 1M tokens
+openrouter:inclusionai--ling-3.1-flash#price_output,,0.0,USD per 1M tokens
+openrouter:inclusionai--ling-3.1-flash#released_at,,2026-10-02,date
+openrouter:inclusionai--ling-3.1-flash#supported_parameters,,"frequency_penalty, include_reasoning, logprobs, max_tokens, presence_penalty, reasoning, repetition_penalty, seed, stop, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:inference-net--schematron-v2-small#context_length,,128000.0,tokens
 openrouter:inference-net--schematron-v2-small#input_modalities,,text,list
 openrouter:inference-net--schematron-v2-small#max_output_tokens,,4096.0,tokens
@@ -9156,7 +9170,7 @@ openrouter:moonshotai--kimi-k2-0905#released_at,,2025-09-04,date
 openrouter:moonshotai--kimi-k2-0905#supported_parameters,,"frequency_penalty, max_tokens, presence_penalty, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_p",list
 openrouter:moonshotai--kimi-k2-thinking#context_length,,262144.0,tokens
 openrouter:moonshotai--kimi-k2-thinking#input_modalities,,text,list
-openrouter:moonshotai--kimi-k2-thinking#max_output_tokens,,98304.0,tokens
+openrouter:moonshotai--kimi-k2-thinking#max_output_tokens,,235929.0,tokens
 openrouter:moonshotai--kimi-k2-thinking#output_modalities,,text,list
 openrouter:moonshotai--kimi-k2-thinking#price_cache_read,,0.15,USD per 1M tokens
 openrouter:moonshotai--kimi-k2-thinking#price_input,,0.6,USD per 1M tokens
@@ -9176,9 +9190,9 @@ openrouter:moonshotai--kimi-k2.6#context_length,,262144.0,tokens
 openrouter:moonshotai--kimi-k2.6#input_modalities,,"image, text",list
 openrouter:moonshotai--kimi-k2.6#max_output_tokens,,235929.0,tokens
 openrouter:moonshotai--kimi-k2.6#output_modalities,,text,list
-openrouter:moonshotai--kimi-k2.6#price_cache_read,,0.07312,USD per 1M tokens
-openrouter:moonshotai--kimi-k2.6#price_input,,0.43415,USD per 1M tokens
-openrouter:moonshotai--kimi-k2.6#price_output,,1.828,USD per 1M tokens
+openrouter:moonshotai--kimi-k2.6#price_cache_read,,0.16,USD per 1M tokens
+openrouter:moonshotai--kimi-k2.6#price_input,,0.95,USD per 1M tokens
+openrouter:moonshotai--kimi-k2.6#price_output,,4.0,USD per 1M tokens
 openrouter:moonshotai--kimi-k2.6#released_at,,2026-04-20,date
 openrouter:moonshotai--kimi-k2.6#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:moonshotai--kimi-k2.7-code#context_length,,262144.0,tokens
@@ -9203,9 +9217,9 @@ openrouter:moonshotai--kimi-k3#context_length,,1048576.0,tokens
 openrouter:moonshotai--kimi-k3#input_modalities,,"image, text, video",list
 openrouter:moonshotai--kimi-k3#max_output_tokens,,943718.0,tokens
 openrouter:moonshotai--kimi-k3#output_modalities,,text,list
-openrouter:moonshotai--kimi-k3#price_cache_read,,0.8,USD per 1M tokens
-openrouter:moonshotai--kimi-k3#price_input,,1.39,USD per 1M tokens
-openrouter:moonshotai--kimi-k3#price_output,,13.0,USD per 1M tokens
+openrouter:moonshotai--kimi-k3#price_cache_read,,0.27,USD per 1M tokens
+openrouter:moonshotai--kimi-k3#price_input,,2.7,USD per 1M tokens
+openrouter:moonshotai--kimi-k3#price_output,,13.5,USD per 1M tokens
 openrouter:moonshotai--kimi-k3#released_at,,2026-07-16,date
 openrouter:moonshotai--kimi-k3#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:moonshotai--kimi-k3:batch#context_length,,1048576.0,tokens
@@ -9394,11 +9408,11 @@ openrouter:nvidia--nemotron-3.5-content-safety:free#released_at,,2026-06-04,date
 openrouter:nvidia--nemotron-3.5-content-safety:free#supported_parameters,,"include_reasoning, max_tokens, reasoning, seed, temperature, top_p",list
 openrouter:nvidia--nemotron-3.5-lightning#context_length,,262144.0,tokens
 openrouter:nvidia--nemotron-3.5-lightning#input_modalities,,text,list
-openrouter:nvidia--nemotron-3.5-lightning#max_output_tokens,,32768.0,tokens
+openrouter:nvidia--nemotron-3.5-lightning#max_output_tokens,,131072.0,tokens
 openrouter:nvidia--nemotron-3.5-lightning#output_modalities,,text,list
-openrouter:nvidia--nemotron-3.5-lightning#price_cache_read,,0.03,USD per 1M tokens
-openrouter:nvidia--nemotron-3.5-lightning#price_input,,0.06,USD per 1M tokens
-openrouter:nvidia--nemotron-3.5-lightning#price_output,,0.16,USD per 1M tokens
+openrouter:nvidia--nemotron-3.5-lightning#price_cache_read,,0.02975,USD per 1M tokens
+openrouter:nvidia--nemotron-3.5-lightning#price_input,,0.0595,USD per 1M tokens
+openrouter:nvidia--nemotron-3.5-lightning#price_output,,0.17,USD per 1M tokens
 openrouter:nvidia--nemotron-3.5-lightning#released_at,,2026-08-11,date
 openrouter:nvidia--nemotron-3.5-lightning#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:nvidia--nemotron-3.5-lightning:free#context_length,,1000000.0,tokens
@@ -9409,6 +9423,10 @@ openrouter:nvidia--nemotron-3.5-lightning:free#price_input,,0.0,USD per 1M token
 openrouter:nvidia--nemotron-3.5-lightning:free#price_output,,0.0,USD per 1M tokens
 openrouter:nvidia--nemotron-3.5-lightning:free#released_at,,2026-08-11,date
 openrouter:nvidia--nemotron-3.5-lightning:free#supported_parameters,,"include_reasoning, max_tokens, reasoning, seed, temperature, tool_choice, tools, top_p",list
+openrouter:nvidia--switchyard#context_length,,1000000.0,tokens
+openrouter:nvidia--switchyard#input_modalities,,text,list
+openrouter:nvidia--switchyard#output_modalities,,text,list
+openrouter:nvidia--switchyard#released_at,,2026-09-21,date
 openrouter:openai--gpt-3.5-turbo#context_length,,16385.0,tokens
 openrouter:openai--gpt-3.5-turbo#input_modalities,,text,list
 openrouter:openai--gpt-3.5-turbo#max_output_tokens,,4096.0,tokens
@@ -9632,7 +9650,7 @@ openrouter:openai--gpt-5-image#price_cache_read,,1.25,USD per 1M tokens
 openrouter:openai--gpt-5-image#price_input,,10.0,USD per 1M tokens
 openrouter:openai--gpt-5-image#price_output,,10.0,USD per 1M tokens
 openrouter:openai--gpt-5-image#released_at,,2025-10-14,date
-openrouter:openai--gpt-5-image#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, presence_penalty, reasoning, response_format, seed, stop, structured_outputs, temperature, top_logprobs, top_p, verbosity",list
+openrouter:openai--gpt-5-image#supported_parameters,,"include_reasoning, logprobs, max_tokens, reasoning, response_format, seed, structured_outputs, temperature, top_logprobs, top_p, verbosity",list
 openrouter:openai--gpt-5-image-mini#context_length,,400000.0,tokens
 openrouter:openai--gpt-5-image-mini#input_modalities,,"file, image, text",list
 openrouter:openai--gpt-5-image-mini#max_output_tokens,,128000.0,tokens
@@ -9641,7 +9659,7 @@ openrouter:openai--gpt-5-image-mini#price_cache_read,,0.25,USD per 1M tokens
 openrouter:openai--gpt-5-image-mini#price_input,,2.5,USD per 1M tokens
 openrouter:openai--gpt-5-image-mini#price_output,,2.0,USD per 1M tokens
 openrouter:openai--gpt-5-image-mini#released_at,,2025-10-16,date
-openrouter:openai--gpt-5-image-mini#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, presence_penalty, reasoning, response_format, seed, stop, structured_outputs, temperature, top_logprobs, top_p, verbosity",list
+openrouter:openai--gpt-5-image-mini#supported_parameters,,"include_reasoning, logprobs, max_tokens, reasoning, response_format, seed, structured_outputs, temperature, top_logprobs, top_p, verbosity",list
 openrouter:openai--gpt-5-mini#context_length,,400000.0,tokens
 openrouter:openai--gpt-5-mini#input_modalities,,"file, image, text",list
 openrouter:openai--gpt-5-mini#max_output_tokens,,128000.0,tokens
@@ -9820,7 +9838,7 @@ openrouter:openai--gpt-5.4-image-2#price_cache_read,,2.0,USD per 1M tokens
 openrouter:openai--gpt-5.4-image-2#price_input,,8.0,USD per 1M tokens
 openrouter:openai--gpt-5.4-image-2#price_output,,15.0,USD per 1M tokens
 openrouter:openai--gpt-5.4-image-2#released_at,,2026-04-21,date
-openrouter:openai--gpt-5.4-image-2#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, presence_penalty, reasoning, reasoning_effort, response_format, seed, stop, structured_outputs, top_logprobs, verbosity",list
+openrouter:openai--gpt-5.4-image-2#supported_parameters,,"include_reasoning, logprobs, max_tokens, reasoning, reasoning_effort, response_format, seed, structured_outputs, top_logprobs, verbosity",list
 openrouter:openai--gpt-5.4-mini#context_length,,400000.0,tokens
 openrouter:openai--gpt-5.4-mini#input_modalities,,"file, image, text",list
 openrouter:openai--gpt-5.4-mini#max_output_tokens,,128000.0,tokens
@@ -10767,10 +10785,10 @@ openrouter:qwen--qwen3-30b-a3b#released_at,,2025-04-28,date
 openrouter:qwen--qwen3-30b-a3b#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_p",list
 openrouter:qwen--qwen3-30b-a3b-instruct-2507#context_length,,262144.0,tokens
 openrouter:qwen--qwen3-30b-a3b-instruct-2507#input_modalities,,text,list
-openrouter:qwen--qwen3-30b-a3b-instruct-2507#max_output_tokens,,235929.0,tokens
+openrouter:qwen--qwen3-30b-a3b-instruct-2507#max_output_tokens,,32000.0,tokens
 openrouter:qwen--qwen3-30b-a3b-instruct-2507#output_modalities,,text,list
-openrouter:qwen--qwen3-30b-a3b-instruct-2507#price_input,,0.1,USD per 1M tokens
-openrouter:qwen--qwen3-30b-a3b-instruct-2507#price_output,,0.3,USD per 1M tokens
+openrouter:qwen--qwen3-30b-a3b-instruct-2507#price_input,,0.04815,USD per 1M tokens
+openrouter:qwen--qwen3-30b-a3b-instruct-2507#price_output,,0.19305,USD per 1M tokens
 openrouter:qwen--qwen3-30b-a3b-instruct-2507#released_at,,2025-07-29,date
 openrouter:qwen--qwen3-30b-a3b-instruct-2507#supported_parameters,,"frequency_penalty, logit_bias, logprobs, max_tokens, presence_penalty, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:qwen--qwen3-30b-a3b-thinking-2507#context_length,,81920.0,tokens
@@ -10788,7 +10806,7 @@ openrouter:qwen--qwen3-32b#output_modalities,,text,list
 openrouter:qwen--qwen3-32b#price_input,,0.08,USD per 1M tokens
 openrouter:qwen--qwen3-32b#price_output,,0.28,USD per 1M tokens
 openrouter:qwen--qwen3-32b#released_at,,2025-04-28,date
-openrouter:qwen--qwen3-32b#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_p",list
+openrouter:qwen--qwen3-32b#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_a, top_k, top_logprobs, top_p",list
 openrouter:qwen--qwen3-8b#context_length,,131072.0,tokens
 openrouter:qwen--qwen3-8b#input_modalities,,text,list
 openrouter:qwen--qwen3-8b#max_output_tokens,,8192.0,tokens
@@ -10900,7 +10918,7 @@ openrouter:qwen--qwen3-next-80b-a3b-instruct#released_at,,2025-09-11,date
 openrouter:qwen--qwen3-next-80b-a3b-instruct#supported_parameters,,"frequency_penalty, logit_bias, logprobs, max_tokens, min_p, presence_penalty, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:qwen--qwen3-next-80b-a3b-thinking#context_length,,262144.0,tokens
 openrouter:qwen--qwen3-next-80b-a3b-thinking#input_modalities,,text,list
-openrouter:qwen--qwen3-next-80b-a3b-thinking#max_output_tokens,,235929.0,tokens
+openrouter:qwen--qwen3-next-80b-a3b-thinking#max_output_tokens,,32768.0,tokens
 openrouter:qwen--qwen3-next-80b-a3b-thinking#output_modalities,,text,list
 openrouter:qwen--qwen3-next-80b-a3b-thinking#price_input,,0.15,USD per 1M tokens
 openrouter:qwen--qwen3-next-80b-a3b-thinking#price_output,,1.2,USD per 1M tokens
@@ -11705,7 +11723,7 @@ openrouter:xiaomi--mimo-v2.6-flash#price_cache_read,,0.0028,USD per 1M tokens
 openrouter:xiaomi--mimo-v2.6-flash#price_input,,0.14,USD per 1M tokens
 openrouter:xiaomi--mimo-v2.6-flash#price_output,,0.28,USD per 1M tokens
 openrouter:xiaomi--mimo-v2.6-flash#released_at,,2026-09-21,date
-openrouter:xiaomi--mimo-v2.6-flash#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_p",list
+openrouter:xiaomi--mimo-v2.6-flash#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:xiaomi--mimo-v2.6-pro#context_length,,1050000.0,tokens
 openrouter:xiaomi--mimo-v2.6-pro#input_modalities,,"audio, image, text, video",list
 openrouter:xiaomi--mimo-v2.6-pro#max_output_tokens,,131072.0,tokens
@@ -11809,9 +11827,9 @@ openrouter:z-ai--glm-5.1#context_length,,204800.0,tokens
 openrouter:z-ai--glm-5.1#input_modalities,,text,list
 openrouter:z-ai--glm-5.1#max_output_tokens,,131072.0,tokens
 openrouter:z-ai--glm-5.1#output_modalities,,text,list
-openrouter:z-ai--glm-5.1#price_cache_read,,0.17914,USD per 1M tokens
-openrouter:z-ai--glm-5.1#price_input,,0.9646,USD per 1M tokens
-openrouter:z-ai--glm-5.1#price_output,,3.0316,USD per 1M tokens
+openrouter:z-ai--glm-5.1#price_cache_read,,0.26,USD per 1M tokens
+openrouter:z-ai--glm-5.1#price_input,,1.4,USD per 1M tokens
+openrouter:z-ai--glm-5.1#price_output,,4.4,USD per 1M tokens
 openrouter:z-ai--glm-5.1#released_at,,2026-04-07,date
 openrouter:z-ai--glm-5.1#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:z-ai--glm-5.2#context_length,,1048576.0,tokens
@@ -11947,11 +11965,11 @@ openrouter:~deepseek--deepseek-flash-latest#context_length,,1048576.0,tokens
 openrouter:~deepseek--deepseek-flash-latest#input_modalities,,"image, text",list
 openrouter:~deepseek--deepseek-flash-latest#max_output_tokens,,943718.0,tokens
 openrouter:~deepseek--deepseek-flash-latest#output_modalities,,text,list
-openrouter:~deepseek--deepseek-flash-latest#price_cache_read,,0.0075,USD per 1M tokens
+openrouter:~deepseek--deepseek-flash-latest#price_cache_read,,0.002115,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#price_cache_read@00-00-to-14-00-utc, 00:00 to 14:00 UTC,0.03,USD per 1M tokens
-openrouter:~deepseek--deepseek-flash-latest#price_input,,0.03,USD per 1M tokens
+openrouter:~deepseek--deepseek-flash-latest#price_input,,0.015,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#price_input@00-00-to-14-00-utc, 00:00 to 14:00 UTC,0.3,USD per 1M tokens
-openrouter:~deepseek--deepseek-flash-latest#price_output,,0.75,USD per 1M tokens
+openrouter:~deepseek--deepseek-flash-latest#price_output,,0.676999,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#price_output@00-00-to-14-00-utc, 00:00 to 14:00 UTC,1.2,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#released_at,,2026-09-14,date
 openrouter:~deepseek--deepseek-flash-latest#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
@@ -11959,13 +11977,13 @@ openrouter:~deepseek--deepseek-pro-latest#context_length,,1048576.0,tokens
 openrouter:~deepseek--deepseek-pro-latest#input_modalities,,text,list
 openrouter:~deepseek--deepseek-pro-latest#max_output_tokens,,393216.0,tokens
 openrouter:~deepseek--deepseek-pro-latest#output_modalities,,text,list
-openrouter:~deepseek--deepseek-pro-latest#price_cache_read,,0.122,USD per 1M tokens
+openrouter:~deepseek--deepseek-pro-latest#price_cache_read,,0.099,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_cache_read@00-00-to-14-00-utc, 00:00 to 14:00 UTC,0.1122,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_cache_read@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,0.044,USD per 1M tokens
-openrouter:~deepseek--deepseek-pro-latest#price_input,,0.122,USD per 1M tokens
+openrouter:~deepseek--deepseek-pro-latest#price_input,,0.11,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_input@00-00-to-14-00-utc, 00:00 to 14:00 UTC,1.122,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_input@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,1.32,USD per 1M tokens
-openrouter:~deepseek--deepseek-pro-latest#price_output,,3.5,USD per 1M tokens
+openrouter:~deepseek--deepseek-pro-latest#price_output,,2.7,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_output@00-00-to-14-00-utc, 00:00 to 14:00 UTC,3.366,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_output@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,3.96,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#released_at,,2026-09-14,date
@@ -11974,9 +11992,9 @@ openrouter:~deepseek--deepseek-v4-flash-latest#context_length,,1048576.0,tokens
 openrouter:~deepseek--deepseek-v4-flash-latest#input_modalities,,text,list
 openrouter:~deepseek--deepseek-v4-flash-latest#max_output_tokens,,943718.0,tokens
 openrouter:~deepseek--deepseek-v4-flash-latest#output_modalities,,text,list
-openrouter:~deepseek--deepseek-v4-flash-latest#price_cache_read,,0.008625,USD per 1M tokens
-openrouter:~deepseek--deepseek-v4-flash-latest#price_input,,0.008625,USD per 1M tokens
-openrouter:~deepseek--deepseek-v4-flash-latest#price_output,,1.6,USD per 1M tokens
+openrouter:~deepseek--deepseek-v4-flash-latest#price_cache_read,,0.00105,USD per 1M tokens
+openrouter:~deepseek--deepseek-v4-flash-latest#price_input,,0.003825,USD per 1M tokens
+openrouter:~deepseek--deepseek-v4-flash-latest#price_output,,1.043574,USD per 1M tokens
 openrouter:~deepseek--deepseek-v4-flash-latest#released_at,,2026-08-01,date
 openrouter:~deepseek--deepseek-v4-flash-latest#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_a, top_k, top_logprobs, top_p",list
 openrouter:~google--gemini-flash-latest#context_length,,1048576.0,tokens
@@ -12008,8 +12026,8 @@ openrouter:~moonshotai--kimi-latest#context_length,,1048576.0,tokens
 openrouter:~moonshotai--kimi-latest#input_modalities,,"image, text, video",list
 openrouter:~moonshotai--kimi-latest#max_output_tokens,,943718.0,tokens
 openrouter:~moonshotai--kimi-latest#output_modalities,,text,list
-openrouter:~moonshotai--kimi-latest#price_cache_read,,0.8,USD per 1M tokens
-openrouter:~moonshotai--kimi-latest#price_input,,1.39,USD per 1M tokens
+openrouter:~moonshotai--kimi-latest#price_cache_read,,0.45,USD per 1M tokens
+openrouter:~moonshotai--kimi-latest#price_input,,0.615,USD per 1M tokens
 openrouter:~moonshotai--kimi-latest#price_output,,13.0,USD per 1M tokens
 openrouter:~moonshotai--kimi-latest#released_at,,2026-04-27,date
 openrouter:~moonshotai--kimi-latest#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
@@ -12108,16 +12126,16 @@ openrouter:~z-ai--glm-flash-latest#context_length,,1048576.0,tokens
 openrouter:~z-ai--glm-flash-latest#input_modalities,,"image, text, video",list
 openrouter:~z-ai--glm-flash-latest#max_output_tokens,,943718.0,tokens
 openrouter:~z-ai--glm-flash-latest#output_modalities,,text,list
-openrouter:~z-ai--glm-flash-latest#price_cache_read,,0.02625,USD per 1M tokens
+openrouter:~z-ai--glm-flash-latest#price_cache_read,,0.01125,USD per 1M tokens
 openrouter:~z-ai--glm-flash-latest#price_input,,0.02625,USD per 1M tokens
-openrouter:~z-ai--glm-flash-latest#price_output,,0.625,USD per 1M tokens
+openrouter:~z-ai--glm-flash-latest#price_output,,0.928749,USD per 1M tokens
 openrouter:~z-ai--glm-flash-latest#released_at,,2026-08-27,date
 openrouter:~z-ai--glm-flash-latest#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:~z-ai--glm-latest#context_length,,1048576.0,tokens
 openrouter:~z-ai--glm-latest#input_modalities,,text,list
 openrouter:~z-ai--glm-latest#max_output_tokens,,131072.0,tokens
 openrouter:~z-ai--glm-latest#output_modalities,,text,list
-openrouter:~z-ai--glm-latest#price_cache_read,,0.06,USD per 1M tokens
+openrouter:~z-ai--glm-latest#price_cache_read,,0.08,USD per 1M tokens
 openrouter:~z-ai--glm-latest#price_input,,0.12,USD per 1M tokens
 openrouter:~z-ai--glm-latest#price_output,,4.0,USD per 1M tokens
 openrouter:~z-ai--glm-latest#released_at,,2026-08-19,date
@@ -12171,6 +12189,8 @@ perplexity:sonar-reasoning-pro#price_input,,2.0,USD per 1M tokens
 perplexity:sonar-reasoning-pro#price_output,,8.0,USD per 1M tokens
 replicate:851-labs--background-remover#hardware,,T4,text
 replicate:851-labs--background-remover#price_per_second,,0.000225,per second
+replicate:abiruyt--text-extract-ocr#hardware,,CPU,text
+replicate:abiruyt--text-extract-ocr#price_per_second,,0.0001,per second
 replicate:alibaba--happyhorse-1.0#price_per_second_of_output_video@target-resolution-1080p,target resolution 1080p,0.28,per second of output video
 replicate:alibaba--happyhorse-1.0#price_per_second_of_output_video@target-resolution-720p,target resolution 720p,0.14,per second of output video
 replicate:alibaba--wan-3#price_per_second_of_output_video@target-resolution-1080p,target resolution 1080p,0.1,per second of output video
@@ -12517,7 +12537,7 @@ snowflake:claude-sonnet-4-6#price_output@table-6-d,table 6(d),9.76,AI Credits pe
 snowflake:claude-sonnet-4-6#price_output@table-6-e,table 6(e),8.25,AI Credits per one million Tokens
 snowflake:claude-sonnet-5#price_cache_read@table-6-b,table 6(b),0.1,AI Credits per one million Tokens
 snowflake:claude-sonnet-5#price_cache_read@table-6-d,table 6(d),0.13,AI Credits per one million Tokens
-snowflake:claude-sonnet-5#price_cache_read@table-6-e,table 6(e),0.114,AI Credits per one million Tokens
+snowflake:claude-sonnet-5#price_cache_read@table-6-e,table 6(e),0.11,AI Credits per one million Tokens
 snowflake:claude-sonnet-5#price_cache_write@table-6-b,table 6(b),1.25,AI Credits per one million Tokens
 snowflake:claude-sonnet-5#price_cache_write@table-6-d,table 6(d),1.625,AI Credits per one million Tokens
 snowflake:claude-sonnet-5#price_cache_write@table-6-e,table 6(e),1.375,AI Credits per one million Tokens
@@ -12543,6 +12563,15 @@ snowflake:claude-sonnet-5-5#price_output@ai-complete--table-6-a,"ai_complete, ta
 snowflake:claude-sonnet-5-5#price_output@table-6-b,table 6(b),5.0,AI Credits per one million Tokens
 snowflake:claude-sonnet-5-5#price_output@table-6-d,table 6(d),6.5,AI Credits per one million Tokens
 snowflake:claude-sonnet-5-5#price_output@table-6-e,table 6(e),5.5,AI Credits per one million Tokens
+snowflake:deepseek-v4-flash#price_cache_read@table-6-b,table 6(b),0.007,AI Credits per one million Tokens
+snowflake:deepseek-v4-flash#price_cache_read@table-6-d,table 6(d),0.009,AI Credits per one million Tokens
+snowflake:deepseek-v4-flash#price_cache_read@table-6-e,table 6(e),0.008,AI Credits per one million Tokens
+snowflake:deepseek-v4-flash#price_input@table-6-b,table 6(b),0.22,AI Credits per one million Tokens
+snowflake:deepseek-v4-flash#price_input@table-6-d,table 6(d),0.286,AI Credits per one million Tokens
+snowflake:deepseek-v4-flash#price_input@table-6-e,table 6(e),0.242,AI Credits per one million Tokens
+snowflake:deepseek-v4-flash#price_output@table-6-b,table 6(b),0.66,AI Credits per one million Tokens
+snowflake:deepseek-v4-flash#price_output@table-6-d,table 6(d),0.858,AI Credits per one million Tokens
+snowflake:deepseek-v4-flash#price_output@table-6-e,table 6(e),0.726,AI Credits per one million Tokens
 snowflake:e5-base-v2#price_tokens@ai-embed--table-6-a,"ai_embed, table 6(a)",0.03,AI Credits per one million Tokens
 snowflake:extract-answer#price_tokens@extract-answer--table-6-a,"extract answer, table 6(a)",0.11,AI Credits per one million Tokens
 snowflake:gemini-2-5-flash#price_cache_read@table-6-d,table 6(d),0.02,AI Credits per one million Tokens
@@ -12818,17 +12847,34 @@ snowflake:openai-gpt-5.6-luna-long-context#price_output@ai-complete--table-6-a,"
 snowflake:openai-gpt-5.6-luna-long-context#price_output@table-6-b,table 6(b),0.9,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna-long-context#price_output@table-6-d,table 6(d),1.17,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna-long-context#price_output@table-6-e,table 6(e),0.99,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_cache_read@table-6-d,table 6(d),0.325,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_cache_read@table-6-e,table 6(e),0.275,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",3.0,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_input@table-6-b,table 6(b),2.5,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_input@table-6-d,table 6(d),3.25,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_input@table-6-e,table 6(e),2.75,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",18.0,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_output@table-6-b,table 6(b),15.0,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_output@table-6-d,table 6(d),19.5,AI Credits per one million Tokens
-snowflake:openai-gpt-5.6-sol#price_output@table-6-e,table 6(e),16.5,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_cache_read@table-6-b,table 6(b),0.2,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_cache_read@table-6-d,table 6(d),0.26,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_cache_read@table-6-e,table 6(e),0.22,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_cache_write@table-6-b,table 6(b),2.5,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_cache_write@table-6-d,table 6(d),3.25,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_cache_write@table-6-e,table 6(e),2.75,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",2.4,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_input@table-6-b,table 6(b),2.0,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_input@table-6-d,table 6(d),2.6,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_input@table-6-e,table 6(e),2.2,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",12.0,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_output@table-6-b,table 6(b),10.0,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_output@table-6-d,table 6(d),13.0,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_output@table-6-e,table 6(e),11.0,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_cache_read@table-6-b,table 6(b),0.4,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_cache_read@table-6-d,table 6(d),0.52,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_cache_read@table-6-e,table 6(e),0.44,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_cache_write@table-6-b,table 6(b),5.0,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_cache_write@table-6-d,table 6(d),6.5,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_cache_write@table-6-e,table 6(e),5.5,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",4.8,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_input@table-6-b,table 6(b),4.0,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_input@table-6-d,table 6(d),5.2,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_input@table-6-e,table 6(e),4.4,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",18.0,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_output@table-6-b,table 6(b),15.0,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_output@table-6-d,table 6(d),19.5,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_output@table-6-e,table 6(e),16.5,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra#price_cache_read@table-6-b,table 6(b),0.1,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra#price_cache_read@table-6-d,table 6(d),0.13,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra#price_cache_read@table-6-e,table 6(e),0.11,AI Credits per one million Tokens
@@ -13012,7 +13058,7 @@ snowflake:snowflake-cortex#pricing_table_title@table-6-e,table 6(e),"Snowflake A
 snowflake:snowflake-cortex#pricing_table_title@table-6-f,table 6(f),"Snowflake AI Features Table, Fine-tuning",text
 snowflake:snowflake-cortex#pricing_table_title@table-6-g,table 6(g),"Snowflake AI Features Table, Other",text
 snowflake:snowflake-cortex#pricing_table_title@table-6-h,table 6(h),"Snowflake AI Features Table, Provisioned Throughput",text
-snowflake:snowflake-cortex#source_effective_date,,2026-09-30,date
+snowflake:snowflake-cortex#source_effective_date,,2026-10-02,date
 snowflake:summarize#price_tokens@summarize--table-6-a,"summarize, table 6(a)",0.13,AI Credits per one million Tokens
 snowflake:voyage-multilingual-2#price_tokens@ai-embed--table-6-a,"ai_embed, table 6(a)",0.07,AI Credits per one million Tokens
 snowflake:voyage-multimodal-3#price_tokens@ai-embed--table-6-a,"ai_embed, table 6(a)",0.06,AI Credits per one million Tokens
