@@ -15,8 +15,8 @@ donc lisible ligne a ligne.
 |---|---|---|
 | `values.csv` | 13210 valeurs, sans provenance | **exactement les valeurs qui ont change** |
 | `registry.csv` | les memes, avec date, source, niveau et empreinte SHA-256 | ce qui a ete constate a nouveau, y compris a valeur identique |
-| `measurements.csv` | 2494 mesures continues : disponibilite, latence, debit, taux de change | de nouvelles lectures, tous les jours |
-| `changes.csv` | 744 changements confirmes, du plus recent au plus ancien | |
+| `measurements.csv` | 2499 mesures continues : disponibilite, latence, debit, taux de change | de nouvelles lectures, tous les jours |
+| `changes.csv` | 752 changements confirmes, du plus recent au plus ancien | |
 
 `values.csv` et `registry.csv` portent les memes lignes. Le premier ne contient
 que l'etat, donc une relecture au meme prix n'y touche rien ; le second porte la
