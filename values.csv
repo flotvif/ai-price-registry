@@ -159,7 +159,6 @@ aws-bedrock:claude-instant#price_input@region-us-west-2,region us-west-2,0.8,USD
 aws-bedrock:claude-instant#pricing_region,,us-east-1,AWS region
 aws-bedrock:deepseek-v3-1#price_input,,0.701666,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@batch-inference,batch inference,0.350833,USD per 1M tokens
-aws-bedrock:deepseek-v3-1#price_input@batch-inference--region-ap-northeast-1,batch inference; region ap-northeast-1,0.350833,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@batch-inference--region-ap-south-1,batch inference; region ap-south-1,0.341212,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@batch-inference--region-ap-southeast-3,batch inference; region ap-southeast-3,0.3,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@batch-inference--region-eu-north-1,batch inference; region eu-north-1,0.29,USD per 1M tokens
@@ -167,7 +166,6 @@ aws-bedrock:deepseek-v3-1#price_input@batch-inference--region-eu-west-2,batch in
 aws-bedrock:deepseek-v3-1#price_input@batch-inference--region-us-east-2,batch inference; region us-east-2,0.29,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@batch-inference--region-us-west-2,batch inference; region us-west-2,0.29,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@flex-tier,flex tier,0.350833,USD per 1M tokens
-aws-bedrock:deepseek-v3-1#price_input@flex-tier--region-ap-northeast-1,flex tier; region ap-northeast-1,0.350833,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@flex-tier--region-ap-south-1,flex tier; region ap-south-1,0.341212,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@flex-tier--region-ap-southeast-3,flex tier; region ap-southeast-3,0.3,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@flex-tier--region-eu-north-1,flex tier; region eu-north-1,0.29,USD per 1M tokens
@@ -175,14 +173,12 @@ aws-bedrock:deepseek-v3-1#price_input@flex-tier--region-eu-west-2,flex tier; reg
 aws-bedrock:deepseek-v3-1#price_input@flex-tier--region-us-east-2,flex tier; region us-east-2,0.29,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@flex-tier--region-us-west-2,flex tier; region us-west-2,0.29,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@priority-tier,priority tier,1.227916,USD per 1M tokens
-aws-bedrock:deepseek-v3-1#price_input@priority-tier--region-ap-northeast-1,priority tier; region ap-northeast-1,1.227916,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@priority-tier--region-ap-south-1,priority tier; region ap-south-1,1.194242,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@priority-tier--region-ap-southeast-3,priority tier; region ap-southeast-3,1.05,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@priority-tier--region-eu-north-1,priority tier; region eu-north-1,1.015,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@priority-tier--region-eu-west-2,priority tier; region eu-west-2,1.574974,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@priority-tier--region-us-east-2,priority tier; region us-east-2,1.015,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@priority-tier--region-us-west-2,priority tier; region us-west-2,1.015,USD per 1M tokens
-aws-bedrock:deepseek-v3-1#price_input@region-ap-northeast-1,region ap-northeast-1,0.701666,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@region-ap-south-1,region ap-south-1,0.682424,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@region-ap-southeast-3,region ap-southeast-3,0.6,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_input@region-eu-north-1,region eu-north-1,0.58,USD per 1M tokens
@@ -191,7 +187,6 @@ aws-bedrock:deepseek-v3-1#price_input@region-us-east-2,region us-east-2,0.58,USD
 aws-bedrock:deepseek-v3-1#price_input@region-us-west-2,region us-west-2,0.58,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output,,2.032411,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@batch-inference,batch inference,1.016206,USD per 1M tokens
-aws-bedrock:deepseek-v3-1#price_output@batch-inference--region-ap-northeast-1,batch inference; region ap-northeast-1,1.016206,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@batch-inference--region-ap-south-1,batch inference; region ap-south-1,0.988339,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@batch-inference--region-ap-southeast-3,batch inference; region ap-southeast-3,0.87,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@batch-inference--region-eu-north-1,batch inference; region eu-north-1,0.84,USD per 1M tokens
@@ -199,7 +194,6 @@ aws-bedrock:deepseek-v3-1#price_output@batch-inference--region-eu-west-2,batch i
 aws-bedrock:deepseek-v3-1#price_output@batch-inference--region-us-east-2,batch inference; region us-east-2,0.84,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@batch-inference--region-us-west-2,batch inference; region us-west-2,0.84,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@flex-tier,flex tier,1.016206,USD per 1M tokens
-aws-bedrock:deepseek-v3-1#price_output@flex-tier--region-ap-northeast-1,flex tier; region ap-northeast-1,1.016206,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@flex-tier--region-ap-south-1,flex tier; region ap-south-1,0.988339,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@flex-tier--region-ap-southeast-3,flex tier; region ap-southeast-3,0.87,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@flex-tier--region-eu-north-1,flex tier; region eu-north-1,0.84,USD per 1M tokens
@@ -207,14 +201,12 @@ aws-bedrock:deepseek-v3-1#price_output@flex-tier--region-eu-west-2,flex tier; re
 aws-bedrock:deepseek-v3-1#price_output@flex-tier--region-us-east-2,flex tier; region us-east-2,0.84,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@flex-tier--region-us-west-2,flex tier; region us-west-2,0.84,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@priority-tier,priority tier,3.556719,USD per 1M tokens
-aws-bedrock:deepseek-v3-1#price_output@priority-tier--region-ap-northeast-1,priority tier; region ap-northeast-1,3.556719,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@priority-tier--region-ap-south-1,priority tier; region ap-south-1,3.459187,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@priority-tier--region-ap-southeast-3,priority tier; region ap-southeast-3,3.045,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@priority-tier--region-eu-north-1,priority tier; region eu-north-1,2.94,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@priority-tier--region-eu-west-2,priority tier; region eu-west-2,4.561993,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@priority-tier--region-us-east-2,priority tier; region us-east-2,2.94,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@priority-tier--region-us-west-2,priority tier; region us-west-2,2.94,USD per 1M tokens
-aws-bedrock:deepseek-v3-1#price_output@region-ap-northeast-1,region ap-northeast-1,2.032411,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@region-ap-south-1,region ap-south-1,1.976678,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@region-ap-southeast-3,region ap-southeast-3,1.74,USD per 1M tokens
 aws-bedrock:deepseek-v3-1#price_output@region-eu-north-1,region eu-north-1,1.68,USD per 1M tokens
@@ -1492,13 +1484,11 @@ aws-bedrock:kimi-k2-thinking#price_output@region-sa-east-1,region sa-east-1,3.03
 aws-bedrock:kimi-k2-thinking#price_output@region-us-east-2,region us-east-2,2.5,USD per 1M tokens
 aws-bedrock:kimi-k2-thinking#price_output@region-us-west-2,region us-west-2,2.5,USD per 1M tokens
 aws-bedrock:kimi-k2-thinking#pricing_region,,us-east-1,AWS region
-aws-bedrock:llama-3-1-405b#price_input,,1.2,USD per 1M tokens
 aws-bedrock:llama-3-1-405b#price_input@batch-inference,batch inference,1.2,USD per 1M tokens
 aws-bedrock:llama-3-1-405b#price_input@batch-inference--region-us-east-2,batch inference; region us-east-2,1.2,USD per 1M tokens
 aws-bedrock:llama-3-1-405b#price_input@batch-inference--region-us-west-2,batch inference; region us-west-2,1.2,USD per 1M tokens
 aws-bedrock:llama-3-1-405b#price_input@region-us-east-2,region us-east-2,2.4,USD per 1M tokens
 aws-bedrock:llama-3-1-405b#price_input@region-us-west-2,region us-west-2,2.4,USD per 1M tokens
-aws-bedrock:llama-3-1-405b#price_output,,1.2,USD per 1M tokens
 aws-bedrock:llama-3-1-405b#price_output@batch-inference,batch inference,1.2,USD per 1M tokens
 aws-bedrock:llama-3-1-405b#price_output@batch-inference--region-us-east-2,batch inference; region us-east-2,1.2,USD per 1M tokens
 aws-bedrock:llama-3-1-405b#price_output@batch-inference--region-us-west-2,batch inference; region us-west-2,1.2,USD per 1M tokens
@@ -1506,13 +1496,7 @@ aws-bedrock:llama-3-1-405b#price_output@region-us-east-2,region us-east-2,2.4,US
 aws-bedrock:llama-3-1-405b#price_output@region-us-west-2,region us-west-2,2.4,USD per 1M tokens
 aws-bedrock:llama-3-1-405b#pricing_region,,us-east-1,AWS region
 aws-bedrock:llama-3-1-405b-latency-optimized#price_input,,3.0,USD per 1M tokens
-aws-bedrock:llama-3-1-405b-latency-optimized#price_input@latency-optimized-tier,latency-optimized tier,3.0,USD per 1M tokens
-aws-bedrock:llama-3-1-405b-latency-optimized#price_input@latency-optimized-tier--region-us-east-2,latency-optimized tier; region us-east-2,3.0,USD per 1M tokens
-aws-bedrock:llama-3-1-405b-latency-optimized#price_input@region-us-east-2,region us-east-2,3.0,USD per 1M tokens
 aws-bedrock:llama-3-1-405b-latency-optimized#price_output,,3.0,USD per 1M tokens
-aws-bedrock:llama-3-1-405b-latency-optimized#price_output@latency-optimized-tier,latency-optimized tier,3.0,USD per 1M tokens
-aws-bedrock:llama-3-1-405b-latency-optimized#price_output@latency-optimized-tier--region-us-east-2,latency-optimized tier; region us-east-2,3.0,USD per 1M tokens
-aws-bedrock:llama-3-1-405b-latency-optimized#price_output@region-us-east-2,region us-east-2,3.0,USD per 1M tokens
 aws-bedrock:llama-3-1-405b-latency-optimized#pricing_region,,us-east-2,AWS region
 aws-bedrock:llama-3-1-70b#price_input,,0.72,USD per 1M tokens
 aws-bedrock:llama-3-1-70b#price_input@batch-inference,batch inference,0.36,USD per 1M tokens
@@ -1528,15 +1512,9 @@ aws-bedrock:llama-3-1-70b#price_output@region-us-east-2,region us-east-2,0.72,US
 aws-bedrock:llama-3-1-70b#price_output@region-us-west-2,region us-west-2,0.72,USD per 1M tokens
 aws-bedrock:llama-3-1-70b#pricing_region,,us-east-1,AWS region
 aws-bedrock:llama-3-1-70b-latency-optimized#price_input,,0.9,USD per 1M tokens
-aws-bedrock:llama-3-1-70b-latency-optimized#price_input@latency-optimized-tier,latency-optimized tier,0.9,USD per 1M tokens
-aws-bedrock:llama-3-1-70b-latency-optimized#price_input@latency-optimized-tier--region-us-east-2,latency-optimized tier; region us-east-2,0.9,USD per 1M tokens
-aws-bedrock:llama-3-1-70b-latency-optimized#price_input@latency-optimized-tier--region-us-west-2,latency-optimized tier; region us-west-2,0.9,USD per 1M tokens
 aws-bedrock:llama-3-1-70b-latency-optimized#price_input@region-us-east-2,region us-east-2,0.9,USD per 1M tokens
 aws-bedrock:llama-3-1-70b-latency-optimized#price_input@region-us-west-2,region us-west-2,0.9,USD per 1M tokens
 aws-bedrock:llama-3-1-70b-latency-optimized#price_output,,0.9,USD per 1M tokens
-aws-bedrock:llama-3-1-70b-latency-optimized#price_output@latency-optimized-tier,latency-optimized tier,0.9,USD per 1M tokens
-aws-bedrock:llama-3-1-70b-latency-optimized#price_output@latency-optimized-tier--region-us-east-2,latency-optimized tier; region us-east-2,0.9,USD per 1M tokens
-aws-bedrock:llama-3-1-70b-latency-optimized#price_output@latency-optimized-tier--region-us-west-2,latency-optimized tier; region us-west-2,0.9,USD per 1M tokens
 aws-bedrock:llama-3-1-70b-latency-optimized#price_output@region-us-east-2,region us-east-2,0.9,USD per 1M tokens
 aws-bedrock:llama-3-1-70b-latency-optimized#price_output@region-us-west-2,region us-west-2,0.9,USD per 1M tokens
 aws-bedrock:llama-3-1-70b-latency-optimized#pricing_region,,us-east-1,AWS region
@@ -1619,9 +1597,7 @@ aws-bedrock:llama-3-3-70b#price_output@region-us-east-2,region us-east-2,0.72,US
 aws-bedrock:llama-3-3-70b#price_output@region-us-west-2,region us-west-2,0.72,USD per 1M tokens
 aws-bedrock:llama-3-3-70b#pricing_region,,us-east-1,AWS region
 aws-bedrock:llama-3-3-70b-custom#price_input,,0.72,USD per 1M tokens
-aws-bedrock:llama-3-3-70b-custom#price_input@region-us-west-2,region us-west-2,0.72,USD per 1M tokens
 aws-bedrock:llama-3-3-70b-custom#price_output,,0.72,USD per 1M tokens
-aws-bedrock:llama-3-3-70b-custom#price_output@region-us-west-2,region us-west-2,0.72,USD per 1M tokens
 aws-bedrock:llama-3-3-70b-custom#pricing_region,,us-west-2,AWS region
 aws-bedrock:llama-3-70b#price_input,,2.65,USD per 1M tokens
 aws-bedrock:llama-3-70b#price_input@region-ap-south-1,region ap-south-1,3.18,USD per 1M tokens
@@ -2302,12 +2278,8 @@ aws-bedrock:mistral-large#price_output@region-us-west-2,region us-west-2,12.0,US
 aws-bedrock:mistral-large#pricing_region,,us-east-1,AWS region
 aws-bedrock:mistral-large-2407#price_input,,2.0,USD per 1M tokens
 aws-bedrock:mistral-large-2407#price_input@batch-inference,batch inference,1.5,USD per 1M tokens
-aws-bedrock:mistral-large-2407#price_input@batch-inference--region-us-west-2,batch inference; region us-west-2,1.5,USD per 1M tokens
-aws-bedrock:mistral-large-2407#price_input@region-us-west-2,region us-west-2,2.0,USD per 1M tokens
 aws-bedrock:mistral-large-2407#price_output,,6.0,USD per 1M tokens
 aws-bedrock:mistral-large-2407#price_output@batch-inference,batch inference,4.5,USD per 1M tokens
-aws-bedrock:mistral-large-2407#price_output@batch-inference--region-us-west-2,batch inference; region us-west-2,4.5,USD per 1M tokens
-aws-bedrock:mistral-large-2407#price_output@region-us-west-2,region us-west-2,6.0,USD per 1M tokens
 aws-bedrock:mistral-large-2407#pricing_region,,us-west-2,AWS region
 aws-bedrock:mistral-large-3#price_input,,0.5,USD per 1M tokens
 aws-bedrock:mistral-large-3#price_input@batch-inference,batch inference,0.25,USD per 1M tokens
@@ -2637,7 +2609,6 @@ aws-bedrock:nova-lite#price_output@batch-inference--region-me-central-1,batch in
 aws-bedrock:nova-lite#price_output@batch-inference--region-us-east-2,batch inference; region us-east-2,0.12,USD per 1M tokens
 aws-bedrock:nova-lite#price_output@batch-inference--region-us-gov-west-1,batch inference; region us-gov-west-1,0.144,USD per 1M tokens
 aws-bedrock:nova-lite#price_output@batch-inference--region-us-west-2,batch inference; region us-west-2,0.12,USD per 1M tokens
-aws-bedrock:nova-lite#price_output@region-ap-east-2,region ap-east-2,0.144,USD per 1M tokens
 aws-bedrock:nova-lite#price_output@region-ap-northeast-1,region ap-northeast-1,0.288,USD per 1M tokens
 aws-bedrock:nova-lite#price_output@region-ap-northeast-2,region ap-northeast-2,0.284,USD per 1M tokens
 aws-bedrock:nova-lite#price_output@region-ap-south-1,region ap-south-1,0.284,USD per 1M tokens
@@ -2684,7 +2655,6 @@ aws-bedrock:nova-micro#price_input@region-ap-south-1,region ap-south-1,0.041,USD
 aws-bedrock:nova-micro#price_input@region-ap-southeast-1,region ap-southeast-1,0.047,USD per 1M tokens
 aws-bedrock:nova-micro#price_input@region-ap-southeast-2,region ap-southeast-2,0.037,USD per 1M tokens
 aws-bedrock:nova-micro#price_input@region-ap-southeast-5,region ap-southeast-5,0.042,USD per 1M tokens
-aws-bedrock:nova-micro#price_input@region-ap-southeast-7,region ap-southeast-7,0.021,USD per 1M tokens
 aws-bedrock:nova-micro#price_input@region-eu-central-1,region eu-central-1,0.046,USD per 1M tokens
 aws-bedrock:nova-micro#price_input@region-eu-north-1,region eu-north-1,0.038,USD per 1M tokens
 aws-bedrock:nova-micro#price_input@region-eu-south-1,region eu-south-1,0.056,USD per 1M tokens
@@ -2719,7 +2689,6 @@ aws-bedrock:nova-micro#price_output@region-ap-northeast-2,region ap-northeast-2,
 aws-bedrock:nova-micro#price_output@region-ap-south-1,region ap-south-1,0.164,USD per 1M tokens
 aws-bedrock:nova-micro#price_output@region-ap-southeast-1,region ap-southeast-1,0.188,USD per 1M tokens
 aws-bedrock:nova-micro#price_output@region-ap-southeast-2,region ap-southeast-2,0.148,USD per 1M tokens
-aws-bedrock:nova-micro#price_output@region-ap-southeast-7,region ap-southeast-7,0.084,USD per 1M tokens
 aws-bedrock:nova-micro#price_output@region-eu-central-1,region eu-central-1,0.184,USD per 1M tokens
 aws-bedrock:nova-micro#price_output@region-eu-north-1,region eu-north-1,0.152,USD per 1M tokens
 aws-bedrock:nova-micro#price_output@region-eu-south-1,region eu-south-1,0.224,USD per 1M tokens
@@ -2831,7 +2800,6 @@ aws-bedrock:nova-pro#price_input@region-ap-southeast-1,region ap-southeast-1,1.0
 aws-bedrock:nova-pro#price_input@region-ap-southeast-2,region ap-southeast-2,0.84,USD per 1M tokens
 aws-bedrock:nova-pro#price_input@region-ap-southeast-4,region ap-southeast-4,0.87,USD per 1M tokens
 aws-bedrock:nova-pro#price_input@region-ap-southeast-5,region ap-southeast-5,0.96,USD per 1M tokens
-aws-bedrock:nova-pro#price_input@region-ap-southeast-7,region ap-southeast-7,0.48,USD per 1M tokens
 aws-bedrock:nova-pro#price_input@region-eu-central-1,region eu-central-1,1.05,USD per 1M tokens
 aws-bedrock:nova-pro#price_input@region-eu-north-1,region eu-north-1,0.87,USD per 1M tokens
 aws-bedrock:nova-pro#price_input@region-eu-south-1,region eu-south-1,1.28,USD per 1M tokens
@@ -2912,14 +2880,12 @@ aws-bedrock:nova-pro#price_output@priority-tier--region-us-east-2,priority tier;
 aws-bedrock:nova-pro#price_output@priority-tier--region-us-gov-west-1,priority tier; region us-gov-west-1,6.72,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@priority-tier--region-us-west-1,priority tier; region us-west-1,7.21,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@priority-tier--region-us-west-2,priority tier; region us-west-2,5.6,USD per 1M tokens
-aws-bedrock:nova-pro#price_output@region-ap-east-2,region ap-east-2,1.92,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@region-ap-northeast-1,region ap-northeast-1,3.84,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@region-ap-northeast-2,region ap-northeast-2,3.8,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@region-ap-south-1,region ap-south-1,3.76,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@region-ap-southeast-1,region ap-southeast-1,4.32,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@region-ap-southeast-2,region ap-southeast-2,3.36,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@region-ap-southeast-4,region ap-southeast-4,3.48,USD per 1M tokens
-aws-bedrock:nova-pro#price_output@region-ap-southeast-7,region ap-southeast-7,1.92,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@region-eu-central-1,region eu-central-1,4.2,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@region-eu-north-1,region eu-north-1,3.48,USD per 1M tokens
 aws-bedrock:nova-pro#price_output@region-eu-south-1,region eu-south-1,5.21,USD per 1M tokens
@@ -2935,15 +2901,9 @@ aws-bedrock:nova-pro#price_output@region-us-west-1,region us-west-1,4.12,USD per
 aws-bedrock:nova-pro#price_output@region-us-west-2,region us-west-2,3.2,USD per 1M tokens
 aws-bedrock:nova-pro#pricing_region,,us-east-1,AWS region
 aws-bedrock:nova-pro-latency-optimized#price_input,,1.0,USD per 1M tokens
-aws-bedrock:nova-pro-latency-optimized#price_input@latency-optimized-tier,latency-optimized tier,1.0,USD per 1M tokens
-aws-bedrock:nova-pro-latency-optimized#price_input@latency-optimized-tier--region-us-east-2,latency-optimized tier; region us-east-2,1.0,USD per 1M tokens
-aws-bedrock:nova-pro-latency-optimized#price_input@latency-optimized-tier--region-us-west-2,latency-optimized tier; region us-west-2,1.0,USD per 1M tokens
 aws-bedrock:nova-pro-latency-optimized#price_input@region-us-east-2,region us-east-2,1.0,USD per 1M tokens
 aws-bedrock:nova-pro-latency-optimized#price_input@region-us-west-2,region us-west-2,1.0,USD per 1M tokens
 aws-bedrock:nova-pro-latency-optimized#price_output,,4.0,USD per 1M tokens
-aws-bedrock:nova-pro-latency-optimized#price_output@latency-optimized-tier,latency-optimized tier,4.0,USD per 1M tokens
-aws-bedrock:nova-pro-latency-optimized#price_output@latency-optimized-tier--region-us-east-2,latency-optimized tier; region us-east-2,4.0,USD per 1M tokens
-aws-bedrock:nova-pro-latency-optimized#price_output@latency-optimized-tier--region-us-west-2,latency-optimized tier; region us-west-2,4.0,USD per 1M tokens
 aws-bedrock:nova-pro-latency-optimized#price_output@region-us-east-2,region us-east-2,4.0,USD per 1M tokens
 aws-bedrock:nova-pro-latency-optimized#price_output@region-us-west-2,region us-west-2,4.0,USD per 1M tokens
 aws-bedrock:nova-pro-latency-optimized#pricing_region,,us-east-1,AWS region
@@ -3263,7 +3223,6 @@ aws-bedrock:pixtral-large-25-02#price_output@region-us-west-2,region us-west-2,6
 aws-bedrock:pixtral-large-25-02#pricing_region,,us-east-1,AWS region
 aws-bedrock:qwen3-235b-a22b-2507#price_input,,0.27,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@batch-inference,batch inference,0.135,USD per 1M tokens
-aws-bedrock:qwen3-235b-a22b-2507#price_input@batch-inference--region-ap-northeast-1,batch inference; region ap-northeast-1,0.135,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@batch-inference--region-ap-south-1,batch inference; region ap-south-1,0.13,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@batch-inference--region-ap-southeast-3,batch inference; region ap-southeast-3,0.11,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@batch-inference--region-eu-central-1,batch inference; region eu-central-1,0.15,USD per 1M tokens
@@ -3273,7 +3232,6 @@ aws-bedrock:qwen3-235b-a22b-2507#price_input@batch-inference--region-eu-west-2,b
 aws-bedrock:qwen3-235b-a22b-2507#price_input@batch-inference--region-us-east-2,batch inference; region us-east-2,0.11,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@batch-inference--region-us-west-2,batch inference; region us-west-2,0.11,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@flex-tier,flex tier,0.135,USD per 1M tokens
-aws-bedrock:qwen3-235b-a22b-2507#price_input@flex-tier--region-ap-northeast-1,flex tier; region ap-northeast-1,0.135,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@flex-tier--region-ap-south-1,flex tier; region ap-south-1,0.13,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@flex-tier--region-ap-southeast-3,flex tier; region ap-southeast-3,0.115,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@flex-tier--region-eu-central-1,flex tier; region eu-central-1,0.145,USD per 1M tokens
@@ -3283,7 +3241,6 @@ aws-bedrock:qwen3-235b-a22b-2507#price_input@flex-tier--region-eu-west-2,flex ti
 aws-bedrock:qwen3-235b-a22b-2507#price_input@flex-tier--region-us-east-2,flex tier; region us-east-2,0.11,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@flex-tier--region-us-west-2,flex tier; region us-west-2,0.11,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@priority-tier,priority tier,0.4725,USD per 1M tokens
-aws-bedrock:qwen3-235b-a22b-2507#price_input@priority-tier--region-ap-northeast-1,priority tier; region ap-northeast-1,0.4725,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@priority-tier--region-ap-south-1,priority tier; region ap-south-1,0.455,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@priority-tier--region-ap-southeast-3,priority tier; region ap-southeast-3,0.4025,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@priority-tier--region-eu-central-1,priority tier; region eu-central-1,0.5075,USD per 1M tokens
@@ -3292,7 +3249,6 @@ aws-bedrock:qwen3-235b-a22b-2507#price_input@priority-tier--region-eu-south-1,pr
 aws-bedrock:qwen3-235b-a22b-2507#price_input@priority-tier--region-eu-west-2,priority tier; region eu-west-2,0.595,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@priority-tier--region-us-east-2,priority tier; region us-east-2,0.385,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@priority-tier--region-us-west-2,priority tier; region us-west-2,0.385,USD per 1M tokens
-aws-bedrock:qwen3-235b-a22b-2507#price_input@region-ap-northeast-1,region ap-northeast-1,0.27,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@region-ap-south-1,region ap-south-1,0.26,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@region-ap-southeast-3,region ap-southeast-3,0.23,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_input@region-eu-central-1,region eu-central-1,0.29,USD per 1M tokens
@@ -3303,7 +3259,6 @@ aws-bedrock:qwen3-235b-a22b-2507#price_input@region-us-east-2,region us-east-2,0
 aws-bedrock:qwen3-235b-a22b-2507#price_input@region-us-west-2,region us-west-2,0.22,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output,,1.06,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@batch-inference,batch inference,0.53,USD per 1M tokens
-aws-bedrock:qwen3-235b-a22b-2507#price_output@batch-inference--region-ap-northeast-1,batch inference; region ap-northeast-1,0.53,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@batch-inference--region-ap-south-1,batch inference; region ap-south-1,0.52,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@batch-inference--region-ap-southeast-3,batch inference; region ap-southeast-3,0.46,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@batch-inference--region-eu-central-1,batch inference; region eu-central-1,0.58,USD per 1M tokens
@@ -3313,7 +3268,6 @@ aws-bedrock:qwen3-235b-a22b-2507#price_output@batch-inference--region-eu-west-2,
 aws-bedrock:qwen3-235b-a22b-2507#price_output@batch-inference--region-us-east-2,batch inference; region us-east-2,0.44,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@batch-inference--region-us-west-2,batch inference; region us-west-2,0.44,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@flex-tier,flex tier,0.53,USD per 1M tokens
-aws-bedrock:qwen3-235b-a22b-2507#price_output@flex-tier--region-ap-northeast-1,flex tier; region ap-northeast-1,0.53,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@flex-tier--region-ap-south-1,flex tier; region ap-south-1,0.52,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@flex-tier--region-ap-southeast-3,flex tier; region ap-southeast-3,0.455,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@flex-tier--region-eu-central-1,flex tier; region eu-central-1,0.58,USD per 1M tokens
@@ -3323,7 +3277,6 @@ aws-bedrock:qwen3-235b-a22b-2507#price_output@flex-tier--region-eu-west-2,flex t
 aws-bedrock:qwen3-235b-a22b-2507#price_output@flex-tier--region-us-east-2,flex tier; region us-east-2,0.44,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@flex-tier--region-us-west-2,flex tier; region us-west-2,0.44,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@priority-tier,priority tier,1.855,USD per 1M tokens
-aws-bedrock:qwen3-235b-a22b-2507#price_output@priority-tier--region-ap-northeast-1,priority tier; region ap-northeast-1,1.855,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@priority-tier--region-ap-south-1,priority tier; region ap-south-1,1.82,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@priority-tier--region-ap-southeast-3,priority tier; region ap-southeast-3,1.5925,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@priority-tier--region-eu-central-1,priority tier; region eu-central-1,2.03,USD per 1M tokens
@@ -3332,7 +3285,6 @@ aws-bedrock:qwen3-235b-a22b-2507#price_output@priority-tier--region-eu-south-1,p
 aws-bedrock:qwen3-235b-a22b-2507#price_output@priority-tier--region-eu-west-2,priority tier; region eu-west-2,2.3975,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@priority-tier--region-us-east-2,priority tier; region us-east-2,1.54,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@priority-tier--region-us-west-2,priority tier; region us-west-2,1.54,USD per 1M tokens
-aws-bedrock:qwen3-235b-a22b-2507#price_output@region-ap-northeast-1,region ap-northeast-1,1.06,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@region-ap-south-1,region ap-south-1,1.04,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@region-ap-southeast-3,region ap-southeast-3,0.91,USD per 1M tokens
 aws-bedrock:qwen3-235b-a22b-2507#price_output@region-eu-central-1,region eu-central-1,1.16,USD per 1M tokens
@@ -3538,7 +3490,6 @@ aws-bedrock:qwen3-coder-30b-a3b#price_output@region-us-west-2,region us-west-2,0
 aws-bedrock:qwen3-coder-30b-a3b#pricing_region,,us-east-1,AWS region
 aws-bedrock:qwen3-coder-480b-a35b#price_input,,0.54,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@batch-inference,batch inference,0.27,USD per 1M tokens
-aws-bedrock:qwen3-coder-480b-a35b#price_input@batch-inference--region-ap-northeast-1,batch inference; region ap-northeast-1,0.27,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@batch-inference--region-ap-south-1,batch inference; region ap-south-1,0.265,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@batch-inference--region-ap-southeast-3,batch inference; region ap-southeast-3,0.23,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@batch-inference--region-eu-north-1,batch inference; region eu-north-1,0.225,USD per 1M tokens
@@ -3546,7 +3497,6 @@ aws-bedrock:qwen3-coder-480b-a35b#price_input@batch-inference--region-eu-west-2,
 aws-bedrock:qwen3-coder-480b-a35b#price_input@batch-inference--region-us-east-2,batch inference; region us-east-2,0.225,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@batch-inference--region-us-west-2,batch inference; region us-west-2,0.225,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@flex-tier,flex tier,0.27,USD per 1M tokens
-aws-bedrock:qwen3-coder-480b-a35b#price_input@flex-tier--region-ap-northeast-1,flex tier; region ap-northeast-1,0.27,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@flex-tier--region-ap-south-1,flex tier; region ap-south-1,0.265,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@flex-tier--region-ap-southeast-3,flex tier; region ap-southeast-3,0.235,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@flex-tier--region-eu-north-1,flex tier; region eu-north-1,0.225,USD per 1M tokens
@@ -3554,14 +3504,12 @@ aws-bedrock:qwen3-coder-480b-a35b#price_input@flex-tier--region-eu-west-2,flex t
 aws-bedrock:qwen3-coder-480b-a35b#price_input@flex-tier--region-us-east-2,flex tier; region us-east-2,0.225,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@flex-tier--region-us-west-2,flex tier; region us-west-2,0.225,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@priority-tier,priority tier,0.945,USD per 1M tokens
-aws-bedrock:qwen3-coder-480b-a35b#price_input@priority-tier--region-ap-northeast-1,priority tier; region ap-northeast-1,0.945,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@priority-tier--region-ap-south-1,priority tier; region ap-south-1,0.9275,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@priority-tier--region-ap-southeast-3,priority tier; region ap-southeast-3,0.8225,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@priority-tier--region-eu-north-1,priority tier; region eu-north-1,0.7875,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@priority-tier--region-eu-west-2,priority tier; region eu-west-2,1.225,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@priority-tier--region-us-east-2,priority tier; region us-east-2,0.7875,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@priority-tier--region-us-west-2,priority tier; region us-west-2,0.7875,USD per 1M tokens
-aws-bedrock:qwen3-coder-480b-a35b#price_input@region-ap-northeast-1,region ap-northeast-1,0.54,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@region-ap-south-1,region ap-south-1,0.53,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@region-ap-southeast-3,region ap-southeast-3,0.47,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_input@region-eu-north-1,region eu-north-1,0.45,USD per 1M tokens
@@ -3570,7 +3518,6 @@ aws-bedrock:qwen3-coder-480b-a35b#price_input@region-us-east-2,region us-east-2,
 aws-bedrock:qwen3-coder-480b-a35b#price_input@region-us-west-2,region us-west-2,0.45,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output,,2.18,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@batch-inference,batch inference,1.09,USD per 1M tokens
-aws-bedrock:qwen3-coder-480b-a35b#price_output@batch-inference--region-ap-northeast-1,batch inference; region ap-northeast-1,1.09,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@batch-inference--region-ap-south-1,batch inference; region ap-south-1,1.06,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@batch-inference--region-ap-southeast-3,batch inference; region ap-southeast-3,0.93,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@batch-inference--region-eu-north-1,batch inference; region eu-north-1,0.9,USD per 1M tokens
@@ -3578,7 +3525,6 @@ aws-bedrock:qwen3-coder-480b-a35b#price_output@batch-inference--region-eu-west-2
 aws-bedrock:qwen3-coder-480b-a35b#price_output@batch-inference--region-us-east-2,batch inference; region us-east-2,0.9,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@batch-inference--region-us-west-2,batch inference; region us-west-2,0.9,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@flex-tier,flex tier,1.09,USD per 1M tokens
-aws-bedrock:qwen3-coder-480b-a35b#price_output@flex-tier--region-ap-northeast-1,flex tier; region ap-northeast-1,1.09,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@flex-tier--region-ap-south-1,flex tier; region ap-south-1,1.06,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@flex-tier--region-ap-southeast-3,flex tier; region ap-southeast-3,0.935,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@flex-tier--region-eu-north-1,flex tier; region eu-north-1,0.9,USD per 1M tokens
@@ -3586,14 +3532,12 @@ aws-bedrock:qwen3-coder-480b-a35b#price_output@flex-tier--region-eu-west-2,flex 
 aws-bedrock:qwen3-coder-480b-a35b#price_output@flex-tier--region-us-east-2,flex tier; region us-east-2,0.9,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@flex-tier--region-us-west-2,flex tier; region us-west-2,0.9,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@priority-tier,priority tier,3.815,USD per 1M tokens
-aws-bedrock:qwen3-coder-480b-a35b#price_output@priority-tier--region-ap-northeast-1,priority tier; region ap-northeast-1,3.815,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@priority-tier--region-ap-south-1,priority tier; region ap-south-1,3.71,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@priority-tier--region-ap-southeast-3,priority tier; region ap-southeast-3,3.2725,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@priority-tier--region-eu-north-1,priority tier; region eu-north-1,3.15,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@priority-tier--region-eu-west-2,priority tier; region eu-west-2,4.8825,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@priority-tier--region-us-east-2,priority tier; region us-east-2,3.15,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@priority-tier--region-us-west-2,priority tier; region us-west-2,3.15,USD per 1M tokens
-aws-bedrock:qwen3-coder-480b-a35b#price_output@region-ap-northeast-1,region ap-northeast-1,2.18,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@region-ap-south-1,region ap-south-1,2.12,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@region-ap-southeast-3,region ap-southeast-3,1.87,USD per 1M tokens
 aws-bedrock:qwen3-coder-480b-a35b#price_output@region-eu-north-1,region eu-north-1,1.8,USD per 1M tokens
@@ -3706,8 +3650,6 @@ aws-bedrock:qwen3-coder-next#price_output@region-sa-east-1,region sa-east-1,1.44
 aws-bedrock:qwen3-coder-next#price_output@region-us-east-2,region us-east-2,1.2,USD per 1M tokens
 aws-bedrock:qwen3-coder-next#price_output@region-us-west-2,region us-west-2,1.2,USD per 1M tokens
 aws-bedrock:qwen3-coder-next#pricing_region,,us-east-1,AWS region
-aws-bedrock:qwen3-next-80b-a3b#price_input,,0.18,USD per 1M tokens
-aws-bedrock:qwen3-next-80b-a3b#price_input@batch-inference,batch inference,0.09,USD per 1M tokens
 aws-bedrock:qwen3-next-80b-a3b#price_input@batch-inference--region-ap-south-1,batch inference; region ap-south-1,0.09,USD per 1M tokens
 aws-bedrock:qwen3-next-80b-a3b#price_input@flex-tier,flex tier,0.07,USD per 1M tokens
 aws-bedrock:qwen3-next-80b-a3b#price_input@flex-tier--region-ap-northeast-1,flex tier; region ap-northeast-1,0.09,USD per 1M tokens
@@ -3728,8 +3670,6 @@ aws-bedrock:qwen3-next-80b-a3b#price_input@priority-tier--region-sa-east-1,prior
 aws-bedrock:qwen3-next-80b-a3b#price_input@priority-tier--region-us-east-2,priority tier; region us-east-2,0.26,USD per 1M tokens
 aws-bedrock:qwen3-next-80b-a3b#price_input@priority-tier--region-us-west-2,priority tier; region us-west-2,0.26,USD per 1M tokens
 aws-bedrock:qwen3-next-80b-a3b#price_input@region-ap-south-1,region ap-south-1,0.18,USD per 1M tokens
-aws-bedrock:qwen3-next-80b-a3b#price_output,,1.41,USD per 1M tokens
-aws-bedrock:qwen3-next-80b-a3b#price_output@batch-inference,batch inference,0.71,USD per 1M tokens
 aws-bedrock:qwen3-next-80b-a3b#price_output@batch-inference--region-ap-south-1,batch inference; region ap-south-1,0.71,USD per 1M tokens
 aws-bedrock:qwen3-next-80b-a3b#price_output@flex-tier,flex tier,0.6,USD per 1M tokens
 aws-bedrock:qwen3-next-80b-a3b#price_output@flex-tier--region-ap-northeast-1,flex tier; region ap-northeast-1,0.72,USD per 1M tokens
@@ -4861,22 +4801,11 @@ deepinfra:zai-org--glm-5.3-flash#rate_discount,,0.5,ratio of the standard price
 deepseek:deepseek-flash#context_length,,1000000.0,tokens
 deepseek:deepseek-flash#max_output_tokens,,384000.0,tokens
 deepseek:deepseek-flash#price_cache_read,,0.006,USD per 1M tokens
-deepseek:deepseek-flash#price_cache_read@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",0.003,USD per 1M tokens
-deepseek:deepseek-flash#price_cache_read@off-peak-hours--window-not-published-on-this-page,off-peak hours (window not published on this page),0.003,USD per 1M tokens
+deepseek:deepseek-flash#price_cache_read@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday, excluding Chinese public holidays)",0.003,USD per 1M tokens
 deepseek:deepseek-flash#price_input,,0.3,USD per 1M tokens
-deepseek:deepseek-flash#price_input@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",0.15,USD per 1M tokens
-deepseek:deepseek-flash#price_input@off-peak-hours--window-not-published-on-this-page,off-peak hours (window not published on this page),0.15,USD per 1M tokens
+deepseek:deepseek-flash#price_input@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday, excluding Chinese public holidays)",0.15,USD per 1M tokens
 deepseek:deepseek-flash#price_output,,1.2,USD per 1M tokens
-deepseek:deepseek-flash#price_output@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",0.6,USD per 1M tokens
-deepseek:deepseek-flash#price_output@off-peak-hours--window-not-published-on-this-page,off-peak hours (window not published on this page),0.6,USD per 1M tokens
-deepseek:deepseek-flash-1#context_length,,1000000.0,tokens
-deepseek:deepseek-flash-1#max_output_tokens,,384000.0,tokens
-deepseek:deepseek-flash-1#price_cache_read,,0.006,USD per 1M tokens
-deepseek:deepseek-flash-1#price_cache_read@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",0.003,USD per 1M tokens
-deepseek:deepseek-flash-1#price_input,,0.3,USD per 1M tokens
-deepseek:deepseek-flash-1#price_input@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",0.15,USD per 1M tokens
-deepseek:deepseek-flash-1#price_output,,1.2,USD per 1M tokens
-deepseek:deepseek-flash-1#price_output@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",0.6,USD per 1M tokens
+deepseek:deepseek-flash#price_output@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday, excluding Chinese public holidays)",0.6,USD per 1M tokens
 deepseek:deepseek-v4-flash#context_length,,1000000.0,tokens
 deepseek:deepseek-v4-flash#max_output_tokens,,384000.0,tokens
 deepseek:deepseek-v4-flash#price_cache_read,,0.014,USD per 1M tokens
@@ -4896,22 +4825,11 @@ deepseek:deepseek-v4-flash-vision-exp#price_output@off-peak-hours--peak-hours-ar
 deepseek:deepseek-v4-pro#context_length,,1000000.0,tokens
 deepseek:deepseek-v4-pro#max_output_tokens,,384000.0,tokens
 deepseek:deepseek-v4-pro#price_cache_read,,0.044,USD per 1M tokens
-deepseek:deepseek-v4-pro#price_cache_read@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",0.022,USD per 1M tokens
-deepseek:deepseek-v4-pro#price_cache_read@off-peak-hours--window-not-published-on-this-page,off-peak hours (window not published on this page),0.022,USD per 1M tokens
+deepseek:deepseek-v4-pro#price_cache_read@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday, excluding Chinese public holidays)",0.022,USD per 1M tokens
 deepseek:deepseek-v4-pro#price_input,,1.32,USD per 1M tokens
-deepseek:deepseek-v4-pro#price_input@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",0.66,USD per 1M tokens
-deepseek:deepseek-v4-pro#price_input@off-peak-hours--window-not-published-on-this-page,off-peak hours (window not published on this page),0.66,USD per 1M tokens
+deepseek:deepseek-v4-pro#price_input@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday, excluding Chinese public holidays)",0.66,USD per 1M tokens
 deepseek:deepseek-v4-pro#price_output,,3.96,USD per 1M tokens
-deepseek:deepseek-v4-pro#price_output@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",1.98,USD per 1M tokens
-deepseek:deepseek-v4-pro#price_output@off-peak-hours--window-not-published-on-this-page,off-peak hours (window not published on this page),1.98,USD per 1M tokens
-deepseek:deepseek-v4-pro-2#context_length,,1000000.0,tokens
-deepseek:deepseek-v4-pro-2#max_output_tokens,,384000.0,tokens
-deepseek:deepseek-v4-pro-2#price_cache_read,,0.044,USD per 1M tokens
-deepseek:deepseek-v4-pro-2#price_cache_read@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",0.022,USD per 1M tokens
-deepseek:deepseek-v4-pro-2#price_input,,1.32,USD per 1M tokens
-deepseek:deepseek-v4-pro-2#price_input@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",0.66,USD per 1M tokens
-deepseek:deepseek-v4-pro-2#price_output,,3.96,USD per 1M tokens
-deepseek:deepseek-v4-pro-2#price_output@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday)",1.98,USD per 1M tokens
+deepseek:deepseek-v4-pro#price_output@off-peak-hours--peak-hours-are-01-00---04-00-and-06-00---10-,"off-peak hours (peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday, excluding Chinese public holidays)",1.98,USD per 1M tokens
 fireworks_ai:deepseek-v4-flash-0731#context_length,,1048576.0,tokens
 fireworks_ai:deepseek-v4-flash-0731#price_cache_read,,0.007,USD per 1M tokens
 fireworks_ai:deepseek-v4-flash-0731#price_input,,0.22,USD per 1M tokens
@@ -5016,12 +4934,8 @@ google:gemini-2-5-flash#price_input@priority-tier--text---image---video,priority
 google:gemini-2-5-flash#price_input@text---image---video,text / image / video,0.3,USD per 1M tokens
 google:gemini-2-5-flash#price_output,,2.5,USD per 1M tokens
 google:gemini-2-5-flash#price_output@batch-tier,batch tier,1.25,USD per 1M tokens
-google:gemini-2-5-flash#price_output@batch-tier--thinking-tokens-included,batch tier; thinking tokens included,1.25,USD per 1M tokens
 google:gemini-2-5-flash#price_output@flex-tier,flex tier,1.25,USD per 1M tokens
-google:gemini-2-5-flash#price_output@flex-tier--thinking-tokens-included,flex tier; thinking tokens included,1.25,USD per 1M tokens
 google:gemini-2-5-flash#price_output@priority-tier,priority tier,4.5,USD per 1M tokens
-google:gemini-2-5-flash#price_output@priority-tier--thinking-tokens-included,priority tier; thinking tokens included,4.5,USD per 1M tokens
-google:gemini-2-5-flash#price_output@thinking-tokens-included,thinking tokens included,2.5,USD per 1M tokens
 google:gemini-2-5-flash-image-nano-banana#price_input@batch-tier--text---image,batch tier; text / image,0.15,USD per 1M tokens
 google:gemini-2-5-flash-image-nano-banana#price_input@flex-tier--text---image,flex tier; text / image,0.15,USD per 1M tokens
 google:gemini-2-5-flash-image-nano-banana#price_input@priority-tier--text---image,priority tier; text / image,0.54,USD per 1M tokens
@@ -5041,33 +4955,19 @@ google:gemini-2-5-flash-lite#price_cache_storage@priority-tier,priority tier,1.8
 google:gemini-2-5-flash-lite#price_input@audio,audio,0.3,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_input@batch-tier--audio,batch tier; audio,0.15,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_input@batch-tier--text---image---video,batch tier; text / image / video,0.05,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_input@batch-tier--text--image-and-video-input--audio,"batch tier; text, image and video input; audio",0.15,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_input@batch-tier--text--image-and-video-input--text---image---vide,"batch tier; text, image and video input; text / image / video",0.05,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_input@flex-tier--audio,flex tier; audio,0.15,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_input@flex-tier--text---image---video,flex tier; text / image / video,0.05,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_input@flex-tier--text--image-and-video-input--audio,"flex tier; text, image and video input; audio",0.15,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_input@flex-tier--text--image-and-video-input--text---image---video,"flex tier; text, image and video input; text / image / video",0.05,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_input@priority-tier--audio,priority tier; audio,0.54,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_input@priority-tier--text---image---video,priority tier; text / image / video,0.18,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_input@priority-tier--text--image-and-video-input--audio,"priority tier; text, image and video input; audio",0.54,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_input@priority-tier--text--image-and-video-input--text---image---v,"priority tier; text, image and video input; text / image / video",0.18,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_input@text---image---video,text / image / video,0.1,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_input@text--image-and-video-input--audio,"text, image and video input; audio",0.3,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_input@text--image-and-video-input--text---image---video,"text, image and video input; text / image / video",0.1,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_output,,0.4,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_output@batch-tier,batch tier,0.2,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_output@batch-tier--thinking-tokens-included,batch tier; thinking tokens included,0.2,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_output@flex-tier,flex tier,0.2,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_output@flex-tier--thinking-tokens-included,flex tier; thinking tokens included,0.2,USD per 1M tokens
 google:gemini-2-5-flash-lite#price_output@priority-tier,priority tier,0.72,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_output@priority-tier--thinking-tokens-included,priority tier; thinking tokens included,0.72,USD per 1M tokens
-google:gemini-2-5-flash-lite#price_output@thinking-tokens-included,thinking tokens included,0.4,USD per 1M tokens
 google:gemini-2-5-flash-native-audio-live-api#price_input@audio---video,audio / video,3.0,USD per 1M tokens
 google:gemini-2-5-flash-native-audio-live-api#price_input@text,text,0.5,USD per 1M tokens
 google:gemini-2-5-flash-native-audio-live-api#price_output@audio,audio,12.0,USD per 1M tokens
 google:gemini-2-5-flash-native-audio-live-api#price_output@text,text,2.0,USD per 1M tokens
-google:gemini-2-5-flash-native-audio-live-api#price_output@thinking-tokens-included--audio,thinking tokens included; audio,12.0,USD per 1M tokens
-google:gemini-2-5-flash-native-audio-live-api#price_output@thinking-tokens-included--text,thinking tokens included; text,2.0,USD per 1M tokens
 google:gemini-2-5-flash-preview-tts#price_input@batch-tier--text,batch tier; text,0.25,USD per 1M tokens
 google:gemini-2-5-flash-preview-tts#price_input@text,text,0.5,USD per 1M tokens
 google:gemini-2-5-flash-preview-tts#price_output@audio,audio,10.0,USD per 1M tokens
@@ -5104,12 +5004,8 @@ google:gemini-3-1-flash-lite#price_input@priority-tier--text---image---video,pri
 google:gemini-3-1-flash-lite#price_input@text---image---video,text / image / video,0.25,USD per 1M tokens
 google:gemini-3-1-flash-lite#price_output,,1.5,USD per 1M tokens
 google:gemini-3-1-flash-lite#price_output@batch-tier,batch tier,0.75,USD per 1M tokens
-google:gemini-3-1-flash-lite#price_output@batch-tier--thinking-tokens-included,batch tier; thinking tokens included,0.75,USD per 1M tokens
 google:gemini-3-1-flash-lite#price_output@flex-tier,flex tier,0.75,USD per 1M tokens
-google:gemini-3-1-flash-lite#price_output@flex-tier--thinking-tokens-included,flex tier; thinking tokens included,0.75,USD per 1M tokens
 google:gemini-3-1-flash-lite#price_output@priority-tier,priority tier,2.7,USD per 1M tokens
-google:gemini-3-1-flash-lite#price_output@priority-tier--thinking-tokens-included,priority tier; thinking tokens included,2.7,USD per 1M tokens
-google:gemini-3-1-flash-lite#price_output@thinking-tokens-included,thinking tokens included,1.5,USD per 1M tokens
 google:gemini-3-1-flash-lite-image-nano-banana-2-lite#price_input@batch-tier--text-image-video,batch tier; text/image/video,0.125,USD per 1M tokens
 google:gemini-3-1-flash-lite-image-nano-banana-2-lite#price_input@text-image-video,text/image/video,0.25,USD per 1M tokens
 google:gemini-3-1-flash-lite-image-nano-banana-2-lite#price_output@batch-tier--images,batch tier; images,15.0,USD per 1M tokens
@@ -5157,12 +5053,8 @@ google:gemini-3-5-flash-lite#price_input@priority-tier--text---image---video---a
 google:gemini-3-5-flash-lite#price_input@text---image---video---audio,text / image / video / audio,0.3,USD per 1M tokens
 google:gemini-3-5-flash-lite#price_output,,2.5,USD per 1M tokens
 google:gemini-3-5-flash-lite#price_output@batch-tier,batch tier,1.25,USD per 1M tokens
-google:gemini-3-5-flash-lite#price_output@batch-tier--thinking-tokens-included,batch tier; thinking tokens included,1.25,USD per 1M tokens
 google:gemini-3-5-flash-lite#price_output@flex-tier,flex tier,1.25,USD per 1M tokens
-google:gemini-3-5-flash-lite#price_output@flex-tier--thinking-tokens-included,flex tier; thinking tokens included,1.25,USD per 1M tokens
 google:gemini-3-5-flash-lite#price_output@priority-tier,priority tier,4.5,USD per 1M tokens
-google:gemini-3-5-flash-lite#price_output@priority-tier--thinking-tokens-included,priority tier; thinking tokens included,4.5,USD per 1M tokens
-google:gemini-3-5-flash-lite#price_output@thinking-tokens-included,thinking tokens included,2.5,USD per 1M tokens
 google:gemini-3-6-flash#price_cache_read,,0.075,USD per 1M tokens
 google:gemini-3-6-flash#price_cache_read@announced-from-january-1--2027,"announced from January 1, 2027",0.15,USD per 1M tokens
 google:gemini-3-6-flash#price_cache_read@batch-tier,batch tier,0.0375,USD per 1M tokens
@@ -5191,18 +5083,10 @@ google:gemini-3-6-flash#price_output,,3.75,USD per 1M tokens
 google:gemini-3-6-flash#price_output@announced-from-january-1--2027,"announced from January 1, 2027",7.5,USD per 1M tokens
 google:gemini-3-6-flash#price_output@batch-tier,batch tier,1.875,USD per 1M tokens
 google:gemini-3-6-flash#price_output@batch-tier--announced-from-january-1--2027,"batch tier; announced from January 1, 2027",3.75,USD per 1M tokens
-google:gemini-3-6-flash#price_output@batch-tier--thinking-tokens-included,batch tier; thinking tokens included,1.875,USD per 1M tokens
-google:gemini-3-6-flash#price_output@batch-tier--thinking-tokens-included--announced-from-january,"batch tier; thinking tokens included; announced from January 1, 2027",3.75,USD per 1M tokens
 google:gemini-3-6-flash#price_output@flex-tier,flex tier,1.875,USD per 1M tokens
 google:gemini-3-6-flash#price_output@flex-tier--announced-from-january-1--2027,"flex tier; announced from January 1, 2027",3.75,USD per 1M tokens
-google:gemini-3-6-flash#price_output@flex-tier--thinking-tokens-included,flex tier; thinking tokens included,1.875,USD per 1M tokens
-google:gemini-3-6-flash#price_output@flex-tier--thinking-tokens-included--announced-from-january-,"flex tier; thinking tokens included; announced from January 1, 2027",3.75,USD per 1M tokens
 google:gemini-3-6-flash#price_output@priority-tier,priority tier,6.75,USD per 1M tokens
 google:gemini-3-6-flash#price_output@priority-tier--announced-from-january-1--2027,"priority tier; announced from January 1, 2027",13.5,USD per 1M tokens
-google:gemini-3-6-flash#price_output@priority-tier--thinking-tokens-included,priority tier; thinking tokens included,6.75,USD per 1M tokens
-google:gemini-3-6-flash#price_output@priority-tier--thinking-tokens-included--announced-from-janu,"priority tier; thinking tokens included; announced from January 1, 2027",13.5,USD per 1M tokens
-google:gemini-3-6-flash#price_output@thinking-tokens-included,thinking tokens included,3.75,USD per 1M tokens
-google:gemini-3-6-flash#price_output@thinking-tokens-included--announced-from-january-1--2027,"thinking tokens included; announced from January 1, 2027",7.5,USD per 1M tokens
 google:gemini-3-7-flash#price_cache_read,,0.075,USD per 1M tokens
 google:gemini-3-7-flash#price_cache_read@announced-from-january-1--2027,"announced from January 1, 2027",0.15,USD per 1M tokens
 google:gemini-3-7-flash#price_cache_read@batch-tier,batch tier,0.0375,USD per 1M tokens
@@ -5331,12 +5215,8 @@ google:gemini-3-flash-preview#price_input@priority-tier--text---image---video,pr
 google:gemini-3-flash-preview#price_input@text---image---video,text / image / video,0.5,USD per 1M tokens
 google:gemini-3-flash-preview#price_output,,3.0,USD per 1M tokens
 google:gemini-3-flash-preview#price_output@batch-tier,batch tier,1.5,USD per 1M tokens
-google:gemini-3-flash-preview#price_output@batch-tier--thinking-tokens-included,batch tier; thinking tokens included,1.5,USD per 1M tokens
 google:gemini-3-flash-preview#price_output@flex-tier,flex tier,1.5,USD per 1M tokens
-google:gemini-3-flash-preview#price_output@flex-tier--thinking-tokens-included,flex tier; thinking tokens included,1.5,USD per 1M tokens
 google:gemini-3-flash-preview#price_output@priority-tier,priority tier,5.4,USD per 1M tokens
-google:gemini-3-flash-preview#price_output@priority-tier--thinking-tokens-included,priority tier; thinking tokens included,5.4,USD per 1M tokens
-google:gemini-3-flash-preview#price_output@thinking-tokens-included,thinking tokens included,3.0,USD per 1M tokens
 google:gemini-3-pro-image-nano-banana-pro#price_input@batch-tier--image,batch tier; image,0.0006,USD per 1M tokens
 google:gemini-3-pro-image-nano-banana-pro#price_input@batch-tier--text,batch tier; text,1.0,USD per 1M tokens
 google:gemini-3-pro-image-nano-banana-pro#price_input@flex-tier--image,flex tier; image,0.0006,USD per 1M tokens
@@ -5349,9 +5229,33 @@ google:gemini-3-pro-image-nano-banana-pro#price_output@images,images,120.0,USD p
 google:gemini-3-pro-image-nano-banana-pro#price_output@priority-tier--images,priority tier; images,216.0,USD per 1M tokens
 google:gemini-3-pro-image-nano-banana-pro#price_output@priority-tier--text-and-thinking,priority tier; text and thinking,21.6,USD per 1M tokens
 google:gemini-3-pro-image-nano-banana-pro#price_output@text-and-thinking,text and thinking,12.0,USD per 1M tokens
+google:gemini-4-argon#price_cache_read@batch-tier--implicit-caching-only,batch tier; implicit caching only,0.05,USD per 1M tokens
+google:gemini-4-argon#price_cache_read@batch-tier--implicit-caching-only--announced-from-december-1,"batch tier; implicit caching only; announced from December 1, 2026",0.1,USD per 1M tokens
+google:gemini-4-argon#price_cache_read@flex-tier--implicit-caching-only,flex tier; implicit caching only,0.05,USD per 1M tokens
+google:gemini-4-argon#price_cache_read@flex-tier--implicit-caching-only--announced-from-december-1-,"flex tier; implicit caching only; announced from December 1, 2026",0.1,USD per 1M tokens
+google:gemini-4-argon#price_cache_read@implicit-caching-only,implicit caching only,0.1,USD per 1M tokens
+google:gemini-4-argon#price_cache_read@implicit-caching-only--announced-from-december-1--2026,"implicit caching only; announced from December 1, 2026",0.2,USD per 1M tokens
+google:gemini-4-argon#price_cache_read@priority-tier--implicit-caching-only,priority tier; implicit caching only,0.18,USD per 1M tokens
+google:gemini-4-argon#price_cache_read@priority-tier--implicit-caching-only--announced-from-decembe,"priority tier; implicit caching only; announced from December 1, 2026",0.36,USD per 1M tokens
+google:gemini-4-argon#price_input,,2.0,USD per 1M tokens
+google:gemini-4-argon#price_input@announced-from-december-1--2026,"announced from December 1, 2026",4.0,USD per 1M tokens
+google:gemini-4-argon#price_input@batch-tier,batch tier,1.0,USD per 1M tokens
+google:gemini-4-argon#price_input@batch-tier--announced-from-december-1--2026,"batch tier; announced from December 1, 2026",2.0,USD per 1M tokens
+google:gemini-4-argon#price_input@flex-tier,flex tier,1.0,USD per 1M tokens
+google:gemini-4-argon#price_input@flex-tier--announced-from-december-1--2026,"flex tier; announced from December 1, 2026",2.0,USD per 1M tokens
+google:gemini-4-argon#price_input@priority-tier,priority tier,3.6,USD per 1M tokens
+google:gemini-4-argon#price_input@priority-tier--announced-from-december-1--2026,"priority tier; announced from December 1, 2026",7.2,USD per 1M tokens
+google:gemini-4-argon#price_output,,10.0,USD per 1M tokens
+google:gemini-4-argon#price_output@announced-from-december-1--2026,"announced from December 1, 2026",20.0,USD per 1M tokens
+google:gemini-4-argon#price_output@batch-tier,batch tier,5.0,USD per 1M tokens
+google:gemini-4-argon#price_output@batch-tier--announced-from-december-1--2026,"batch tier; announced from December 1, 2026",10.0,USD per 1M tokens
+google:gemini-4-argon#price_output@flex-tier,flex tier,5.0,USD per 1M tokens
+google:gemini-4-argon#price_output@flex-tier--announced-from-december-1--2026,"flex tier; announced from December 1, 2026",10.0,USD per 1M tokens
+google:gemini-4-argon#price_output@priority-tier,priority tier,18.0,USD per 1M tokens
+google:gemini-4-argon#price_output@priority-tier--announced-from-december-1--2026,"priority tier; announced from December 1, 2026",36.0,USD per 1M tokens
 google:gemini-embedding#price_input,,0.15,USD per 1M tokens
 google:gemini-embedding#price_input@batch-tier,batch tier,0.075,USD per 1M tokens
-google:gemini-nano-banana-2-1#price_input@batch-tier--text--image--video,"batch tier; text, image, video",0.75,USD per 1M tokens
+google:gemini-nano-banana-2-1#price_input@batch-tier--text-image-video,batch tier; text/image/video,0.75,USD per 1M tokens
 google:gemini-nano-banana-2-1#price_input@text-image-video,text/image/video,1.5,USD per 1M tokens
 google:gemini-nano-banana-2-1#price_output@batch-tier--images,batch tier; images,15.0,USD per 1M tokens
 google:gemini-nano-banana-2-1#price_output@batch-tier--text-and-thinking,batch tier; text and thinking,3.75,USD per 1M tokens
@@ -5362,8 +5266,6 @@ google:gemini-omni-flash#price_output@text,text,9.0,USD per 1M tokens
 google:gemini-omni-flash#price_output@video,video,17.5,USD per 1M tokens
 google:gemini-omni-flash-preview#price_input@text---image---video---audio,text / image / video / audio,1.5,USD per 1M tokens
 google:gemini-omni-flash-preview#price_output@text,text,9.0,USD per 1M tokens
-google:gemini-omni-flash-preview#price_output@thinking-tokens-included--text,thinking tokens included; text,9.0,USD per 1M tokens
-google:gemini-omni-flash-preview#price_output@thinking-tokens-included--video,thinking tokens included; video,17.5,USD per 1M tokens
 google:gemini-omni-flash-preview#price_output@video,video,17.5,USD per 1M tokens
 google:gemini-robotics-er-1-6-preview#price_input@audio,audio,2.0,USD per 1M tokens
 google:gemini-robotics-er-1-6-preview#price_input@batch-tier--audio,batch tier; audio,1.0,USD per 1M tokens
@@ -5387,8 +5289,6 @@ google:gemini-robotics-er-2-preview#price_output,,5.0,USD per 1M tokens
 google:gemini-robotics-er-2-preview#price_output@announced-from-january-1--2027,"announced from January 1, 2027",10.0,USD per 1M tokens
 google:gemini-robotics-er-2-preview#price_output@batch-tier,batch tier,2.5,USD per 1M tokens
 google:gemini-robotics-er-2-preview#price_output@batch-tier--announced-from-january-1--2027,"batch tier; announced from January 1, 2027",5.0,USD per 1M tokens
-google:gemini-robotics-er-2-preview#price_output@batch-tier--thinking-tokens-included,batch tier; thinking tokens included,5.0,USD per 1M tokens
-google:gemini-robotics-er-2-preview#price_output@thinking-tokens-included,thinking tokens included,10.0,USD per 1M tokens
 google:gemini-robotics-er-2-streaming-preview#price_input@text---image---video---audio,text / image / video / audio,1.0,USD per 1M tokens
 google:gemini-robotics-er-2-streaming-preview#price_output,,5.0,USD per 1M tokens
 google:gemini-robotics-er-2-streaming-preview#price_output@announced-from-january-1--2027,"announced from January 1, 2027",10.0,USD per 1M tokens
@@ -6222,18 +6122,12 @@ novita:minimax--minimax-m3#output_modalities,,text,list
 novita:minimax--minimax-m3#price_cache_read,,0.06,USD per 1M tokens
 novita:minimax--minimax-m3#price_cache_read@billing-tier-for-1-to-524288-tokens,billing tier for 1 to 524288 tokens,0.06,USD per 1M tokens
 novita:minimax--minimax-m3#price_cache_read@billing-tier-for-524288-to-1000000-tokens,billing tier for 524288 to 1000000 tokens,0.12,USD per 1M tokens
-novita:minimax--minimax-m3#price_cache_read@volume-tier-from-1-to-524288-tokens,volume tier from 1 to 524288 tokens,0.06,USD per 1M tokens
-novita:minimax--minimax-m3#price_cache_read@volume-tier-from-524288-to-1000000-tokens,volume tier from 524288 to 1000000 tokens,0.12,USD per 1M tokens
 novita:minimax--minimax-m3#price_input,,0.3,USD per 1M tokens
 novita:minimax--minimax-m3#price_input@billing-tier-for-1-to-524288-tokens,billing tier for 1 to 524288 tokens,0.3,USD per 1M tokens
 novita:minimax--minimax-m3#price_input@billing-tier-for-524288-to-1000000-tokens,billing tier for 524288 to 1000000 tokens,0.6,USD per 1M tokens
-novita:minimax--minimax-m3#price_input@volume-tier-from-1-to-524288-tokens,volume tier from 1 to 524288 tokens,0.3,USD per 1M tokens
-novita:minimax--minimax-m3#price_input@volume-tier-from-524288-to-1000000-tokens,volume tier from 524288 to 1000000 tokens,0.6,USD per 1M tokens
 novita:minimax--minimax-m3#price_output,,1.2,USD per 1M tokens
 novita:minimax--minimax-m3#price_output@billing-tier-for-1-to-524288-tokens,billing tier for 1 to 524288 tokens,1.2,USD per 1M tokens
 novita:minimax--minimax-m3#price_output@billing-tier-for-524288-to-1000000-tokens,billing tier for 524288 to 1000000 tokens,2.4,USD per 1M tokens
-novita:minimax--minimax-m3#price_output@volume-tier-from-1-to-524288-tokens,volume tier from 1 to 524288 tokens,1.2,USD per 1M tokens
-novita:minimax--minimax-m3#price_output@volume-tier-from-524288-to-1000000-tokens,volume tier from 524288 to 1000000 tokens,2.4,USD per 1M tokens
 novita:minimaxai--minimax-m1-80k#context_length,,1000000.0,tokens
 novita:minimaxai--minimax-m1-80k#input_modalities,,text,list
 novita:minimaxai--minimax-m1-80k#max_output_tokens,,40000.0,tokens
@@ -6456,16 +6350,10 @@ novita:qwen--qwen3-max#price_input,,2.11,USD per 1M tokens
 novita:qwen--qwen3-max#price_input@billing-tier-for-1-to-32768-tokens,billing tier for 1 to 32768 tokens,0.845,USD per 1M tokens
 novita:qwen--qwen3-max#price_input@billing-tier-for-131072-to-258048-tokens,billing tier for 131072 to 258048 tokens,2.11,USD per 1M tokens
 novita:qwen--qwen3-max#price_input@billing-tier-for-32768-to-131072-tokens,billing tier for 32768 to 131072 tokens,1.4,USD per 1M tokens
-novita:qwen--qwen3-max#price_input@volume-tier-from-1-to-32768-tokens,volume tier from 1 to 32768 tokens,0.845,USD per 1M tokens
-novita:qwen--qwen3-max#price_input@volume-tier-from-131072-to-258048-tokens,volume tier from 131072 to 258048 tokens,2.11,USD per 1M tokens
-novita:qwen--qwen3-max#price_input@volume-tier-from-32768-to-131072-tokens,volume tier from 32768 to 131072 tokens,1.4,USD per 1M tokens
 novita:qwen--qwen3-max#price_output,,8.45,USD per 1M tokens
 novita:qwen--qwen3-max#price_output@billing-tier-for-1-to-32768-tokens,billing tier for 1 to 32768 tokens,3.38,USD per 1M tokens
 novita:qwen--qwen3-max#price_output@billing-tier-for-131072-to-258048-tokens,billing tier for 131072 to 258048 tokens,8.45,USD per 1M tokens
 novita:qwen--qwen3-max#price_output@billing-tier-for-32768-to-131072-tokens,billing tier for 32768 to 131072 tokens,5.64,USD per 1M tokens
-novita:qwen--qwen3-max#price_output@volume-tier-from-1-to-32768-tokens,volume tier from 1 to 32768 tokens,3.38,USD per 1M tokens
-novita:qwen--qwen3-max#price_output@volume-tier-from-131072-to-258048-tokens,volume tier from 131072 to 258048 tokens,8.45,USD per 1M tokens
-novita:qwen--qwen3-max#price_output@volume-tier-from-32768-to-131072-tokens,volume tier from 32768 to 131072 tokens,5.64,USD per 1M tokens
 novita:qwen--qwen3-next-80b-a3b-instruct#context_length,,131072.0,tokens
 novita:qwen--qwen3-next-80b-a3b-instruct#input_modalities,,text,list
 novita:qwen--qwen3-next-80b-a3b-instruct#max_output_tokens,,32768.0,tokens
@@ -6674,18 +6562,12 @@ novita:xiaomimimo--mimo-v2-pro#output_modalities,,text,list
 novita:xiaomimimo--mimo-v2-pro#price_cache_read,,0.4,USD per 1M tokens
 novita:xiaomimimo--mimo-v2-pro#price_cache_read@billing-tier-for-1-to-262144-tokens,billing tier for 1 to 262144 tokens,0.2,USD per 1M tokens
 novita:xiaomimimo--mimo-v2-pro#price_cache_read@billing-tier-for-262144-to-1048576-tokens,billing tier for 262144 to 1048576 tokens,0.4,USD per 1M tokens
-novita:xiaomimimo--mimo-v2-pro#price_cache_read@volume-tier-from-1-to-262144-tokens,volume tier from 1 to 262144 tokens,0.2,USD per 1M tokens
-novita:xiaomimimo--mimo-v2-pro#price_cache_read@volume-tier-from-262144-to-1048576-tokens,volume tier from 262144 to 1048576 tokens,0.4,USD per 1M tokens
 novita:xiaomimimo--mimo-v2-pro#price_input,,2.0,USD per 1M tokens
 novita:xiaomimimo--mimo-v2-pro#price_input@billing-tier-for-1-to-262144-tokens,billing tier for 1 to 262144 tokens,1.0,USD per 1M tokens
 novita:xiaomimimo--mimo-v2-pro#price_input@billing-tier-for-262144-to-1048576-tokens,billing tier for 262144 to 1048576 tokens,2.0,USD per 1M tokens
-novita:xiaomimimo--mimo-v2-pro#price_input@volume-tier-from-1-to-262144-tokens,volume tier from 1 to 262144 tokens,1.0,USD per 1M tokens
-novita:xiaomimimo--mimo-v2-pro#price_input@volume-tier-from-262144-to-1048576-tokens,volume tier from 262144 to 1048576 tokens,2.0,USD per 1M tokens
 novita:xiaomimimo--mimo-v2-pro#price_output,,6.0,USD per 1M tokens
 novita:xiaomimimo--mimo-v2-pro#price_output@billing-tier-for-1-to-262144-tokens,billing tier for 1 to 262144 tokens,3.0,USD per 1M tokens
 novita:xiaomimimo--mimo-v2-pro#price_output@billing-tier-for-262144-to-1048576-tokens,billing tier for 262144 to 1048576 tokens,6.0,USD per 1M tokens
-novita:xiaomimimo--mimo-v2-pro#price_output@volume-tier-from-1-to-262144-tokens,volume tier from 1 to 262144 tokens,3.0,USD per 1M tokens
-novita:xiaomimimo--mimo-v2-pro#price_output@volume-tier-from-262144-to-1048576-tokens,volume tier from 262144 to 1048576 tokens,6.0,USD per 1M tokens
 novita:xiaomimimo--mimo-v2.5#context_length,,1048576.0,tokens
 novita:xiaomimimo--mimo-v2.5#input_modalities,,"image, text, video",list
 novita:xiaomimimo--mimo-v2.5#max_output_tokens,,131072.0,tokens
@@ -6816,13 +6698,10 @@ novita:zai-org--glm-5.3-flash#input_modalities,,"image, text, video",list
 novita:zai-org--glm-5.3-flash#max_output_tokens,,131072.0,tokens
 novita:zai-org--glm-5.3-flash#output_modalities,,text,list
 novita:zai-org--glm-5.3-flash#price_cache_read,,0.03,USD per 1M tokens
-novita:zai-org--glm-5.3-flash#price_cache_read@list-price-before-current-discount,list price before current discount,0.03,USD per 1M tokens
 novita:zai-org--glm-5.3-flash#price_cache_read@list-price-before-the-current-discount,list price before the current discount,0.03,USD per 1M tokens
 novita:zai-org--glm-5.3-flash#price_input,,0.15,USD per 1M tokens
-novita:zai-org--glm-5.3-flash#price_input@list-price-before-current-discount,list price before current discount,0.15,USD per 1M tokens
 novita:zai-org--glm-5.3-flash#price_input@list-price-before-the-current-discount,list price before the current discount,0.15,USD per 1M tokens
 novita:zai-org--glm-5.3-flash#price_output,,0.5,USD per 1M tokens
-novita:zai-org--glm-5.3-flash#price_output@list-price-before-current-discount,list price before current discount,0.5,USD per 1M tokens
 novita:zai-org--glm-5.3-flash#price_output@list-price-before-the-current-discount,list price before the current discount,0.5,USD per 1M tokens
 novita:zai-org--glm-5.3-p#context_length,,1048576.0,tokens
 novita:zai-org--glm-5.3-p#input_modalities,,text,list
@@ -13452,63 +13331,45 @@ snowflake:voyage-multimodal-3#price_tokens@ai-embed--table-6-a,"ai_embed, table 
 xai:grok-4-20-0309-non-reasoning#context_length,,1000000.0,tokens
 xai:grok-4-20-0309-non-reasoning#price_cache_read,,0.2,USD per 1M tokens
 xai:grok-4-20-0309-non-reasoning#price_cache_read@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,0.4,USD per 1M tokens
-xai:grok-4-20-0309-non-reasoning#price_cache_read@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,0.2,USD per 1M tokens
 xai:grok-4-20-0309-non-reasoning#price_input,,1.25,USD per 1M tokens
 xai:grok-4-20-0309-non-reasoning#price_input@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,2.5,USD per 1M tokens
-xai:grok-4-20-0309-non-reasoning#price_input@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,1.25,USD per 1M tokens
 xai:grok-4-20-0309-non-reasoning#price_output,,2.5,USD per 1M tokens
 xai:grok-4-20-0309-non-reasoning#price_output@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,5.0,USD per 1M tokens
-xai:grok-4-20-0309-non-reasoning#price_output@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,2.5,USD per 1M tokens
 xai:grok-4-20-0309-reasoning#context_length,,1000000.0,tokens
 xai:grok-4-20-0309-reasoning#price_cache_read,,0.2,USD per 1M tokens
 xai:grok-4-20-0309-reasoning#price_cache_read@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,0.4,USD per 1M tokens
-xai:grok-4-20-0309-reasoning#price_cache_read@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,0.2,USD per 1M tokens
 xai:grok-4-20-0309-reasoning#price_input,,1.25,USD per 1M tokens
 xai:grok-4-20-0309-reasoning#price_input@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,2.5,USD per 1M tokens
-xai:grok-4-20-0309-reasoning#price_input@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,1.25,USD per 1M tokens
 xai:grok-4-20-0309-reasoning#price_output,,2.5,USD per 1M tokens
 xai:grok-4-20-0309-reasoning#price_output@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,5.0,USD per 1M tokens
-xai:grok-4-20-0309-reasoning#price_output@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,2.5,USD per 1M tokens
 xai:grok-4-20-multi-agent-0309#context_length,,1000000.0,tokens
 xai:grok-4-20-multi-agent-0309#price_cache_read,,0.2,USD per 1M tokens
 xai:grok-4-20-multi-agent-0309#price_cache_read@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,0.4,USD per 1M tokens
-xai:grok-4-20-multi-agent-0309#price_cache_read@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,0.2,USD per 1M tokens
 xai:grok-4-20-multi-agent-0309#price_input,,1.25,USD per 1M tokens
 xai:grok-4-20-multi-agent-0309#price_input@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,2.5,USD per 1M tokens
-xai:grok-4-20-multi-agent-0309#price_input@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,1.25,USD per 1M tokens
 xai:grok-4-20-multi-agent-0309#price_output,,2.5,USD per 1M tokens
 xai:grok-4-20-multi-agent-0309#price_output@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,5.0,USD per 1M tokens
-xai:grok-4-20-multi-agent-0309#price_output@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,2.5,USD per 1M tokens
 xai:grok-4-3#context_length,,1000000.0,tokens
 xai:grok-4-3#price_cache_read,,0.2,USD per 1M tokens
 xai:grok-4-3#price_cache_read@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,0.4,USD per 1M tokens
-xai:grok-4-3#price_cache_read@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,0.2,USD per 1M tokens
 xai:grok-4-3#price_input,,1.25,USD per 1M tokens
 xai:grok-4-3#price_input@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,2.5,USD per 1M tokens
-xai:grok-4-3#price_input@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,1.25,USD per 1M tokens
 xai:grok-4-3#price_output,,2.5,USD per 1M tokens
 xai:grok-4-3#price_output@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,5.0,USD per 1M tokens
-xai:grok-4-3#price_output@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,2.5,USD per 1M tokens
 xai:grok-4-5#context_length,,500000.0,tokens
 xai:grok-4-5#price_cache_read,,0.3,USD per 1M tokens
 xai:grok-4-5#price_cache_read@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,0.6,USD per 1M tokens
-xai:grok-4-5#price_cache_read@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,0.3,USD per 1M tokens
 xai:grok-4-5#price_input,,2.0,USD per 1M tokens
 xai:grok-4-5#price_input@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,4.0,USD per 1M tokens
-xai:grok-4-5#price_input@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,2.0,USD per 1M tokens
 xai:grok-4-5#price_output,,6.0,USD per 1M tokens
 xai:grok-4-5#price_output@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,12.0,USD per 1M tokens
-xai:grok-4-5#price_output@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,6.0,USD per 1M tokens
 xai:grok-4-6#context_length,,500000.0,tokens
 xai:grok-4-6#price_cache_read,,0.5,USD per 1M tokens
 xai:grok-4-6#price_cache_read@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,1.0,USD per 1M tokens
-xai:grok-4-6#price_cache_read@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,0.5,USD per 1M tokens
 xai:grok-4-6#price_input,,2.0,USD per 1M tokens
 xai:grok-4-6#price_input@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,4.0,USD per 1M tokens
-xai:grok-4-6#price_input@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,2.0,USD per 1M tokens
 xai:grok-4-6#price_output,,6.0,USD per 1M tokens
 xai:grok-4-6#price_output@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,12.0,USD per 1M tokens
-xai:grok-4-6#price_output@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,6.0,USD per 1M tokens
 xai:grok-4-7#context_length,,500000.0,tokens
 xai:grok-4-7#price_cache_read,,0.5,USD per 1M tokens
 xai:grok-4-7#price_cache_read@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,1.0,USD per 1M tokens
@@ -13519,13 +13380,10 @@ xai:grok-4-7#price_output@prompts-from-200k-prompt-tokens,prompts from 200k prom
 xai:grok-build-0-1#context_length,,256000.0,tokens
 xai:grok-build-0-1#price_cache_read,,0.2,USD per 1M tokens
 xai:grok-build-0-1#price_cache_read@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,0.4,USD per 1M tokens
-xai:grok-build-0-1#price_cache_read@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,0.2,USD per 1M tokens
 xai:grok-build-0-1#price_input,,1.0,USD per 1M tokens
 xai:grok-build-0-1#price_input@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,2.0,USD per 1M tokens
-xai:grok-build-0-1#price_input@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,1.0,USD per 1M tokens
 xai:grok-build-0-1#price_output,,2.0,USD per 1M tokens
 xai:grok-build-0-1#price_output@prompts-from-200k-prompt-tokens,prompts from 200k prompt tokens,4.0,USD per 1M tokens
-xai:grok-build-0-1#price_output@prompts-under-200k-prompt-tokens,prompts under 200k prompt tokens,2.0,USD per 1M tokens
 zai:glm-4-32b-0414-128k#price_input,,0.1,USD per 1M tokens
 zai:glm-4-32b-0414-128k#price_output,,0.1,USD per 1M tokens
 zai:glm-4-5#price_cache_read,,0.11,USD per 1M tokens
