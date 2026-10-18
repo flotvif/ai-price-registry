@@ -1,75 +1,75 @@
-# Bertrande, le registre date des parametres des services numeriques
+# Bertrande: dated, sourced AI API prices
 
-Ce depot contient l'etat publie du registre, commite une fois par jour.
+This repository holds the published state of the [Bertrande](https://bertrande.com) registry,
+committed once a day.
 
-**L'historique git de ce depot est l'historique des prix.** Les fichiers sont
-tries par identifiant de parametre, jamais par nom : le diff d'un commit est
-donc lisible ligne a ligne.
+**The git history of this repository is the price history.** Files are sorted
+by parameter id, never by name, so every commit diff reads line by line as
+"this value changed on this day":
 
     git log --oneline values.csv
-    git log -p -S "openai:gpt-5-mini#price_output" values.csv
+    git log -p -S "anthropic:claude-sonnet-5#price_output" values.csv
 
-## Trois fichiers, et la difference compte
+## Four files, and the difference matters
 
-| Fichier | Contenu | Ce que dit son diff |
+| File | Contents | What its diff tells you |
 |---|---|---|
-| `values.csv` | 13455 valeurs, sans provenance | **exactement les valeurs qui ont change** |
-| `registry.csv` | les memes, avec date, source, niveau et empreinte SHA-256 | ce qui a ete constate a nouveau, y compris a valeur identique |
-| `measurements.csv` | 2778 mesures continues : disponibilite, latence, debit, taux de change | de nouvelles lectures, tous les jours |
-| `changes.csv` | 1029 changements confirmes, du plus recent au plus ancien | |
+| `values.csv` | 13491 values, no provenance | **exactly the values that changed** |
+| `registry.csv` | the same rows, with date, source URL, source level and SHA-256 fingerprint | what was observed again, even at an unchanged value |
+| `measurements.csv` | 2792 continuous measurements: availability, latency, throughput, exchange rates | new readings, every day |
+| `changes.csv` | 1031 confirmed changes, newest first | |
 
-`values.csv` et `registry.csv` portent les memes lignes. Le premier ne contient
-que l'etat, donc une relecture au meme prix n'y touche rien ; le second porte la
-preuve, donc il bouge des qu'un constat est reecrit. Les deux affirmations sont
-utiles et ne sont pas la meme.
+`values.csv` and `registry.csv` carry the same rows. The first holds state
+only, so re-reading an unchanged price leaves it untouched; the second holds
+the evidence, so it moves whenever an observation is written again.
 
-**Une mesure n'est pas un parametre publie**, et c'est pourquoi elles vivent
-dans un fichier separe. Un parametre publie est ce que le vendeur affirme : un
-prix, une fenetre de contexte, un plafond de debit. Une mesure est ce que
-quelqu'un a constate a un instant : une disponibilite, une latence. Le premier
-change quand le vendeur decide ; la seconde change tout le temps, et son
-changement n'apprend rien. Melangees, les secondes noient les premieres : au
-deuxieme commit de ce depot, 1 308 lignes modifiees sur 2 107 etaient de la
-mesure continue.
+**A measurement is not a published parameter**, which is why they live in a
+separate file. A published parameter is what the vendor states: a price, a
+context window, a rate limit. A measurement is what someone observed at an
+instant: an uptime, a latency. The first changes when the vendor decides; the
+second changes all the time and its movement teaches nothing. Mixed together,
+measurements drown prices: on the second commit of this repository, 1,308 of
+2,107 changed lines were continuous measurements.
 
-## La provenance
+## Provenance
 
-Chaque ligne de `registry.csv` porte l'adresse de son **recu** : une page
-permanente qui montre la valeur, sa date, sa source et son empreinte.
-L'identifiant du recu se recalcule depuis ce fichier, par n'importe qui :
+Every row of `registry.csv` carries the address of its **receipt**: a permanent
+page showing the value, its date, its source and the fingerprint of the page it
+was read on. Anyone can recompute the receipt id from this file:
 
     sha256(f"{parameter_id}|{observed_at}|{content_hash}")[:12]
 
-## Les trois regles du registre
+## The three rules of the registry
 
-1. **Aucun fait ne sort d'un modele de langage.** Chaque valeur vient d'une
-   source lisible, avec son adresse, sa date et son empreinte.
-2. **Toute donnee publiee est tracable.** D'ou elle vient, de quand elle date,
-   ce qui a change depuis.
-3. **Aucune identite humaine fabriquee.** Bertrande est un systeme editorial
-   automatise, et une personne nommee en repond.
+1. **No fact comes out of a language model.** Every value is read from a
+   source, with its URL, its date and a fingerprint of what was read.
+2. **Every published value is traceable**: where it comes from, when it was
+   read, what changed since.
+3. **No fabricated human identity.** Bertrande is an automated editorial
+   system, and a named person answers for it.
 
-Une case vide est honorable ; une case inventee detruit le projet. Un parametre
-dont la source est trop faible n'est pas publie, il est retenu et compte.
+An empty cell is honourable; an invented one would destroy the project. A
+parameter whose source is too weak is not published: it is held back and
+counted.
 
-## Niveaux de source
+## Source levels
 
-| Niveau | Ce que c'est |
+| Level | What it is |
 |---|---|
-| 1 | l'API du vendeur |
-| 2 | la documentation technique du vendeur |
-| 3 | la page de tarifs du vendeur |
-| 4 | un mesureur tiers identifie |
-| 5 | un agregateur, **jamais publie seul** |
+| 1 | the vendor's API |
+| 2 | the vendor's technical documentation |
+| 3 | the vendor's price page |
+| 4 | an identified third-party measurer |
+| 5 | an aggregator, **never published on its own** |
 
-## Licence et usage
+## Licence and use
 
-CC-BY-4.0. Reutilisation libre avec attribution : `Bertrande, https://bertrande.com`.
+CC-BY-4.0. Free reuse with attribution: `Bertrande, https://bertrande.com`.
 
-L'API de lecture repond a la meme question par la date :
-`https://bertrande.com/v1/services/{id}/{parametre}?on=2026-09-03`. Interrogee sur une date
-anterieure a notre premiere lecture, elle rend un **416** et dit depuis quand
-nous observons, plutot qu'un 404 qui suggererait une disparition ou un `null`
-qui suggererait la gratuite.
+The read API answers the same question by date:
+`https://bertrande.com/v1/services/{id}/{parameter}?on=2026-09-03`. Asked about a date
+before our first reading, it returns a **416** and says since when we have been
+observing, rather than a 404 that would suggest a disappearance or a `null`
+that would suggest the price was zero.
 
-Collecte commencee le 2026-08-25. Site : https://bertrande.com
+Collection started on 2026-08-25. Corrections: https://bertrande.com/en/corrections/
