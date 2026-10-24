@@ -4769,7 +4769,7 @@ deepinfra:xiaomimimo--mimo-v2.6-flash#context_length,,1048576.0,tokens
 deepinfra:xiaomimimo--mimo-v2.6-flash#price_input,,0.14,USD per 1M tokens
 deepinfra:xiaomimimo--mimo-v2.6-flash#price_output,,0.28,USD per 1M tokens
 deepinfra:xiaomimimo--mimo-v2.6-flash#rate_cache_read,,0.02,ratio of the input price
-deepinfra:xiaomimimo--mimo-v2.6-flash#rate_discount,,0.05,ratio of the standard price
+deepinfra:xiaomimimo--mimo-v2.6-flash#rate_discount,,0.35,ratio of the standard price
 deepinfra:xiaomimimo--mimo-v2.6-flash-rl#context_length,,1048576.0,tokens
 deepinfra:xiaomimimo--mimo-v2.6-flash-rl#price_input,,0.14,USD per 1M tokens
 deepinfra:xiaomimimo--mimo-v2.6-flash-rl#price_output,,0.28,USD per 1M tokens
@@ -5444,6 +5444,7 @@ mistral:ministral-3-8b#price_input,,0.15,USD per 1M tokens
 mistral:ministral-3-8b#price_input@price-as-published-in-euros,price as published in euros,0.13,EUR per 1M tokens
 mistral:ministral-3-8b#price_output,,0.15,USD per 1M tokens
 mistral:ministral-3-8b#price_output@price-as-published-in-euros,price as published in euros,0.13,EUR per 1M tokens
+mistral:mistral-embed#price_cache_read,,0.01,USD per 1M tokens
 mistral:mistral-embed#price_input,,0.1,USD per 1M tokens
 mistral:mistral-embed#price_input@price-as-published-in-euros,price as published in euros,0.1,EUR per 1M tokens
 mistral:mistral-large-3#price_cache_read,,0.05,USD per 1M tokens
@@ -5469,6 +5470,9 @@ mistral:mistral-small-4#price_output,,0.6,USD per 1M tokens
 mistral:mistral-small-4#price_output@price-as-published-in-euros,price as published in euros,0.5,EUR per 1M tokens
 mistral:voxtral-small#price_output,,0.4,USD per 1M tokens
 mistral:voxtral-small#price_output@price-as-published-in-euros,price as published in euros,0.35,EUR per 1M tokens
+mistral:z-ai-glm-5-3-flash#price_cache_read,,0.03,USD per 1M tokens
+mistral:z-ai-glm-5-3-flash#price_input,,0.15,USD per 1M tokens
+mistral:z-ai-glm-5-3-flash#price_output,,0.5,USD per 1M tokens
 moonshot:kimi-k2-0711-preview#deprecation_date,,2026-05-25,date
 moonshot:kimi-k2-0905-preview#deprecation_date,,2026-05-25,date
 moonshot:kimi-k2-5#context_length,,262144.0,tokens
@@ -5502,6 +5506,8 @@ moonshot:kimi-k2-thinking-turbo#deprecation_date,,2026-05-25,date
 moonshot:kimi-k2-turbo-preview#deprecation_date,,2026-05-25,date
 moonshot:kimi-k3#context_length,,1048576.0,tokens
 moonshot:kimi-k3#price_cache_read,,0.3,USD per 1M tokens
+moonshot:kimi-k3#price_cache_write@cache-written-with-a-1-hour-ttl,cache written with a 1 hour TTL,6.0,USD per 1M tokens
+moonshot:kimi-k3#price_cache_write@cache-written-with-a-5-minute-ttl,cache written with a 5 minute TTL,3.0,USD per 1M tokens
 moonshot:kimi-k3#price_input,,3.0,USD per 1M tokens
 moonshot:kimi-k3#price_output,,15.0,USD per 1M tokens
 moonshot:moonshot-v1-128k#context_length,,131072.0,tokens
@@ -5529,6 +5535,7 @@ moonshot:moonshot-v1-8k-vision-preview#deprecation_date,,2026-08-31,date
 moonshot:moonshot-v1-8k-vision-preview#price_input,,0.2,USD per 1M tokens
 moonshot:moonshot-v1-8k-vision-preview#price_output,,2.0,USD per 1M tokens
 moonshot:moonshot-v1-auto#deprecation_date,,2026-08-31,date
+nebius:deepseek-ai--deepseek-v4-flash-0731#price_cache_read,,0.01,per 1M tokens
 nebius:deepseek-ai--deepseek-v4-flash-0731#price_input,,0.14,per 1M tokens
 nebius:deepseek-ai--deepseek-v4-flash-0731#price_output,,0.28,per 1M tokens
 nebius:deepseek-ai--deepseek-v4-flash-0731#quantization,,fp8,text
@@ -5537,14 +5544,21 @@ nebius:deepseek-ai--deepseek-v4-pro#price_input,,1.75,per 1M tokens
 nebius:deepseek-ai--deepseek-v4-pro#price_output,,3.5,per 1M tokens
 nebius:deepseek-ai--deepseek-v4-pro#quantization,,fp8,text
 nebius:deepseek-ai--deepseek-v4-pro#serving_region,,uk-south1 (UK),text
+nebius:deepseek-ai--deepseek-v4-pro-0813#price_cache_read,,0.04,per 1M tokens
 nebius:deepseek-ai--deepseek-v4-pro-0813#price_input,,1.32,per 1M tokens
 nebius:deepseek-ai--deepseek-v4-pro-0813#price_output,,3.96,per 1M tokens
 nebius:deepseek-ai--deepseek-v4-pro-0813#quantization,,fp8,text
 nebius:deepseek-ai--deepseek-v4-pro-0813#serving_region,,uk-south1 (UK),text
+nebius:deepseek-ai--deepseek-v4.1-flash#price_cache_read,,0.01,per 1M tokens
 nebius:deepseek-ai--deepseek-v4.1-flash#price_input,,0.3,per 1M tokens
 nebius:deepseek-ai--deepseek-v4.1-flash#price_output,,1.2,per 1M tokens
 nebius:deepseek-ai--deepseek-v4.1-flash#quantization,,fp8,text
 nebius:deepseek-ai--deepseek-v4.1-flash#serving_region,,us-north1 (US),text
+nebius:deepseek-ai--deepseek-v4.1-flash-1017#price_cache_read,,0.006,per 1M tokens
+nebius:deepseek-ai--deepseek-v4.1-flash-1017#price_input,,0.3,per 1M tokens
+nebius:deepseek-ai--deepseek-v4.1-flash-1017#price_output,,1.2,per 1M tokens
+nebius:deepseek-ai--deepseek-v4.1-flash-1017#quantization,,fp8,text
+nebius:deepseek-ai--deepseek-v4.1-flash-1017#serving_region,,us-north1 (US),text
 nebius:google--gemma-3-27b-it#price_input,,0.1,per 1M tokens
 nebius:google--gemma-3-27b-it#price_output,,0.3,per 1M tokens
 nebius:google--gemma-3-27b-it#quantization,,fp8,text
@@ -5553,22 +5567,32 @@ nebius:meta-llama--llama-3.3-70b-instruct#price_input,,0.13,per 1M tokens
 nebius:meta-llama--llama-3.3-70b-instruct#price_output,,0.4,per 1M tokens
 nebius:meta-llama--llama-3.3-70b-instruct#quantization,,fp8,text
 nebius:meta-llama--llama-3.3-70b-instruct#serving_region,,eu-north1 (FI),text
+nebius:meta-models--muse-spark-open#price_cache_read,,0.15,per 1M tokens
 nebius:meta-models--muse-spark-open#price_input,,1.25,per 1M tokens
 nebius:meta-models--muse-spark-open#price_output,,4.25,per 1M tokens
 nebius:meta-models--muse-spark-open#quantization,,fp4,text
 nebius:meta-models--muse-spark-open#serving_region,,us-north1 (US),text
+nebius:minimaxai--minimax-m3#price_cache_read,,0.06,per 1M tokens
 nebius:minimaxai--minimax-m3#price_input,,0.3,per 1M tokens
 nebius:minimaxai--minimax-m3#price_output,,1.2,per 1M tokens
 nebius:minimaxai--minimax-m3#quantization,,fp4,text
 nebius:minimaxai--minimax-m3#serving_region,,us-central1 (US),text
+nebius:minimaxai--minimax-m3.1-flash#price_cache_read,,0.015,per 1M tokens
+nebius:minimaxai--minimax-m3.1-flash#price_input,,0.15,per 1M tokens
+nebius:minimaxai--minimax-m3.1-flash#price_output,,0.6,per 1M tokens
+nebius:minimaxai--minimax-m3.1-flash#quantization,,fp4,text
+nebius:minimaxai--minimax-m3.1-flash#serving_region,,us-north1 (US),text
+nebius:moonshotai--kimi-k2.6#price_cache_read,,0.16,per 1M tokens
 nebius:moonshotai--kimi-k2.6#price_input,,0.95,per 1M tokens
 nebius:moonshotai--kimi-k2.6#price_output,,4.0,per 1M tokens
 nebius:moonshotai--kimi-k2.6#quantization,,int4,text
 nebius:moonshotai--kimi-k2.6#serving_region,,us-central1 (US),text
+nebius:moonshotai--kimi-k2.7-code#price_cache_read,,0.15,per 1M tokens
 nebius:moonshotai--kimi-k2.7-code#price_input,,0.95,per 1M tokens
 nebius:moonshotai--kimi-k2.7-code#price_output,,4.0,per 1M tokens
 nebius:moonshotai--kimi-k2.7-code#quantization,,fp4,text
 nebius:moonshotai--kimi-k2.7-code#serving_region,,us-central1 (US),text
+nebius:moonshotai--kimi-k3#price_cache_read,,0.3,per 1M tokens
 nebius:moonshotai--kimi-k3#price_input,,3.0,per 1M tokens
 nebius:moonshotai--kimi-k3#price_output,,15.0,per 1M tokens
 nebius:moonshotai--kimi-k3#quantization,,fp4,text
@@ -5577,14 +5601,17 @@ nebius:nousresearch--hermes-4-405b#price_input,,1.0,per 1M tokens
 nebius:nousresearch--hermes-4-405b#price_output,,3.0,per 1M tokens
 nebius:nousresearch--hermes-4-405b#quantization,,fp8,text
 nebius:nousresearch--hermes-4-405b#serving_region,,eu-north1 (FI),text
+nebius:nvidia--nemotron-3-super-120b-a12b#price_cache_read,,0.06,per 1M tokens
 nebius:nvidia--nemotron-3-super-120b-a12b#price_input,,0.3,per 1M tokens
 nebius:nvidia--nemotron-3-super-120b-a12b#price_output,,0.9,per 1M tokens
 nebius:nvidia--nemotron-3-super-120b-a12b#quantization,,fp4,text
 nebius:nvidia--nemotron-3-super-120b-a12b#serving_region,,us-central1 (US),text
+nebius:nvidia--nemotron-3-ultra-550b-a55b#price_cache_read,,0.12,per 1M tokens
 nebius:nvidia--nemotron-3-ultra-550b-a55b#price_input,,1.0,per 1M tokens
 nebius:nvidia--nemotron-3-ultra-550b-a55b#price_output,,3.0,per 1M tokens
 nebius:nvidia--nemotron-3-ultra-550b-a55b#quantization,,fp4,text
 nebius:nvidia--nemotron-3-ultra-550b-a55b#serving_region,,us-central1 (US),text
+nebius:nvidia--nemotron-3.5-super-vl#price_cache_read,,0.06,per 1M tokens
 nebius:nvidia--nemotron-3.5-super-vl#price_input,,0.3,per 1M tokens
 nebius:nvidia--nemotron-3.5-super-vl#price_output,,0.9,per 1M tokens
 nebius:nvidia--nemotron-3.5-super-vl#quantization,,bf16,text
@@ -5616,30 +5643,36 @@ nebius:qwen--qwen3-30b-a3b-instruct-2507#serving_region,,eu-north1 (FI),text
 nebius:qwen--qwen3-embedding-8b#embedding_dimensions,,4096.0,dimensions
 nebius:qwen--qwen3-embedding-8b#price_input,,0.01,per 1M tokens
 nebius:qwen--qwen3-embedding-8b#serving_region,,eu-north1 (FI),text
+nebius:qwen--qwen3.5-397b-a17b#price_cache_read,,0.12,per 1M tokens
 nebius:qwen--qwen3.5-397b-a17b#price_input,,0.6,per 1M tokens
 nebius:qwen--qwen3.5-397b-a17b#price_output,,3.6,per 1M tokens
 nebius:qwen--qwen3.5-397b-a17b#quantization,,fp4,text
 nebius:qwen--qwen3.5-397b-a17b#serving_region,,us-central1 (US),text
+nebius:qwen--qwen3.8-27b#price_cache_read,,0.1,per 1M tokens
 nebius:qwen--qwen3.8-27b#price_input,,0.45,per 1M tokens
 nebius:qwen--qwen3.8-27b#price_output,,3.0,per 1M tokens
 nebius:qwen--qwen3.8-27b#quantization,,fp4,text
 nebius:qwen--qwen3.8-27b#serving_region,,us-central1 (US),text
+nebius:reflection--beam#price_cache_read,,0.05,per 1M tokens
 nebius:reflection--beam#price_input,,0.25,per 1M tokens
 nebius:reflection--beam#price_output,,1.0,per 1M tokens
-nebius:reflection--beam#quantization,,fp8,text
+nebius:reflection--beam#quantization,,fp4,text
 nebius:reflection--beam#serving_region,,us-north1 (US),text
 nebius:zai-org--glm-5.1#price_input,,1.4,per 1M tokens
 nebius:zai-org--glm-5.1#price_output,,4.4,per 1M tokens
 nebius:zai-org--glm-5.1#quantization,,fp8,text
 nebius:zai-org--glm-5.1#serving_region,,eu-north1 (FI),text
+nebius:zai-org--glm-5.2#price_cache_read,,0.14,per 1M tokens
 nebius:zai-org--glm-5.2#price_input,,1.4,per 1M tokens
 nebius:zai-org--glm-5.2#price_output,,4.4,per 1M tokens
 nebius:zai-org--glm-5.2#quantization,,fp4,text
 nebius:zai-org--glm-5.2#serving_region,,uk-south1 (UK),text
+nebius:zai-org--glm-5.3#price_cache_read,,0.26,per 1M tokens
 nebius:zai-org--glm-5.3#price_input,,1.4,per 1M tokens
 nebius:zai-org--glm-5.3#price_output,,4.4,per 1M tokens
 nebius:zai-org--glm-5.3#quantization,,fp4,text
 nebius:zai-org--glm-5.3#serving_region,,us-north1 (US),text
+nebius:zai-org--glm-5.3-flash#price_cache_read,,0.03,per 1M tokens
 nebius:zai-org--glm-5.3-flash#price_input,,0.15,per 1M tokens
 nebius:zai-org--glm-5.3-flash#price_output,,0.5,per 1M tokens
 nebius:zai-org--glm-5.3-flash#quantization,,fp4,text
@@ -6969,14 +7002,22 @@ openai:gpt-5-6-luna#price_cache_read@fast-tier--long-context,fast tier; long con
 openai:gpt-5-6-luna#price_cache_read@flex-tier,flex tier,0.01,USD per 1M tokens
 openai:gpt-5-6-luna#price_cache_read@flex-tier--long-context,flex tier; long context,0.02,USD per 1M tokens
 openai:gpt-5-6-luna#price_cache_read@long-context,long context,0.04,USD per 1M tokens
-openai:gpt-5-6-luna#price_cache_write,,0.25,USD per 1M tokens
-openai:gpt-5-6-luna#price_cache_write@batch-tier,batch tier,0.125,USD per 1M tokens
-openai:gpt-5-6-luna#price_cache_write@batch-tier--long-context,batch tier; long context,0.25,USD per 1M tokens
-openai:gpt-5-6-luna#price_cache_write@fast-tier,fast tier,0.5,USD per 1M tokens
-openai:gpt-5-6-luna#price_cache_write@fast-tier--long-context,fast tier; long context,1.0,USD per 1M tokens
-openai:gpt-5-6-luna#price_cache_write@flex-tier,flex tier,0.125,USD per 1M tokens
-openai:gpt-5-6-luna#price_cache_write@flex-tier--long-context,flex tier; long context,0.25,USD per 1M tokens
-openai:gpt-5-6-luna#price_cache_write@long-context,long context,0.5,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@batch-tier--cache-written-with-a-12-hour-ttl,batch tier; cache written with a 12 hour TTL,0.25,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@batch-tier--cache-written-with-a-30-minute-ttl,batch tier; cache written with a 30 minute TTL,0.125,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@batch-tier--long-context--cache-written-with-a-12-hour-ttl,batch tier; long context; cache written with a 12 hour TTL,0.5,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@batch-tier--long-context--cache-written-with-a-30-minute-ttl,batch tier; long context; cache written with a 30 minute TTL,0.25,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@cache-written-with-a-12-hour-ttl,cache written with a 12 hour TTL,0.5,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@cache-written-with-a-30-minute-ttl,cache written with a 30 minute TTL,0.25,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@fast-tier--cache-written-with-a-12-hour-ttl,fast tier; cache written with a 12 hour TTL,1.0,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@fast-tier--cache-written-with-a-30-minute-ttl,fast tier; cache written with a 30 minute TTL,0.5,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@fast-tier--long-context--cache-written-with-a-12-hour-ttl,fast tier; long context; cache written with a 12 hour TTL,2.0,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@fast-tier--long-context--cache-written-with-a-30-minute-ttl,fast tier; long context; cache written with a 30 minute TTL,1.0,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@flex-tier--cache-written-with-a-12-hour-ttl,flex tier; cache written with a 12 hour TTL,0.25,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@flex-tier--cache-written-with-a-30-minute-ttl,flex tier; cache written with a 30 minute TTL,0.125,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@flex-tier--long-context--cache-written-with-a-12-hour-ttl,flex tier; long context; cache written with a 12 hour TTL,0.5,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@flex-tier--long-context--cache-written-with-a-30-minute-ttl,flex tier; long context; cache written with a 30 minute TTL,0.25,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@long-context--cache-written-with-a-12-hour-ttl,long context; cache written with a 12 hour TTL,1.0,USD per 1M tokens
+openai:gpt-5-6-luna#price_cache_write@long-context--cache-written-with-a-30-minute-ttl,long context; cache written with a 30 minute TTL,0.5,USD per 1M tokens
 openai:gpt-5-6-luna#price_input,,0.2,USD per 1M tokens
 openai:gpt-5-6-luna#price_input@batch-tier,batch tier,0.1,USD per 1M tokens
 openai:gpt-5-6-luna#price_input@batch-tier--long-context,batch tier; long context,0.2,USD per 1M tokens
@@ -7001,14 +7042,22 @@ openai:gpt-5-6-sol#price_cache_read@fast-tier--long-context,fast tier; long cont
 openai:gpt-5-6-sol#price_cache_read@flex-tier,flex tier,0.2,USD per 1M tokens
 openai:gpt-5-6-sol#price_cache_read@flex-tier--long-context,flex tier; long context,0.4,USD per 1M tokens
 openai:gpt-5-6-sol#price_cache_read@long-context,long context,0.8,USD per 1M tokens
-openai:gpt-5-6-sol#price_cache_write,,5.0,USD per 1M tokens
-openai:gpt-5-6-sol#price_cache_write@batch-tier,batch tier,2.5,USD per 1M tokens
-openai:gpt-5-6-sol#price_cache_write@batch-tier--long-context,batch tier; long context,5.0,USD per 1M tokens
-openai:gpt-5-6-sol#price_cache_write@fast-tier,fast tier,10.0,USD per 1M tokens
-openai:gpt-5-6-sol#price_cache_write@fast-tier--long-context,fast tier; long context,20.0,USD per 1M tokens
-openai:gpt-5-6-sol#price_cache_write@flex-tier,flex tier,2.5,USD per 1M tokens
-openai:gpt-5-6-sol#price_cache_write@flex-tier--long-context,flex tier; long context,5.0,USD per 1M tokens
-openai:gpt-5-6-sol#price_cache_write@long-context,long context,10.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@batch-tier--cache-written-with-a-12-hour-ttl,batch tier; cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@batch-tier--cache-written-with-a-30-minute-ttl,batch tier; cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@batch-tier--long-context--cache-written-with-a-12-hour-ttl,batch tier; long context; cache written with a 12 hour TTL,10.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@batch-tier--long-context--cache-written-with-a-30-minute-ttl,batch tier; long context; cache written with a 30 minute TTL,5.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@cache-written-with-a-12-hour-ttl,cache written with a 12 hour TTL,10.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@cache-written-with-a-30-minute-ttl,cache written with a 30 minute TTL,5.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@fast-tier--cache-written-with-a-12-hour-ttl,fast tier; cache written with a 12 hour TTL,20.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@fast-tier--cache-written-with-a-30-minute-ttl,fast tier; cache written with a 30 minute TTL,10.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@fast-tier--long-context--cache-written-with-a-12-hour-ttl,fast tier; long context; cache written with a 12 hour TTL,40.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@fast-tier--long-context--cache-written-with-a-30-minute-ttl,fast tier; long context; cache written with a 30 minute TTL,20.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@flex-tier--cache-written-with-a-12-hour-ttl,flex tier; cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@flex-tier--cache-written-with-a-30-minute-ttl,flex tier; cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@flex-tier--long-context--cache-written-with-a-12-hour-ttl,flex tier; long context; cache written with a 12 hour TTL,10.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@flex-tier--long-context--cache-written-with-a-30-minute-ttl,flex tier; long context; cache written with a 30 minute TTL,5.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@long-context--cache-written-with-a-12-hour-ttl,long context; cache written with a 12 hour TTL,20.0,USD per 1M tokens
+openai:gpt-5-6-sol#price_cache_write@long-context--cache-written-with-a-30-minute-ttl,long context; cache written with a 30 minute TTL,10.0,USD per 1M tokens
 openai:gpt-5-6-sol#price_input,,4.0,USD per 1M tokens
 openai:gpt-5-6-sol#price_input@batch-tier,batch tier,2.0,USD per 1M tokens
 openai:gpt-5-6-sol#price_input@batch-tier--long-context,batch tier; long context,4.0,USD per 1M tokens
@@ -7033,14 +7082,22 @@ openai:gpt-5-6-terra#price_cache_read@fast-tier--long-context,fast tier; long co
 openai:gpt-5-6-terra#price_cache_read@flex-tier,flex tier,0.1,USD per 1M tokens
 openai:gpt-5-6-terra#price_cache_read@flex-tier--long-context,flex tier; long context,0.2,USD per 1M tokens
 openai:gpt-5-6-terra#price_cache_read@long-context,long context,0.4,USD per 1M tokens
-openai:gpt-5-6-terra#price_cache_write,,2.5,USD per 1M tokens
-openai:gpt-5-6-terra#price_cache_write@batch-tier,batch tier,1.25,USD per 1M tokens
-openai:gpt-5-6-terra#price_cache_write@batch-tier--long-context,batch tier; long context,2.5,USD per 1M tokens
-openai:gpt-5-6-terra#price_cache_write@fast-tier,fast tier,5.0,USD per 1M tokens
-openai:gpt-5-6-terra#price_cache_write@fast-tier--long-context,fast tier; long context,10.0,USD per 1M tokens
-openai:gpt-5-6-terra#price_cache_write@flex-tier,flex tier,1.25,USD per 1M tokens
-openai:gpt-5-6-terra#price_cache_write@flex-tier--long-context,flex tier; long context,2.5,USD per 1M tokens
-openai:gpt-5-6-terra#price_cache_write@long-context,long context,5.0,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@batch-tier--cache-written-with-a-12-hour-ttl,batch tier; cache written with a 12 hour TTL,2.5,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@batch-tier--cache-written-with-a-30-minute-ttl,batch tier; cache written with a 30 minute TTL,1.25,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@batch-tier--long-context--cache-written-with-a-12-hour-ttl,batch tier; long context; cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@batch-tier--long-context--cache-written-with-a-30-minute-ttl,batch tier; long context; cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@cache-written-with-a-12-hour-ttl,cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@cache-written-with-a-30-minute-ttl,cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@fast-tier--cache-written-with-a-12-hour-ttl,fast tier; cache written with a 12 hour TTL,10.0,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@fast-tier--cache-written-with-a-30-minute-ttl,fast tier; cache written with a 30 minute TTL,5.0,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@fast-tier--long-context--cache-written-with-a-12-hour-ttl,fast tier; long context; cache written with a 12 hour TTL,20.0,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@fast-tier--long-context--cache-written-with-a-30-minute-ttl,fast tier; long context; cache written with a 30 minute TTL,10.0,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@flex-tier--cache-written-with-a-12-hour-ttl,flex tier; cache written with a 12 hour TTL,2.5,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@flex-tier--cache-written-with-a-30-minute-ttl,flex tier; cache written with a 30 minute TTL,1.25,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@flex-tier--long-context--cache-written-with-a-12-hour-ttl,flex tier; long context; cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@flex-tier--long-context--cache-written-with-a-30-minute-ttl,flex tier; long context; cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@long-context--cache-written-with-a-12-hour-ttl,long context; cache written with a 12 hour TTL,10.0,USD per 1M tokens
+openai:gpt-5-6-terra#price_cache_write@long-context--cache-written-with-a-30-minute-ttl,long context; cache written with a 30 minute TTL,5.0,USD per 1M tokens
 openai:gpt-5-6-terra#price_input,,2.0,USD per 1M tokens
 openai:gpt-5-6-terra#price_input@batch-tier,batch tier,1.0,USD per 1M tokens
 openai:gpt-5-6-terra#price_input@batch-tier--long-context,batch tier; long context,2.0,USD per 1M tokens
@@ -7090,14 +7147,22 @@ openai:gpt-6-1-sol#price_cache_read@fast-tier--long-context,fast tier; long cont
 openai:gpt-6-1-sol#price_cache_read@flex-tier,flex tier,0.05,USD per 1M tokens
 openai:gpt-6-1-sol#price_cache_read@flex-tier--long-context,flex tier; long context,0.1,USD per 1M tokens
 openai:gpt-6-1-sol#price_cache_read@long-context,long context,0.2,USD per 1M tokens
-openai:gpt-6-1-sol#price_cache_write,,2.5,USD per 1M tokens
-openai:gpt-6-1-sol#price_cache_write@batch-tier,batch tier,1.25,USD per 1M tokens
-openai:gpt-6-1-sol#price_cache_write@batch-tier--long-context,batch tier; long context,2.5,USD per 1M tokens
-openai:gpt-6-1-sol#price_cache_write@fast-tier,fast tier,5.0,USD per 1M tokens
-openai:gpt-6-1-sol#price_cache_write@fast-tier--long-context,fast tier; long context,10.0,USD per 1M tokens
-openai:gpt-6-1-sol#price_cache_write@flex-tier,flex tier,1.25,USD per 1M tokens
-openai:gpt-6-1-sol#price_cache_write@flex-tier--long-context,flex tier; long context,2.5,USD per 1M tokens
-openai:gpt-6-1-sol#price_cache_write@long-context,long context,5.0,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@batch-tier--cache-written-with-a-12-hour-ttl,batch tier; cache written with a 12 hour TTL,2.5,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@batch-tier--cache-written-with-a-30-minute-ttl,batch tier; cache written with a 30 minute TTL,1.25,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@batch-tier--long-context--cache-written-with-a-12-hour-ttl,batch tier; long context; cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@batch-tier--long-context--cache-written-with-a-30-minute-ttl,batch tier; long context; cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@cache-written-with-a-12-hour-ttl,cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@cache-written-with-a-30-minute-ttl,cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@fast-tier--cache-written-with-a-12-hour-ttl,fast tier; cache written with a 12 hour TTL,10.0,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@fast-tier--cache-written-with-a-30-minute-ttl,fast tier; cache written with a 30 minute TTL,5.0,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@fast-tier--long-context--cache-written-with-a-12-hour-ttl,fast tier; long context; cache written with a 12 hour TTL,20.0,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@fast-tier--long-context--cache-written-with-a-30-minute-ttl,fast tier; long context; cache written with a 30 minute TTL,10.0,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@flex-tier--cache-written-with-a-12-hour-ttl,flex tier; cache written with a 12 hour TTL,2.5,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@flex-tier--cache-written-with-a-30-minute-ttl,flex tier; cache written with a 30 minute TTL,1.25,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@flex-tier--long-context--cache-written-with-a-12-hour-ttl,flex tier; long context; cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@flex-tier--long-context--cache-written-with-a-30-minute-ttl,flex tier; long context; cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@long-context--cache-written-with-a-12-hour-ttl,long context; cache written with a 12 hour TTL,10.0,USD per 1M tokens
+openai:gpt-6-1-sol#price_cache_write@long-context--cache-written-with-a-30-minute-ttl,long context; cache written with a 30 minute TTL,5.0,USD per 1M tokens
 openai:gpt-6-1-sol#price_input,,2.0,USD per 1M tokens
 openai:gpt-6-1-sol#price_input@batch-tier,batch tier,1.0,USD per 1M tokens
 openai:gpt-6-1-sol#price_input@batch-tier--long-context,batch tier; long context,2.0,USD per 1M tokens
@@ -7122,14 +7187,22 @@ openai:gpt-6-astra#price_cache_read@fast-tier--long-context,fast tier; long cont
 openai:gpt-6-astra#price_cache_read@flex-tier,flex tier,0.5,USD per 1M tokens
 openai:gpt-6-astra#price_cache_read@flex-tier--long-context,flex tier; long context,1.0,USD per 1M tokens
 openai:gpt-6-astra#price_cache_read@long-context,long context,2.0,USD per 1M tokens
-openai:gpt-6-astra#price_cache_write,,12.5,USD per 1M tokens
-openai:gpt-6-astra#price_cache_write@batch-tier,batch tier,6.25,USD per 1M tokens
-openai:gpt-6-astra#price_cache_write@batch-tier--long-context,batch tier; long context,12.5,USD per 1M tokens
-openai:gpt-6-astra#price_cache_write@fast-tier,fast tier,25.0,USD per 1M tokens
-openai:gpt-6-astra#price_cache_write@fast-tier--long-context,fast tier; long context,50.0,USD per 1M tokens
-openai:gpt-6-astra#price_cache_write@flex-tier,flex tier,6.25,USD per 1M tokens
-openai:gpt-6-astra#price_cache_write@flex-tier--long-context,flex tier; long context,12.5,USD per 1M tokens
-openai:gpt-6-astra#price_cache_write@long-context,long context,25.0,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@batch-tier--cache-written-with-a-12-hour-ttl,batch tier; cache written with a 12 hour TTL,12.5,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@batch-tier--cache-written-with-a-30-minute-ttl,batch tier; cache written with a 30 minute TTL,6.25,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@batch-tier--long-context--cache-written-with-a-12-hour-ttl,batch tier; long context; cache written with a 12 hour TTL,25.0,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@batch-tier--long-context--cache-written-with-a-30-minute-ttl,batch tier; long context; cache written with a 30 minute TTL,12.5,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@cache-written-with-a-12-hour-ttl,cache written with a 12 hour TTL,25.0,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@cache-written-with-a-30-minute-ttl,cache written with a 30 minute TTL,12.5,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@fast-tier--cache-written-with-a-12-hour-ttl,fast tier; cache written with a 12 hour TTL,50.0,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@fast-tier--cache-written-with-a-30-minute-ttl,fast tier; cache written with a 30 minute TTL,25.0,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@fast-tier--long-context--cache-written-with-a-12-hour-ttl,fast tier; long context; cache written with a 12 hour TTL,100.0,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@fast-tier--long-context--cache-written-with-a-30-minute-ttl,fast tier; long context; cache written with a 30 minute TTL,50.0,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@flex-tier--cache-written-with-a-12-hour-ttl,flex tier; cache written with a 12 hour TTL,12.5,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@flex-tier--cache-written-with-a-30-minute-ttl,flex tier; cache written with a 30 minute TTL,6.25,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@flex-tier--long-context--cache-written-with-a-12-hour-ttl,flex tier; long context; cache written with a 12 hour TTL,25.0,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@flex-tier--long-context--cache-written-with-a-30-minute-ttl,flex tier; long context; cache written with a 30 minute TTL,12.5,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@long-context--cache-written-with-a-12-hour-ttl,long context; cache written with a 12 hour TTL,50.0,USD per 1M tokens
+openai:gpt-6-astra#price_cache_write@long-context--cache-written-with-a-30-minute-ttl,long context; cache written with a 30 minute TTL,25.0,USD per 1M tokens
 openai:gpt-6-astra#price_input,,10.0,USD per 1M tokens
 openai:gpt-6-astra#price_input@batch-tier,batch tier,5.0,USD per 1M tokens
 openai:gpt-6-astra#price_input@batch-tier--long-context,batch tier; long context,10.0,USD per 1M tokens
@@ -7154,14 +7227,22 @@ openai:gpt-6-luna#price_cache_read@fast-tier--long-context,fast tier; long conte
 openai:gpt-6-luna#price_cache_read@flex-tier,flex tier,0.005,USD per 1M tokens
 openai:gpt-6-luna#price_cache_read@flex-tier--long-context,flex tier; long context,0.01,USD per 1M tokens
 openai:gpt-6-luna#price_cache_read@long-context,long context,0.02,USD per 1M tokens
-openai:gpt-6-luna#price_cache_write,,0.125,USD per 1M tokens
-openai:gpt-6-luna#price_cache_write@batch-tier,batch tier,0.0625,USD per 1M tokens
-openai:gpt-6-luna#price_cache_write@batch-tier--long-context,batch tier; long context,0.125,USD per 1M tokens
-openai:gpt-6-luna#price_cache_write@fast-tier,fast tier,0.25,USD per 1M tokens
-openai:gpt-6-luna#price_cache_write@fast-tier--long-context,fast tier; long context,0.5,USD per 1M tokens
-openai:gpt-6-luna#price_cache_write@flex-tier,flex tier,0.0625,USD per 1M tokens
-openai:gpt-6-luna#price_cache_write@flex-tier--long-context,flex tier; long context,0.125,USD per 1M tokens
-openai:gpt-6-luna#price_cache_write@long-context,long context,0.25,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@batch-tier--cache-written-with-a-12-hour-ttl,batch tier; cache written with a 12 hour TTL,0.125,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@batch-tier--cache-written-with-a-30-minute-ttl,batch tier; cache written with a 30 minute TTL,0.0625,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@batch-tier--long-context--cache-written-with-a-12-hour-ttl,batch tier; long context; cache written with a 12 hour TTL,0.25,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@batch-tier--long-context--cache-written-with-a-30-minute-ttl,batch tier; long context; cache written with a 30 minute TTL,0.125,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@cache-written-with-a-12-hour-ttl,cache written with a 12 hour TTL,0.25,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@cache-written-with-a-30-minute-ttl,cache written with a 30 minute TTL,0.125,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@fast-tier--cache-written-with-a-12-hour-ttl,fast tier; cache written with a 12 hour TTL,0.5,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@fast-tier--cache-written-with-a-30-minute-ttl,fast tier; cache written with a 30 minute TTL,0.25,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@fast-tier--long-context--cache-written-with-a-12-hour-ttl,fast tier; long context; cache written with a 12 hour TTL,1.0,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@fast-tier--long-context--cache-written-with-a-30-minute-ttl,fast tier; long context; cache written with a 30 minute TTL,0.5,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@flex-tier--cache-written-with-a-12-hour-ttl,flex tier; cache written with a 12 hour TTL,0.125,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@flex-tier--cache-written-with-a-30-minute-ttl,flex tier; cache written with a 30 minute TTL,0.0625,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@flex-tier--long-context--cache-written-with-a-12-hour-ttl,flex tier; long context; cache written with a 12 hour TTL,0.25,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@flex-tier--long-context--cache-written-with-a-30-minute-ttl,flex tier; long context; cache written with a 30 minute TTL,0.125,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@long-context--cache-written-with-a-12-hour-ttl,long context; cache written with a 12 hour TTL,0.5,USD per 1M tokens
+openai:gpt-6-luna#price_cache_write@long-context--cache-written-with-a-30-minute-ttl,long context; cache written with a 30 minute TTL,0.25,USD per 1M tokens
 openai:gpt-6-luna#price_input,,0.1,USD per 1M tokens
 openai:gpt-6-luna#price_input@batch-tier,batch tier,0.05,USD per 1M tokens
 openai:gpt-6-luna#price_input@batch-tier--long-context,batch tier; long context,0.1,USD per 1M tokens
@@ -7186,14 +7267,22 @@ openai:gpt-6-sol#price_cache_read@fast-tier--long-context,fast tier; long contex
 openai:gpt-6-sol#price_cache_read@flex-tier,flex tier,0.1,USD per 1M tokens
 openai:gpt-6-sol#price_cache_read@flex-tier--long-context,flex tier; long context,0.2,USD per 1M tokens
 openai:gpt-6-sol#price_cache_read@long-context,long context,0.4,USD per 1M tokens
-openai:gpt-6-sol#price_cache_write,,2.5,USD per 1M tokens
-openai:gpt-6-sol#price_cache_write@batch-tier,batch tier,1.25,USD per 1M tokens
-openai:gpt-6-sol#price_cache_write@batch-tier--long-context,batch tier; long context,2.5,USD per 1M tokens
-openai:gpt-6-sol#price_cache_write@fast-tier,fast tier,5.0,USD per 1M tokens
-openai:gpt-6-sol#price_cache_write@fast-tier--long-context,fast tier; long context,10.0,USD per 1M tokens
-openai:gpt-6-sol#price_cache_write@flex-tier,flex tier,1.25,USD per 1M tokens
-openai:gpt-6-sol#price_cache_write@flex-tier--long-context,flex tier; long context,2.5,USD per 1M tokens
-openai:gpt-6-sol#price_cache_write@long-context,long context,5.0,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@batch-tier--cache-written-with-a-12-hour-ttl,batch tier; cache written with a 12 hour TTL,2.5,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@batch-tier--cache-written-with-a-30-minute-ttl,batch tier; cache written with a 30 minute TTL,1.25,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@batch-tier--long-context--cache-written-with-a-12-hour-ttl,batch tier; long context; cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@batch-tier--long-context--cache-written-with-a-30-minute-ttl,batch tier; long context; cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@cache-written-with-a-12-hour-ttl,cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@cache-written-with-a-30-minute-ttl,cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@fast-tier--cache-written-with-a-12-hour-ttl,fast tier; cache written with a 12 hour TTL,10.0,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@fast-tier--cache-written-with-a-30-minute-ttl,fast tier; cache written with a 30 minute TTL,5.0,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@fast-tier--long-context--cache-written-with-a-12-hour-ttl,fast tier; long context; cache written with a 12 hour TTL,20.0,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@fast-tier--long-context--cache-written-with-a-30-minute-ttl,fast tier; long context; cache written with a 30 minute TTL,10.0,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@flex-tier--cache-written-with-a-12-hour-ttl,flex tier; cache written with a 12 hour TTL,2.5,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@flex-tier--cache-written-with-a-30-minute-ttl,flex tier; cache written with a 30 minute TTL,1.25,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@flex-tier--long-context--cache-written-with-a-12-hour-ttl,flex tier; long context; cache written with a 12 hour TTL,5.0,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@flex-tier--long-context--cache-written-with-a-30-minute-ttl,flex tier; long context; cache written with a 30 minute TTL,2.5,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@long-context--cache-written-with-a-12-hour-ttl,long context; cache written with a 12 hour TTL,10.0,USD per 1M tokens
+openai:gpt-6-sol#price_cache_write@long-context--cache-written-with-a-30-minute-ttl,long context; cache written with a 30 minute TTL,5.0,USD per 1M tokens
 openai:gpt-6-sol#price_input,,2.0,USD per 1M tokens
 openai:gpt-6-sol#price_input@batch-tier,batch tier,1.0,USD per 1M tokens
 openai:gpt-6-sol#price_input@batch-tier--long-context,batch tier; long context,2.0,USD per 1M tokens
@@ -7988,9 +8077,9 @@ openrouter:deepseek--deepseek-v4-flash-0731#context_length,,1048576.0,tokens
 openrouter:deepseek--deepseek-v4-flash-0731#input_modalities,,text,list
 openrouter:deepseek--deepseek-v4-flash-0731#max_output_tokens,,131072.0,tokens
 openrouter:deepseek--deepseek-v4-flash-0731#output_modalities,,text,list
-openrouter:deepseek--deepseek-v4-flash-0731#price_cache_read,,0.014,USD per 1M tokens
-openrouter:deepseek--deepseek-v4-flash-0731#price_input,,0.44,USD per 1M tokens
-openrouter:deepseek--deepseek-v4-flash-0731#price_output,,1.32,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-flash-0731#price_cache_read,,0.001414,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-flash-0731#price_input,,0.04444,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-flash-0731#price_output,,0.13332,USD per 1M tokens
 openrouter:deepseek--deepseek-v4-flash-0731#released_at,,2026-07-31,date
 openrouter:deepseek--deepseek-v4-flash-0731#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_a, top_k, top_logprobs, top_p",list
 openrouter:deepseek--deepseek-v4-flash-0731:batch#context_length,,1048576.0,tokens
@@ -8038,9 +8127,9 @@ openrouter:deepseek--deepseek-v4-pro#context_length,,1048576.0,tokens
 openrouter:deepseek--deepseek-v4-pro#input_modalities,,text,list
 openrouter:deepseek--deepseek-v4-pro#max_output_tokens,,384000.0,tokens
 openrouter:deepseek--deepseek-v4-pro#output_modalities,,text,list
-openrouter:deepseek--deepseek-v4-pro#price_cache_read,,0.079605,USD per 1M tokens
-openrouter:deepseek--deepseek-v4-pro#price_input,,0.95526,USD per 1M tokens
-openrouter:deepseek--deepseek-v4-pro#price_output,,1.91052,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-pro#price_cache_read,,0.049271,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-pro#price_input,,0.591252,USD per 1M tokens
+openrouter:deepseek--deepseek-v4-pro#price_output,,1.182504,USD per 1M tokens
 openrouter:deepseek--deepseek-v4-pro#released_at,,2026-04-24,date
 openrouter:deepseek--deepseek-v4-pro#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_completion_tokens, max_tokens, min_p, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:deepseek--deepseek-v4-pro-0813#context_length,,1048576.0,tokens
@@ -8071,17 +8160,17 @@ openrouter:deepseek--deepseek-v4.1-flash#context_length,,1048576.0,tokens
 openrouter:deepseek--deepseek-v4.1-flash#input_modalities,,"image, text",list
 openrouter:deepseek--deepseek-v4.1-flash#max_output_tokens,,943718.0,tokens
 openrouter:deepseek--deepseek-v4.1-flash#output_modalities,,text,list
-openrouter:deepseek--deepseek-v4.1-flash#price_cache_read,,0.006,USD per 1M tokens
+openrouter:deepseek--deepseek-v4.1-flash#price_cache_read,,0.015,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_cache_read@weekdays-00-00-to-01-00-utc--weekdays-04-00-to-06-00-utc--we,"weekdays 00:00 to 01:00 UTC; weekdays 04:00 to 06:00 UTC; weekdays 10:00 to 00:00 UTC; weekends (all day, UTC)",0.003,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_cache_read@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,0.006,USD per 1M tokens
-openrouter:deepseek--deepseek-v4.1-flash#price_input,,0.165,USD per 1M tokens
+openrouter:deepseek--deepseek-v4.1-flash#price_input,,0.02,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_input@weekdays-00-00-to-01-00-utc--weekdays-04-00-to-06-00-utc--we,"weekdays 00:00 to 01:00 UTC; weekdays 04:00 to 06:00 UTC; weekdays 10:00 to 00:00 UTC; weekends (all day, UTC)",0.15,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_input@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,0.3,USD per 1M tokens
-openrouter:deepseek--deepseek-v4.1-flash#price_output,,0.66,USD per 1M tokens
+openrouter:deepseek--deepseek-v4.1-flash#price_output,,1.0,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_output@weekdays-00-00-to-01-00-utc--weekdays-04-00-to-06-00-utc--we,"weekdays 00:00 to 01:00 UTC; weekdays 04:00 to 06:00 UTC; weekdays 10:00 to 00:00 UTC; weekends (all day, UTC)",0.6,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#price_output@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,1.2,USD per 1M tokens
 openrouter:deepseek--deepseek-v4.1-flash#released_at,,2026-09-10,date
-openrouter:deepseek--deepseek-v4.1-flash#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
+openrouter:deepseek--deepseek-v4.1-flash#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_a, top_k, top_logprobs, top_p",list
 openrouter:deepseek--deepseek-v4.1-flash-1017#context_length,,1048576.0,tokens
 openrouter:deepseek--deepseek-v4.1-flash-1017#input_modalities,,"image, text",list
 openrouter:deepseek--deepseek-v4.1-flash-1017#max_output_tokens,,393216.0,tokens
@@ -8557,9 +8646,9 @@ openrouter:google--gemma-4-26b-a4b-it#context_length,,262144.0,tokens
 openrouter:google--gemma-4-26b-a4b-it#input_modalities,,"image, text, video",list
 openrouter:google--gemma-4-26b-a4b-it#max_output_tokens,,235929.0,tokens
 openrouter:google--gemma-4-26b-a4b-it#output_modalities,,text,list
-openrouter:google--gemma-4-26b-a4b-it#price_cache_read,,0.0425,USD per 1M tokens
-openrouter:google--gemma-4-26b-a4b-it#price_input,,0.0765,USD per 1M tokens
-openrouter:google--gemma-4-26b-a4b-it#price_output,,0.255,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_cache_read,,0.0375,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_input,,0.0675,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_output,,0.225,USD per 1M tokens
 openrouter:google--gemma-4-26b-a4b-it#released_at,,2026-04-03,date
 openrouter:google--gemma-4-26b-a4b-it#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:google--gemma-4-26b-a4b-it:free#context_length,,262144.0,tokens
@@ -9404,7 +9493,7 @@ openrouter:moonshotai--kimi-k2.7-code#context_length,,262144.0,tokens
 openrouter:moonshotai--kimi-k2.7-code#input_modalities,,"image, text",list
 openrouter:moonshotai--kimi-k2.7-code#max_output_tokens,,235929.0,tokens
 openrouter:moonshotai--kimi-k2.7-code#output_modalities,,text,list
-openrouter:moonshotai--kimi-k2.7-code#price_cache_read,,0.18,USD per 1M tokens
+openrouter:moonshotai--kimi-k2.7-code#price_cache_read,,0.15,USD per 1M tokens
 openrouter:moonshotai--kimi-k2.7-code#price_input,,0.6712,USD per 1M tokens
 openrouter:moonshotai--kimi-k2.7-code#price_output,,3.35,USD per 1M tokens
 openrouter:moonshotai--kimi-k2.7-code#released_at,,2026-06-12,date
@@ -9424,9 +9513,18 @@ openrouter:moonshotai--kimi-k3#max_output_tokens,,943718.0,tokens
 openrouter:moonshotai--kimi-k3#output_modalities,,text,list
 openrouter:moonshotai--kimi-k3#price_cache_read,,0.21,USD per 1M tokens
 openrouter:moonshotai--kimi-k3#price_input,,0.239,USD per 1M tokens
-openrouter:moonshotai--kimi-k3#price_output,,11.936,USD per 1M tokens
+openrouter:moonshotai--kimi-k3#price_output,,10.8,USD per 1M tokens
 openrouter:moonshotai--kimi-k3#released_at,,2026-07-16,date
 openrouter:moonshotai--kimi-k3#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_completion_tokens, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
+openrouter:moonshotai--kimi-k3.1-pro#context_length,,1048576.0,tokens
+openrouter:moonshotai--kimi-k3.1-pro#input_modalities,,"image, text, video",list
+openrouter:moonshotai--kimi-k3.1-pro#max_output_tokens,,943718.0,tokens
+openrouter:moonshotai--kimi-k3.1-pro#output_modalities,,text,list
+openrouter:moonshotai--kimi-k3.1-pro#price_cache_read,,0.2,USD per 1M tokens
+openrouter:moonshotai--kimi-k3.1-pro#price_input,,2.0,USD per 1M tokens
+openrouter:moonshotai--kimi-k3.1-pro#price_output,,10.0,USD per 1M tokens
+openrouter:moonshotai--kimi-k3.1-pro#released_at,,2026-10-23,date
+openrouter:moonshotai--kimi-k3.1-pro#supported_parameters,,"frequency_penalty, include_reasoning, max_tokens, presence_penalty, reasoning, reasoning_effort, response_format, stop, structured_outputs, tool_choice, tools",list
 openrouter:moonshotai--kimi-k3:batch#context_length,,1048576.0,tokens
 openrouter:moonshotai--kimi-k3:batch#input_modalities,,"image, text, video",list
 openrouter:moonshotai--kimi-k3:batch#max_output_tokens,,16384.0,tokens
@@ -11243,11 +11341,11 @@ openrouter:qwen--qwen3.5-397b-a17b#released_at,,2026-02-16,date
 openrouter:qwen--qwen3.5-397b-a17b#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:qwen--qwen3.5-9b#context_length,,262144.0,tokens
 openrouter:qwen--qwen3.5-9b#input_modalities,,"image, text, video",list
-openrouter:qwen--qwen3.5-9b#max_output_tokens,,65536.0,tokens
+openrouter:qwen--qwen3.5-9b#max_output_tokens,,235929.0,tokens
 openrouter:qwen--qwen3.5-9b#output_modalities,,text,list
 openrouter:qwen--qwen3.5-9b#price_cache_read,,0.04,USD per 1M tokens
-openrouter:qwen--qwen3.5-9b#price_input,,0.08,USD per 1M tokens
-openrouter:qwen--qwen3.5-9b#price_output,,0.13,USD per 1M tokens
+openrouter:qwen--qwen3.5-9b#price_input,,0.17,USD per 1M tokens
+openrouter:qwen--qwen3.5-9b#price_output,,0.25,USD per 1M tokens
 openrouter:qwen--qwen3.5-9b#released_at,,2026-03-10,date
 openrouter:qwen--qwen3.5-9b#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:qwen--qwen3.5-9b:batch#context_length,,262144.0,tokens
@@ -12086,7 +12184,7 @@ openrouter:z-ai--glm-4.6v#context_length,,131072.0,tokens
 openrouter:z-ai--glm-4.6v#input_modalities,,"image, text, video",list
 openrouter:z-ai--glm-4.6v#max_output_tokens,,32768.0,tokens
 openrouter:z-ai--glm-4.6v#output_modalities,,text,list
-openrouter:z-ai--glm-4.6v#price_cache_read,,0.055,USD per 1M tokens
+openrouter:z-ai--glm-4.6v#price_cache_read,,0.05,USD per 1M tokens
 openrouter:z-ai--glm-4.6v#price_input,,0.3,USD per 1M tokens
 openrouter:z-ai--glm-4.6v#price_output,,0.9,USD per 1M tokens
 openrouter:z-ai--glm-4.6v#released_at,,2025-12-08,date
@@ -12173,11 +12271,11 @@ openrouter:z-ai--glm-5.3#released_at,,2026-08-18,date
 openrouter:z-ai--glm-5.3#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:z-ai--glm-5.3-flash#context_length,,1048576.0,tokens
 openrouter:z-ai--glm-5.3-flash#input_modalities,,"image, text, video",list
-openrouter:z-ai--glm-5.3-flash#max_output_tokens,,943718.0,tokens
+openrouter:z-ai--glm-5.3-flash#max_output_tokens,,943717.0,tokens
 openrouter:z-ai--glm-5.3-flash#output_modalities,,text,list
-openrouter:z-ai--glm-5.3-flash#price_cache_read,,0.0052,USD per 1M tokens
-openrouter:z-ai--glm-5.3-flash#price_input,,0.0052,USD per 1M tokens
-openrouter:z-ai--glm-5.3-flash#price_output,,0.1985,USD per 1M tokens
+openrouter:z-ai--glm-5.3-flash#price_cache_read,,0.03,USD per 1M tokens
+openrouter:z-ai--glm-5.3-flash#price_input,,0.15,USD per 1M tokens
+openrouter:z-ai--glm-5.3-flash#price_output,,0.5,USD per 1M tokens
 openrouter:z-ai--glm-5.3-flash#released_at,,2026-08-26,date
 openrouter:z-ai--glm-5.3-flash#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:z-ai--glm-5.3-flash:batch#context_length,,1048576.0,tokens
@@ -12273,13 +12371,13 @@ openrouter:~deepseek--deepseek-flash-latest#context_length,,1048576.0,tokens
 openrouter:~deepseek--deepseek-flash-latest#input_modalities,,"image, text",list
 openrouter:~deepseek--deepseek-flash-latest#max_output_tokens,,943718.0,tokens
 openrouter:~deepseek--deepseek-flash-latest#output_modalities,,text,list
-openrouter:~deepseek--deepseek-flash-latest#price_cache_read,,0.008,USD per 1M tokens
+openrouter:~deepseek--deepseek-flash-latest#price_cache_read,,0.015,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#price_cache_read@00-00-to-14-00-utc, 00:00 to 14:00 UTC,0.03,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#price_cache_read@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,0.006,USD per 1M tokens
-openrouter:~deepseek--deepseek-flash-latest#price_input,,0.07,USD per 1M tokens
+openrouter:~deepseek--deepseek-flash-latest#price_input,,0.02,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#price_input@00-00-to-14-00-utc, 00:00 to 14:00 UTC,0.3,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#price_input@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,0.3,USD per 1M tokens
-openrouter:~deepseek--deepseek-flash-latest#price_output,,0.5,USD per 1M tokens
+openrouter:~deepseek--deepseek-flash-latest#price_output,,1.0,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#price_output@00-00-to-14-00-utc, 00:00 to 14:00 UTC,1.2,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#price_output@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,1.2,USD per 1M tokens
 openrouter:~deepseek--deepseek-flash-latest#released_at,,2026-09-14,date
@@ -12288,10 +12386,10 @@ openrouter:~deepseek--deepseek-pro-latest#context_length,,1048576.0,tokens
 openrouter:~deepseek--deepseek-pro-latest#input_modalities,,text,list
 openrouter:~deepseek--deepseek-pro-latest#max_output_tokens,,393216.0,tokens
 openrouter:~deepseek--deepseek-pro-latest#output_modalities,,text,list
-openrouter:~deepseek--deepseek-pro-latest#price_cache_read,,0.22,USD per 1M tokens
+openrouter:~deepseek--deepseek-pro-latest#price_cache_read,,0.12,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_cache_read@00-00-to-14-00-utc, 00:00 to 14:00 UTC,0.1122,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_cache_read@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,0.044,USD per 1M tokens
-openrouter:~deepseek--deepseek-pro-latest#price_input,,0.2247,USD per 1M tokens
+openrouter:~deepseek--deepseek-pro-latest#price_input,,0.1188,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_input@00-00-to-14-00-utc, 00:00 to 14:00 UTC,1.122,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_input@weekdays-01-00-to-04-00-utc--weekdays-06-00-to-10-00-utc,weekdays 01:00 to 04:00 UTC; weekdays 06:00 to 10:00 UTC,1.32,USD per 1M tokens
 openrouter:~deepseek--deepseek-pro-latest#price_output,,8.0,USD per 1M tokens
@@ -12304,8 +12402,8 @@ openrouter:~deepseek--deepseek-v4-flash-latest#input_modalities,,text,list
 openrouter:~deepseek--deepseek-v4-flash-latest#max_output_tokens,,943718.0,tokens
 openrouter:~deepseek--deepseek-v4-flash-latest#output_modalities,,text,list
 openrouter:~deepseek--deepseek-v4-flash-latest#price_cache_read,,0.028,USD per 1M tokens
-openrouter:~deepseek--deepseek-v4-flash-latest#price_input,,0.0475,USD per 1M tokens
-openrouter:~deepseek--deepseek-v4-flash-latest#price_output,,0.1568,USD per 1M tokens
+openrouter:~deepseek--deepseek-v4-flash-latest#price_input,,0.0422,USD per 1M tokens
+openrouter:~deepseek--deepseek-v4-flash-latest#price_output,,0.1694,USD per 1M tokens
 openrouter:~deepseek--deepseek-v4-flash-latest#released_at,,2026-08-01,date
 openrouter:~deepseek--deepseek-v4-flash-latest#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_a, top_k, top_logprobs, top_p",list
 openrouter:~google--gemini-flash-latest#context_length,,1048576.0,tokens
@@ -12444,11 +12542,11 @@ openrouter:~x-ai--grok-latest#released_at,,2026-07-08,date
 openrouter:~x-ai--grok-latest#supported_parameters,,"include_reasoning, logprobs, max_tokens, reasoning, reasoning_effort, response_format, seed, structured_outputs, temperature, tool_choice, tools, top_logprobs, top_p",list
 openrouter:~z-ai--glm-flash-latest#context_length,,1048576.0,tokens
 openrouter:~z-ai--glm-flash-latest#input_modalities,,"image, text, video",list
-openrouter:~z-ai--glm-flash-latest#max_output_tokens,,943718.0,tokens
+openrouter:~z-ai--glm-flash-latest#max_output_tokens,,131072.0,tokens
 openrouter:~z-ai--glm-flash-latest#output_modalities,,text,list
-openrouter:~z-ai--glm-flash-latest#price_cache_read,,0.0052,USD per 1M tokens
-openrouter:~z-ai--glm-flash-latest#price_input,,0.0052,USD per 1M tokens
-openrouter:~z-ai--glm-flash-latest#price_output,,0.1985,USD per 1M tokens
+openrouter:~z-ai--glm-flash-latest#price_cache_read,,0.03,USD per 1M tokens
+openrouter:~z-ai--glm-flash-latest#price_input,,0.0304,USD per 1M tokens
+openrouter:~z-ai--glm-flash-latest#price_output,,0.0852,USD per 1M tokens
 openrouter:~z-ai--glm-flash-latest#released_at,,2026-08-27,date
 openrouter:~z-ai--glm-flash-latest#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:~z-ai--glm-latest#context_length,,1048576.0,tokens
@@ -12498,15 +12596,19 @@ ovhcloud:qwen-guard-gen-8b#price_output,,0.0,EUR per 1M tokens
 ovhcloud:qwen3-embedding-8b#price_input,,0.1,EUR per 1M tokens
 perplexity:sonar#price_input,,1.0,USD per 1M tokens
 perplexity:sonar#price_output,,1.0,USD per 1M tokens
+perplexity:sonar#support_end_date,,2026-09-27,date
 perplexity:sonar-deep-research#price_citation_tokens,,2.0,USD per 1M tokens
 perplexity:sonar-deep-research#price_input,,2.0,USD per 1M tokens
 perplexity:sonar-deep-research#price_output,,8.0,USD per 1M tokens
 perplexity:sonar-deep-research#price_reasoning,,3.0,USD per 1M tokens
 perplexity:sonar-deep-research#price_search_query,,5.0,USD per 1K queries
+perplexity:sonar-deep-research#support_end_date,,2026-09-27,date
 perplexity:sonar-pro#price_input,,3.0,USD per 1M tokens
 perplexity:sonar-pro#price_output,,15.0,USD per 1M tokens
+perplexity:sonar-pro#support_end_date,,2026-09-27,date
 perplexity:sonar-reasoning-pro#price_input,,2.0,USD per 1M tokens
 perplexity:sonar-reasoning-pro#price_output,,8.0,USD per 1M tokens
+perplexity:sonar-reasoning-pro#support_end_date,,2026-09-27,date
 replicate:851-labs--background-remover#hardware,,T4,text
 replicate:851-labs--background-remover#price_per_second,,0.000225,per second
 replicate:abiruyt--text-extract-ocr#hardware,,CPU,text
@@ -12632,6 +12734,12 @@ replicate:krea--krea-2-medium#price_per_output_image@model-variant-style-referen
 replicate:krea--krea-2-medium#price_per_output_image@model-variant-text-to-image,model variant text_to_image,0.03,per output image
 replicate:krthr--clip-embeddings#hardware,,T4,text
 replicate:krthr--clip-embeddings#price_per_second,,0.000225,per second
+replicate:kwaivgi--kling-v3-omni-video#price_per_second_of_output_video@with-audio-no--model-variant-4k,"with audio no, model variant 4k",0.42,per second of output video
+replicate:kwaivgi--kling-v3-omni-video#price_per_second_of_output_video@with-audio-no--model-variant-pro,"with audio no, model variant pro",0.224,per second of output video
+replicate:kwaivgi--kling-v3-omni-video#price_per_second_of_output_video@with-audio-no--model-variant-standard,"with audio no, model variant standard",0.168,per second of output video
+replicate:kwaivgi--kling-v3-omni-video#price_per_second_of_output_video@with-audio-yes--model-variant-4k,"with audio yes, model variant 4k",0.42,per second of output video
+replicate:kwaivgi--kling-v3-omni-video#price_per_second_of_output_video@with-audio-yes--model-variant-pro,"with audio yes, model variant pro",0.28,per second of output video
+replicate:kwaivgi--kling-v3-omni-video#price_per_second_of_output_video@with-audio-yes--model-variant-standard,"with audio yes, model variant standard",0.224,per second of output video
 replicate:littletry--compress-image#hardware,,CPU,text
 replicate:littletry--compress-image#price_per_second,,0.0001,per second
 replicate:lucataco--moondream2#hardware,,L40S,text
