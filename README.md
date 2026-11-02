@@ -16,8 +16,8 @@ by parameter id, never by name, so every commit diff reads line by line as
 |---|---|---|
 | `values.csv` | 13865 values, no provenance | **exactly the values that changed** |
 | `registry.csv` | the same rows, with date, source URL, source level and SHA-256 fingerprint | what was observed again, even at an unchanged value |
-| `measurements.csv` | 2955 continuous measurements: availability, latency, throughput, exchange rates | new readings, every day |
-| `changes.csv` | 1198 confirmed changes, newest first | |
+| `measurements.csv` | 2959 continuous measurements: availability, latency, throughput, exchange rates | new readings, every day |
+| `changes.csv` | 1204 confirmed changes, newest first | |
 
 `values.csv` and `registry.csv` carry the same rows. The first holds state
 only, so re-reading an unchanged price leaves it untouched; the second holds
