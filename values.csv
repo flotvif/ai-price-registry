@@ -4043,6 +4043,7 @@ baseten:deepseek-v41-flash-1017#price_output,,1.2,USD per 1M tokens
 baseten:deepseek-v41-flash-fast#price_cache_read,,0.014,USD per 1M tokens
 baseten:deepseek-v41-flash-fast#price_input,,0.6,USD per 1M tokens
 baseten:deepseek-v41-flash-fast#price_output,,2.4,USD per 1M tokens
+baseten:elephant-1#price_input,,0.035,USD per 1M tokens
 baseten:glm-4-7#price_cache_read,,0.12,USD per 1M tokens
 baseten:glm-4-7#price_input,,0.6,USD per 1M tokens
 baseten:glm-4-7#price_output,,2.2,USD per 1M tokens
@@ -4069,6 +4070,7 @@ baseten:inkling#price_output,,4.05,USD per 1M tokens
 baseten:inkling-small#price_cache_read,,0.1,USD per 1M tokens
 baseten:inkling-small#price_input,,0.5,USD per 1M tokens
 baseten:inkling-small#price_output,,1.2,USD per 1M tokens
+baseten:joey-1#price_input,,0.01,USD per 1M tokens
 baseten:kimi-k26#price_cache_read,,0.16,USD per 1M tokens
 baseten:kimi-k26#price_input,,0.95,USD per 1M tokens
 baseten:kimi-k26#price_output,,4.0,USD per 1M tokens
@@ -4078,6 +4080,7 @@ baseten:kimi-k27-code#price_output,,4.0,USD per 1M tokens
 baseten:kimi-k3#price_cache_read,,0.3,USD per 1M tokens
 baseten:kimi-k3#price_input,,3.0,USD per 1M tokens
 baseten:kimi-k3#price_output,,15.0,USD per 1M tokens
+baseten:mammoth-1#price_input,,0.1,USD per 1M tokens
 baseten:muse-spark-open#price_cache_read,,0.15,USD per 1M tokens
 baseten:muse-spark-open#price_input,,1.25,USD per 1M tokens
 baseten:muse-spark-open#price_output,,4.25,USD per 1M tokens
@@ -5427,7 +5430,9 @@ mistral:codestral#price_output,,0.9,USD per 1M tokens
 mistral:codestral#price_output@price-as-published-in-euros,price as published in euros,0.79,EUR per 1M tokens
 mistral:codestral-embed#price_cache_read,,0.015,USD per 1M tokens
 mistral:codestral-embed#price_input,,0.15,USD per 1M tokens
-mistral:codestral-embed#price_input@price-as-published-in-euros,price as published in euros,0.15,EUR per 1M tokens
+mistral:deepseek-v4-1-flash-1017#price_cache_read,,0.007,USD per 1M tokens
+mistral:deepseek-v4-1-flash-1017#price_input,,0.3,USD per 1M tokens
+mistral:deepseek-v4-1-flash-1017#price_output,,1.2,USD per 1M tokens
 mistral:glm-5-2#price_cache_read,,0.14,USD per 1M tokens
 mistral:glm-5-2#price_cache_read@price-as-published-in-euros,price as published in euros,0.119,EUR per 1M tokens
 mistral:glm-5-2#price_input,,1.4,USD per 1M tokens
@@ -5456,17 +5461,16 @@ mistral:ministral-3-8b#price_output,,0.15,USD per 1M tokens
 mistral:ministral-3-8b#price_output@price-as-published-in-euros,price as published in euros,0.13,EUR per 1M tokens
 mistral:mistral-embed#price_cache_read,,0.01,USD per 1M tokens
 mistral:mistral-embed#price_input,,0.1,USD per 1M tokens
-mistral:mistral-embed#price_input@price-as-published-in-euros,price as published in euros,0.1,EUR per 1M tokens
 mistral:mistral-large-3#price_cache_read,,0.05,USD per 1M tokens
 mistral:mistral-large-3#price_input,,0.5,USD per 1M tokens
 mistral:mistral-large-3#price_input@price-as-published-in-euros,price as published in euros,0.44,EUR per 1M tokens
 mistral:mistral-large-3#price_output,,1.5,USD per 1M tokens
 mistral:mistral-large-3#price_output@price-as-published-in-euros,price as published in euros,1.3,EUR per 1M tokens
-mistral:mistral-large-4#price_cache_read,,0.14,USD per 1M tokens
+mistral:mistral-large-4#price_cache_read,,0.07,USD per 1M tokens
 mistral:mistral-large-4#price_cache_read@list-price--before-the-current-sale-price,"list price, before the current sale price",0.14,USD per 1M tokens
-mistral:mistral-large-4#price_input,,1.36,USD per 1M tokens
+mistral:mistral-large-4#price_input,,0.7,USD per 1M tokens
 mistral:mistral-large-4#price_input@list-price--before-the-current-sale-price,"list price, before the current sale price",1.36,USD per 1M tokens
-mistral:mistral-large-4#price_output,,4.18,USD per 1M tokens
+mistral:mistral-large-4#price_output,,2.1,USD per 1M tokens
 mistral:mistral-large-4#price_output@list-price--before-the-current-sale-price,"list price, before the current sale price",4.18,USD per 1M tokens
 mistral:mistral-medium-3-5#price_cache_read,,0.15,USD per 1M tokens
 mistral:mistral-medium-3-5#price_input,,1.5,USD per 1M tokens
@@ -5520,6 +5524,28 @@ moonshot:kimi-k3#price_cache_write@cache-written-with-a-1-hour-ttl,cache written
 moonshot:kimi-k3#price_cache_write@cache-written-with-a-5-minute-ttl,cache written with a 5 minute TTL,3.0,USD per 1M tokens
 moonshot:kimi-k3#price_input,,3.0,USD per 1M tokens
 moonshot:kimi-k3#price_output,,15.0,USD per 1M tokens
+moonshot:kimi-k3-1-pro#context_length,,1048576.0,tokens
+moonshot:kimi-k3-1-pro#price_cache_read,,0.2,USD per 1M tokens
+moonshot:kimi-k3-1-pro#price_cache_write@cache-written-with-a-1-hour-ttl,cache written with a 1 hour TTL,4.0,USD per 1M tokens
+moonshot:kimi-k3-1-pro#price_cache_write@cache-written-with-a-5-minute-ttl,cache written with a 5 minute TTL,2.0,USD per 1M tokens
+moonshot:kimi-k3-1-pro#price_input,,2.0,USD per 1M tokens
+moonshot:kimi-k3-1-pro#price_output,,10.0,USD per 1M tokens
+moonshot:kimi-k3-1-pro-batch#price_cache_read@batch-processing,batch processing,0.12,USD per 1M tokens
+moonshot:kimi-k3-1-pro-batch#price_cache_write@batch-processing--cache-written-with-a-1-hour-ttl,batch processing; cache written with a 1 hour TTL,2.4,USD per 1M tokens
+moonshot:kimi-k3-1-pro-batch#price_cache_write@batch-processing--cache-written-with-a-5-minute-ttl,batch processing; cache written with a 5 minute TTL,1.2,USD per 1M tokens
+moonshot:kimi-k3-1-pro-batch#price_input@batch-processing,batch processing,1.2,USD per 1M tokens
+moonshot:kimi-k3-1-pro-batch#price_output@batch-processing,batch processing,6.0,USD per 1M tokens
+moonshot:kimi-k3-1-pro-highspeed#context_length,,1048576.0,tokens
+moonshot:kimi-k3-1-pro-highspeed#price_cache_read,,0.2,USD per 1M tokens
+moonshot:kimi-k3-1-pro-highspeed#price_cache_write@cache-written-with-a-1-hour-ttl,cache written with a 1 hour TTL,8.0,USD per 1M tokens
+moonshot:kimi-k3-1-pro-highspeed#price_cache_write@cache-written-with-a-5-minute-ttl,cache written with a 5 minute TTL,4.0,USD per 1M tokens
+moonshot:kimi-k3-1-pro-highspeed#price_input,,4.0,USD per 1M tokens
+moonshot:kimi-k3-1-pro-highspeed#price_output,,20.0,USD per 1M tokens
+moonshot:kimi-k3-batch#price_cache_read@batch-processing,batch processing,0.18,USD per 1M tokens
+moonshot:kimi-k3-batch#price_cache_write@batch-processing--cache-written-with-a-1-hour-ttl,batch processing; cache written with a 1 hour TTL,3.6,USD per 1M tokens
+moonshot:kimi-k3-batch#price_cache_write@batch-processing--cache-written-with-a-5-minute-ttl,batch processing; cache written with a 5 minute TTL,1.8,USD per 1M tokens
+moonshot:kimi-k3-batch#price_input@batch-processing,batch processing,1.8,USD per 1M tokens
+moonshot:kimi-k3-batch#price_output@batch-processing,batch processing,9.0,USD per 1M tokens
 moonshot:moonshot-v1-128k#context_length,,131072.0,tokens
 moonshot:moonshot-v1-128k#deprecation_date,,2026-08-31,date
 moonshot:moonshot-v1-128k#price_input,,2.0,USD per 1M tokens
@@ -6285,6 +6311,8 @@ novita:moonshotai--kimi-k3#input_modalities,,"image, text, video",list
 novita:moonshotai--kimi-k3#max_output_tokens,,1048576.0,tokens
 novita:moonshotai--kimi-k3#output_modalities,,text,list
 novita:moonshotai--kimi-k3#price_cache_read,,0.3,USD per 1M tokens
+novita:moonshotai--kimi-k3#price_cache_write@cache-written-with-a-1-hour-ttl,cache written with a 1 hour TTL,6.0,USD per 1M tokens
+novita:moonshotai--kimi-k3#price_cache_write@cache-written-with-a-5-minute-ttl,cache written with a 5 minute TTL,3.0,USD per 1M tokens
 novita:moonshotai--kimi-k3#price_input,,3.0,USD per 1M tokens
 novita:moonshotai--kimi-k3#price_output,,15.0,USD per 1M tokens
 novita:moonshotai--kimi-k3-p#context_length,,1048576.0,tokens
@@ -6299,6 +6327,8 @@ novita:moonshotai--kimi-k3.1-pro#input_modalities,,"image, text, video",list
 novita:moonshotai--kimi-k3.1-pro#max_output_tokens,,1048576.0,tokens
 novita:moonshotai--kimi-k3.1-pro#output_modalities,,text,list
 novita:moonshotai--kimi-k3.1-pro#price_cache_read,,0.2,USD per 1M tokens
+novita:moonshotai--kimi-k3.1-pro#price_cache_write@cache-written-with-a-1-hour-ttl,cache written with a 1 hour TTL,4.0,USD per 1M tokens
+novita:moonshotai--kimi-k3.1-pro#price_cache_write@cache-written-with-a-5-minute-ttl,cache written with a 5 minute TTL,2.0,USD per 1M tokens
 novita:moonshotai--kimi-k3.1-pro#price_input,,2.0,USD per 1M tokens
 novita:moonshotai--kimi-k3.1-pro#price_output,,10.0,USD per 1M tokens
 novita:moonshotai--kimi-k3.1-pro-highspeed#context_length,,1048576.0,tokens
@@ -6306,6 +6336,8 @@ novita:moonshotai--kimi-k3.1-pro-highspeed#input_modalities,,"image, text, video
 novita:moonshotai--kimi-k3.1-pro-highspeed#max_output_tokens,,1048576.0,tokens
 novita:moonshotai--kimi-k3.1-pro-highspeed#output_modalities,,text,list
 novita:moonshotai--kimi-k3.1-pro-highspeed#price_cache_read,,0.2,USD per 1M tokens
+novita:moonshotai--kimi-k3.1-pro-highspeed#price_cache_write@cache-written-with-a-1-hour-ttl,cache written with a 1 hour TTL,8.0,USD per 1M tokens
+novita:moonshotai--kimi-k3.1-pro-highspeed#price_cache_write@cache-written-with-a-5-minute-ttl,cache written with a 5 minute TTL,4.0,USD per 1M tokens
 novita:moonshotai--kimi-k3.1-pro-highspeed#price_input,,4.0,USD per 1M tokens
 novita:moonshotai--kimi-k3.1-pro-highspeed#price_output,,20.0,USD per 1M tokens
 novita:nousresearch--hermes-2-pro-llama-3-8b#context_length,,8192.0,tokens
@@ -6589,6 +6621,7 @@ novita:qwen--qwen3.8-flash#input_modalities,,"image, text, video",list
 novita:qwen--qwen3.8-flash#max_output_tokens,,131072.0,tokens
 novita:qwen--qwen3.8-flash#output_modalities,,text,list
 novita:qwen--qwen3.8-flash#price_cache_read,,0.016,USD per 1M tokens
+novita:qwen--qwen3.8-flash#price_cache_write@cache-written-with-a-5-minute-ttl,cache written with a 5 minute TTL,0.2,USD per 1M tokens
 novita:qwen--qwen3.8-flash#price_input,,0.15,USD per 1M tokens
 novita:qwen--qwen3.8-flash#price_output,,0.47,USD per 1M tokens
 novita:qwen--qwen3.8-max#context_length,,1000000.0,tokens
@@ -6596,6 +6629,7 @@ novita:qwen--qwen3.8-max#input_modalities,,"image, text, video",list
 novita:qwen--qwen3.8-max#max_output_tokens,,131072.0,tokens
 novita:qwen--qwen3.8-max#output_modalities,,text,list
 novita:qwen--qwen3.8-max#price_cache_read,,0.25,USD per 1M tokens
+novita:qwen--qwen3.8-max#price_cache_write@cache-written-with-a-5-minute-ttl,cache written with a 5 minute TTL,2.5,USD per 1M tokens
 novita:qwen--qwen3.8-max#price_input,,2.0,USD per 1M tokens
 novita:qwen--qwen3.8-max#price_output,,6.0,USD per 1M tokens
 novita:sao10k--l3-70b-euryale-v2.1#context_length,,8192.0,tokens
@@ -8720,9 +8754,9 @@ openrouter:google--gemma-4-26b-a4b-it#context_length,,262144.0,tokens
 openrouter:google--gemma-4-26b-a4b-it#input_modalities,,"image, text, video",list
 openrouter:google--gemma-4-26b-a4b-it#max_output_tokens,,235929.0,tokens
 openrouter:google--gemma-4-26b-a4b-it#output_modalities,,text,list
-openrouter:google--gemma-4-26b-a4b-it#price_cache_read,,0.0375,USD per 1M tokens
-openrouter:google--gemma-4-26b-a4b-it#price_input,,0.0675,USD per 1M tokens
-openrouter:google--gemma-4-26b-a4b-it#price_output,,0.225,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_cache_read,,0.0425,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_input,,0.0765,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_output,,0.255,USD per 1M tokens
 openrouter:google--gemma-4-26b-a4b-it#released_at,,2026-04-03,date
 openrouter:google--gemma-4-26b-a4b-it#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_completion_tokens, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:google--gemma-4-26b-a4b-it:free#context_length,,262144.0,tokens
@@ -9109,10 +9143,10 @@ openrouter:meta-llama--llama-3.2-1b-instruct#released_at,,2024-09-25,date
 openrouter:meta-llama--llama-3.2-1b-instruct#supported_parameters,,"frequency_penalty, logit_bias, max_tokens, min_p, presence_penalty, repetition_penalty, seed, stop, temperature, top_k, top_p",list
 openrouter:meta-llama--llama-3.2-3b-instruct#context_length,,131072.0,tokens
 openrouter:meta-llama--llama-3.2-3b-instruct#input_modalities,,text,list
-openrouter:meta-llama--llama-3.2-3b-instruct#max_output_tokens,,117964.0,tokens
+openrouter:meta-llama--llama-3.2-3b-instruct#max_output_tokens,,72000.0,tokens
 openrouter:meta-llama--llama-3.2-3b-instruct#output_modalities,,text,list
-openrouter:meta-llama--llama-3.2-3b-instruct#price_input,,0.05,USD per 1M tokens
-openrouter:meta-llama--llama-3.2-3b-instruct#price_output,,0.33,USD per 1M tokens
+openrouter:meta-llama--llama-3.2-3b-instruct#price_input,,0.0509,USD per 1M tokens
+openrouter:meta-llama--llama-3.2-3b-instruct#price_output,,0.335,USD per 1M tokens
 openrouter:meta-llama--llama-3.2-3b-instruct#released_at,,2024-09-25,date
 openrouter:meta-llama--llama-3.2-3b-instruct#supported_parameters,,"frequency_penalty, logit_bias, logprobs, max_tokens, min_p, presence_penalty, repetition_penalty, seed, stop, structured_outputs, temperature, top_k, top_logprobs, top_p",list
 openrouter:meta-llama--llama-3.3-70b-instruct#context_length,,131072.0,tokens
@@ -11674,7 +11708,7 @@ openrouter:qwen--qwen3.8-2.4t-a95b:batch#price_input,,2.0,USD per 1M tokens
 openrouter:qwen--qwen3.8-2.4t-a95b:batch#price_output,,6.0,USD per 1M tokens
 openrouter:qwen--qwen3.8-2.4t-a95b:batch#released_at,,2026-08-12,date
 openrouter:qwen--qwen3.8-2.4t-a95b:batch#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
-openrouter:qwen--qwen3.8-27b#context_length,,1000000.0,tokens
+openrouter:qwen--qwen3.8-27b#context_length,,1024000.0,tokens
 openrouter:qwen--qwen3.8-27b#input_modalities,,"image, text, video",list
 openrouter:qwen--qwen3.8-27b#max_output_tokens,,235929.0,tokens
 openrouter:qwen--qwen3.8-27b#output_modalities,,text,list
@@ -12244,7 +12278,7 @@ openrouter:x-ai--grok-4.7#price_input@prompts-over-200-000-tokens,prompts over 2
 openrouter:x-ai--grok-4.7#price_output,,6.0,USD per 1M tokens
 openrouter:x-ai--grok-4.7#price_output@prompts-over-200-000-tokens,prompts over 200 000 tokens,12.0,USD per 1M tokens
 openrouter:x-ai--grok-4.7#released_at,,2026-09-21,date
-openrouter:x-ai--grok-4.7#supported_parameters,,"include_reasoning, logprobs, max_tokens, reasoning, reasoning_effort, response_format, seed, structured_outputs, temperature, tool_choice, tools, top_logprobs, top_p",list
+openrouter:x-ai--grok-4.7#supported_parameters,,"include_reasoning, logprobs, max_tokens, reasoning, reasoning_effort, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:x-ai--grok-build-0.1#context_length,,256000.0,tokens
 openrouter:x-ai--grok-build-0.1#input_modalities,,"file, image, text",list
 openrouter:x-ai--grok-build-0.1#max_output_tokens,,230400.0,tokens
@@ -12430,9 +12464,9 @@ openrouter:z-ai--glm-5.3#context_length,,1048576.0,tokens
 openrouter:z-ai--glm-5.3#input_modalities,,text,list
 openrouter:z-ai--glm-5.3#max_output_tokens,,943718.0,tokens
 openrouter:z-ai--glm-5.3#output_modalities,,text,list
-openrouter:z-ai--glm-5.3#price_cache_read,,0.0689,USD per 1M tokens
-openrouter:z-ai--glm-5.3#price_input,,0.0699,USD per 1M tokens
-openrouter:z-ai--glm-5.3#price_output,,1.4,USD per 1M tokens
+openrouter:z-ai--glm-5.3#price_cache_read,,0.076,USD per 1M tokens
+openrouter:z-ai--glm-5.3#price_input,,0.08,USD per 1M tokens
+openrouter:z-ai--glm-5.3#price_output,,3.6,USD per 1M tokens
 openrouter:z-ai--glm-5.3#released_at,,2026-08-18,date
 openrouter:z-ai--glm-5.3#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:z-ai--glm-5.3-flash#context_length,,1048576.0,tokens
@@ -12457,11 +12491,20 @@ openrouter:z-ai--glm-5.3-flashx#context_length,,1048576.0,tokens
 openrouter:z-ai--glm-5.3-flashx#input_modalities,,"image, text, video",list
 openrouter:z-ai--glm-5.3-flashx#max_output_tokens,,131072.0,tokens
 openrouter:z-ai--glm-5.3-flashx#output_modalities,,text,list
-openrouter:z-ai--glm-5.3-flashx#price_cache_read,,0.09,USD per 1M tokens
+openrouter:z-ai--glm-5.3-flashx#price_cache_read,,0.075,USD per 1M tokens
 openrouter:z-ai--glm-5.3-flashx#price_input,,0.37,USD per 1M tokens
 openrouter:z-ai--glm-5.3-flashx#price_output,,1.25,USD per 1M tokens
 openrouter:z-ai--glm-5.3-flashx#released_at,,2026-09-18,date
 openrouter:z-ai--glm-5.3-flashx#supported_parameters,,"include_reasoning, max_tokens, reasoning, reasoning_effort, response_format, temperature, tool_choice, tools, top_k, top_p",list
+openrouter:z-ai--glm-5.3-flashx-legal#context_length,,1048576.0,tokens
+openrouter:z-ai--glm-5.3-flashx-legal#input_modalities,,"image, text, video",list
+openrouter:z-ai--glm-5.3-flashx-legal#max_output_tokens,,131072.0,tokens
+openrouter:z-ai--glm-5.3-flashx-legal#output_modalities,,text,list
+openrouter:z-ai--glm-5.3-flashx-legal#price_cache_read,,0.075,USD per 1M tokens
+openrouter:z-ai--glm-5.3-flashx-legal#price_input,,0.37,USD per 1M tokens
+openrouter:z-ai--glm-5.3-flashx-legal#price_output,,1.25,USD per 1M tokens
+openrouter:z-ai--glm-5.3-flashx-legal#released_at,,2026-11-02,date
+openrouter:z-ai--glm-5.3-flashx-legal#supported_parameters,,"include_reasoning, max_tokens, reasoning, reasoning_effort, response_format, structured_outputs, temperature, tool_choice, tools, top_k, top_p",list
 openrouter:z-ai--glm-5.3-prime#context_length,,1000000.0,tokens
 openrouter:z-ai--glm-5.3-prime#input_modalities,,text,list
 openrouter:z-ai--glm-5.3-prime#max_output_tokens,,131072.0,tokens
@@ -12568,7 +12611,7 @@ openrouter:~deepseek--deepseek-v4-flash-latest#input_modalities,,text,list
 openrouter:~deepseek--deepseek-v4-flash-latest#max_output_tokens,,943718.0,tokens
 openrouter:~deepseek--deepseek-v4-flash-latest#output_modalities,,text,list
 openrouter:~deepseek--deepseek-v4-flash-latest#price_cache_read,,0.035,USD per 1M tokens
-openrouter:~deepseek--deepseek-v4-flash-latest#price_input,,0.059,USD per 1M tokens
+openrouter:~deepseek--deepseek-v4-flash-latest#price_input,,0.0434,USD per 1M tokens
 openrouter:~deepseek--deepseek-v4-flash-latest#price_output,,0.3,USD per 1M tokens
 openrouter:~deepseek--deepseek-v4-flash-latest#released_at,,2026-08-01,date
 openrouter:~deepseek--deepseek-v4-flash-latest#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_a, top_k, top_logprobs, top_p",list
@@ -12700,12 +12743,13 @@ openrouter:~x-ai--grok-latest#max_output_tokens,,450000.0,tokens
 openrouter:~x-ai--grok-latest#output_modalities,,text,list
 openrouter:~x-ai--grok-latest#price_cache_read,,0.5,USD per 1M tokens
 openrouter:~x-ai--grok-latest#price_cache_read@prompts-over-200-000-tokens,prompts over 200 000 tokens,1.0,USD per 1M tokens
+openrouter:~x-ai--grok-latest#price_cache_write,,0.0,USD per 1M tokens
 openrouter:~x-ai--grok-latest#price_input,,2.0,USD per 1M tokens
 openrouter:~x-ai--grok-latest#price_input@prompts-over-200-000-tokens,prompts over 200 000 tokens,4.0,USD per 1M tokens
 openrouter:~x-ai--grok-latest#price_output,,6.0,USD per 1M tokens
 openrouter:~x-ai--grok-latest#price_output@prompts-over-200-000-tokens,prompts over 200 000 tokens,12.0,USD per 1M tokens
 openrouter:~x-ai--grok-latest#released_at,,2026-07-08,date
-openrouter:~x-ai--grok-latest#supported_parameters,,"include_reasoning, logprobs, max_tokens, reasoning, reasoning_effort, response_format, seed, structured_outputs, temperature, tool_choice, tools, top_logprobs, top_p",list
+openrouter:~x-ai--grok-latest#supported_parameters,,"include_reasoning, logprobs, max_tokens, reasoning, reasoning_effort, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:~z-ai--glm-flash-latest#context_length,,1048576.0,tokens
 openrouter:~z-ai--glm-flash-latest#input_modalities,,"image, text, video",list
 openrouter:~z-ai--glm-flash-latest#max_output_tokens,,131072.0,tokens
@@ -12992,6 +13036,7 @@ replicate:xai--grok-imagine-video#price_per_second_of_output_video,,0.05,per sec
 replicate:xai--grok-imagine-video-1.5#price_per_second_of_output_video,,0.08,per second of output video
 snowflake:ai-agg#price_tokens@ai-agg--table-6-a,"ai_agg, table 6(a)",1.85,AI Credits per one million Tokens
 snowflake:ai-classify#price_tokens@ai-classify--table-6-a,"ai_classify, table 6(a)",1.62,AI Credits per one million Tokens
+snowflake:ai-extract#price_tokens@ai-extract--table-6-a,"ai_extract, table 6(a)",5.55,AI Credits per one million Tokens
 snowflake:ai-filter#price_tokens@ai-filter--table-6-a,"ai_filter, table 6(a)",1.62,AI Credits per one million Tokens
 snowflake:ai-guardrails#price_tokens@ai-guardrails--table-6-a,"ai_guardrails, table 6(a)",0.35,AI Credits per one million Tokens
 snowflake:ai-redact#price_tokens@ai-redact--table-6-a,"ai_redact, table 6(a)",0.69,AI Credits per one million Tokens
@@ -13003,12 +13048,14 @@ snowflake:ai-translate#price_tokens@ai-translate--table-6-a,"ai_translate, table
 snowflake:arctic-extract#price_tokens@ai-extract--table-6-a,"ai_extract, table 6(a)",5.55,AI Credits per one million Tokens
 snowflake:arctic-tilt-entity#price_tokens@ai-extract--table-6-a,"ai_extract, table 6(a)",9.5,AI Credits per one million Tokens
 snowflake:arctic-tilt-table#price_tokens@ai-extract--table-6-a,"ai_extract, table 6(a)",28.4,AI Credits per one million Tokens
+snowflake:claude-4-sonnet#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.18,AI Credits per one million Tokens
 snowflake:claude-4-sonnet#price_cache_read@table-6-b,table 6(b),0.15,AI Credits per one million Tokens
 snowflake:claude-4-sonnet#price_cache_write@table-6-b,table 6(b),1.875,AI Credits per one million Tokens
 snowflake:claude-4-sonnet#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",1.8,AI Credits per one million Tokens
 snowflake:claude-4-sonnet#price_input@table-6-b,table 6(b),1.5,AI Credits per one million Tokens
 snowflake:claude-4-sonnet#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",9.0,AI Credits per one million Tokens
 snowflake:claude-4-sonnet#price_output@table-6-b,table 6(b),7.5,AI Credits per one million Tokens
+snowflake:claude-fable-5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.6,AI Credits per one million Tokens
 snowflake:claude-fable-5#price_cache_read@table-6-b,table 6(b),0.5,AI Credits per one million Tokens
 snowflake:claude-fable-5#price_cache_read@table-6-d,table 6(d),0.65,AI Credits per one million Tokens
 snowflake:claude-fable-5#price_cache_read@table-6-e,table 6(e),0.55,AI Credits per one million Tokens
@@ -13023,6 +13070,7 @@ snowflake:claude-fable-5#price_output@ai-complete--table-6-a,"ai_complete, table
 snowflake:claude-fable-5#price_output@table-6-b,table 6(b),25.0,AI Credits per one million Tokens
 snowflake:claude-fable-5#price_output@table-6-d,table 6(d),32.5,AI Credits per one million Tokens
 snowflake:claude-fable-5#price_output@table-6-e,table 6(e),27.5,AI Credits per one million Tokens
+snowflake:claude-fable-5.1#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.15,AI Credits per one million Tokens
 snowflake:claude-fable-5.1#price_cache_read@table-6-b,table 6(b),0.125,AI Credits per one million Tokens
 snowflake:claude-fable-5.1#price_cache_read@table-6-d,table 6(d),0.163,AI Credits per one million Tokens
 snowflake:claude-fable-5.1#price_cache_read@table-6-e,table 6(e),0.138,AI Credits per one million Tokens
@@ -13037,6 +13085,7 @@ snowflake:claude-fable-5.1#price_output@ai-complete--table-6-a,"ai_complete, tab
 snowflake:claude-fable-5.1#price_output@table-6-b,table 6(b),25.0,AI Credits per one million Tokens
 snowflake:claude-fable-5.1#price_output@table-6-d,table 6(d),32.5,AI Credits per one million Tokens
 snowflake:claude-fable-5.1#price_output@table-6-e,table 6(e),27.5,AI Credits per one million Tokens
+snowflake:claude-haiku-4-5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.06,AI Credits per one million Tokens
 snowflake:claude-haiku-4-5#price_cache_read@table-6-b,table 6(b),0.05,AI Credits per one million Tokens
 snowflake:claude-haiku-4-5#price_cache_read@table-6-d,table 6(d),0.06,AI Credits per one million Tokens
 snowflake:claude-haiku-4-5#price_cache_read@table-6-e,table 6(e),0.055,AI Credits per one million Tokens
@@ -13051,6 +13100,7 @@ snowflake:claude-haiku-4-5#price_output@ai-complete--table-6-a,"ai_complete, tab
 snowflake:claude-haiku-4-5#price_output@table-6-b,table 6(b),2.5,AI Credits per one million Tokens
 snowflake:claude-haiku-4-5#price_output@table-6-d,table 6(d),3.25,AI Credits per one million Tokens
 snowflake:claude-haiku-4-5#price_output@table-6-e,table 6(e),2.75,AI Credits per one million Tokens
+snowflake:claude-haiku-5-5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.006,AI Credits per one million Tokens
 snowflake:claude-haiku-5-5#price_cache_read@table-6-b,table 6(b),0.005,AI Credits per one million Tokens
 snowflake:claude-haiku-5-5#price_cache_read@table-6-d,table 6(d),0.007,AI Credits per one million Tokens
 snowflake:claude-haiku-5-5#price_cache_read@table-6-e,table 6(e),0.006,AI Credits per one million Tokens
@@ -13065,6 +13115,7 @@ snowflake:claude-haiku-5-5#price_output@ai-complete--table-6-a,"ai_complete, tab
 snowflake:claude-haiku-5-5#price_output@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:claude-haiku-5-5#price_output@table-6-d,table 6(d),0.325,AI Credits per one million Tokens
 snowflake:claude-haiku-5-5#price_output@table-6-e,table 6(e),0.275,AI Credits per one million Tokens
+snowflake:claude-haiku-5-5-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.03,AI Credits per one million Tokens
 snowflake:claude-haiku-5-5-long-context#price_cache_read@table-6-b,table 6(b),0.025,AI Credits per one million Tokens
 snowflake:claude-haiku-5-5-long-context#price_cache_read@table-6-d,table 6(d),0.033,AI Credits per one million Tokens
 snowflake:claude-haiku-5-5-long-context#price_cache_read@table-6-e,table 6(e),0.028,AI Credits per one million Tokens
@@ -13079,6 +13130,7 @@ snowflake:claude-haiku-5-5-long-context#price_output@ai-complete--table-6-a,"ai_
 snowflake:claude-haiku-5-5-long-context#price_output@table-6-b,table 6(b),1.25,AI Credits per one million Tokens
 snowflake:claude-haiku-5-5-long-context#price_output@table-6-d,table 6(d),1.625,AI Credits per one million Tokens
 snowflake:claude-haiku-5-5-long-context#price_output@table-6-e,table 6(e),1.375,AI Credits per one million Tokens
+snowflake:claude-opus-4-5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.3,AI Credits per one million Tokens
 snowflake:claude-opus-4-5#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:claude-opus-4-5#price_cache_read@table-6-d,table 6(d),0.33,AI Credits per one million Tokens
 snowflake:claude-opus-4-5#price_cache_read@table-6-e,table 6(e),0.28,AI Credits per one million Tokens
@@ -13093,6 +13145,7 @@ snowflake:claude-opus-4-5#price_output@ai-complete--table-6-a,"ai_complete, tabl
 snowflake:claude-opus-4-5#price_output@table-6-b,table 6(b),12.5,AI Credits per one million Tokens
 snowflake:claude-opus-4-5#price_output@table-6-d,table 6(d),16.26,AI Credits per one million Tokens
 snowflake:claude-opus-4-5#price_output@table-6-e,table 6(e),13.75,AI Credits per one million Tokens
+snowflake:claude-opus-4-6#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.3,AI Credits per one million Tokens
 snowflake:claude-opus-4-6#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:claude-opus-4-6#price_cache_read@table-6-d,table 6(d),0.33,AI Credits per one million Tokens
 snowflake:claude-opus-4-6#price_cache_read@table-6-e,table 6(e),0.28,AI Credits per one million Tokens
@@ -13107,6 +13160,7 @@ snowflake:claude-opus-4-6#price_output@ai-complete--table-6-a,"ai_complete, tabl
 snowflake:claude-opus-4-6#price_output@table-6-b,table 6(b),12.5,AI Credits per one million Tokens
 snowflake:claude-opus-4-6#price_output@table-6-d,table 6(d),16.26,AI Credits per one million Tokens
 snowflake:claude-opus-4-6#price_output@table-6-e,table 6(e),13.75,AI Credits per one million Tokens
+snowflake:claude-opus-4-7#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.3,AI Credits per one million Tokens
 snowflake:claude-opus-4-7#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:claude-opus-4-7#price_cache_read@table-6-d,table 6(d),0.33,AI Credits per one million Tokens
 snowflake:claude-opus-4-7#price_cache_read@table-6-e,table 6(e),0.28,AI Credits per one million Tokens
@@ -13121,6 +13175,7 @@ snowflake:claude-opus-4-7#price_output@ai-complete--table-6-a,"ai_complete, tabl
 snowflake:claude-opus-4-7#price_output@table-6-b,table 6(b),12.5,AI Credits per one million Tokens
 snowflake:claude-opus-4-7#price_output@table-6-d,table 6(d),16.26,AI Credits per one million Tokens
 snowflake:claude-opus-4-7#price_output@table-6-e,table 6(e),13.75,AI Credits per one million Tokens
+snowflake:claude-opus-4-8#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.3,AI Credits per one million Tokens
 snowflake:claude-opus-4-8#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:claude-opus-4-8#price_cache_read@table-6-d,table 6(d),0.33,AI Credits per one million Tokens
 snowflake:claude-opus-4-8#price_cache_read@table-6-e,table 6(e),0.28,AI Credits per one million Tokens
@@ -13135,6 +13190,7 @@ snowflake:claude-opus-4-8#price_output@ai-complete--table-6-a,"ai_complete, tabl
 snowflake:claude-opus-4-8#price_output@table-6-b,table 6(b),12.5,AI Credits per one million Tokens
 snowflake:claude-opus-4-8#price_output@table-6-d,table 6(d),16.26,AI Credits per one million Tokens
 snowflake:claude-opus-4-8#price_output@table-6-e,table 6(e),13.75,AI Credits per one million Tokens
+snowflake:claude-opus-5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.3,AI Credits per one million Tokens
 snowflake:claude-opus-5#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:claude-opus-5#price_cache_read@table-6-d,table 6(d),0.325,AI Credits per one million Tokens
 snowflake:claude-opus-5#price_cache_read@table-6-e,table 6(e),0.275,AI Credits per one million Tokens
@@ -13149,6 +13205,7 @@ snowflake:claude-opus-5#price_output@ai-complete--table-6-a,"ai_complete, table 
 snowflake:claude-opus-5#price_output@table-6-b,table 6(b),12.5,AI Credits per one million Tokens
 snowflake:claude-opus-5#price_output@table-6-d,table 6(d),16.25,AI Credits per one million Tokens
 snowflake:claude-opus-5#price_output@table-6-e,table 6(e),13.75,AI Credits per one million Tokens
+snowflake:claude-opus-5-5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.12,AI Credits per one million Tokens
 snowflake:claude-opus-5-5#price_cache_read@table-6-b,table 6(b),0.1,AI Credits per one million Tokens
 snowflake:claude-opus-5-5#price_cache_read@table-6-d,table 6(d),0.13,AI Credits per one million Tokens
 snowflake:claude-opus-5-5#price_cache_read@table-6-e,table 6(e),0.11,AI Credits per one million Tokens
@@ -13163,6 +13220,7 @@ snowflake:claude-opus-5-5#price_output@ai-complete--table-6-a,"ai_complete, tabl
 snowflake:claude-opus-5-5#price_output@table-6-b,table 6(b),10.0,AI Credits per one million Tokens
 snowflake:claude-opus-5-5#price_output@table-6-d,table 6(d),13.0,AI Credits per one million Tokens
 snowflake:claude-opus-5-5#price_output@table-6-e,table 6(e),11.0,AI Credits per one million Tokens
+snowflake:claude-sonnet-4-5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.18,AI Credits per one million Tokens
 snowflake:claude-sonnet-4-5#price_cache_read@table-6-b,table 6(b),0.15,AI Credits per one million Tokens
 snowflake:claude-sonnet-4-5#price_cache_read@table-6-d,table 6(d),0.2,AI Credits per one million Tokens
 snowflake:claude-sonnet-4-5#price_cache_read@table-6-e,table 6(e),0.17,AI Credits per one million Tokens
@@ -13177,6 +13235,7 @@ snowflake:claude-sonnet-4-5#price_output@ai-complete--table-6-a,"ai_complete, ta
 snowflake:claude-sonnet-4-5#price_output@table-6-b,table 6(b),7.5,AI Credits per one million Tokens
 snowflake:claude-sonnet-4-5#price_output@table-6-d,table 6(d),9.76,AI Credits per one million Tokens
 snowflake:claude-sonnet-4-5#price_output@table-6-e,table 6(e),8.25,AI Credits per one million Tokens
+snowflake:claude-sonnet-4-6#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.18,AI Credits per one million Tokens
 snowflake:claude-sonnet-4-6#price_cache_read@table-6-b,table 6(b),0.15,AI Credits per one million Tokens
 snowflake:claude-sonnet-4-6#price_cache_read@table-6-d,table 6(d),0.2,AI Credits per one million Tokens
 snowflake:claude-sonnet-4-6#price_cache_read@table-6-e,table 6(e),0.17,AI Credits per one million Tokens
@@ -13191,6 +13250,7 @@ snowflake:claude-sonnet-4-6#price_output@ai-complete--table-6-a,"ai_complete, ta
 snowflake:claude-sonnet-4-6#price_output@table-6-b,table 6(b),7.5,AI Credits per one million Tokens
 snowflake:claude-sonnet-4-6#price_output@table-6-d,table 6(d),9.76,AI Credits per one million Tokens
 snowflake:claude-sonnet-4-6#price_output@table-6-e,table 6(e),8.25,AI Credits per one million Tokens
+snowflake:claude-sonnet-5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.12,AI Credits per one million Tokens
 snowflake:claude-sonnet-5#price_cache_read@table-6-b,table 6(b),0.1,AI Credits per one million Tokens
 snowflake:claude-sonnet-5#price_cache_read@table-6-d,table 6(d),0.13,AI Credits per one million Tokens
 snowflake:claude-sonnet-5#price_cache_read@table-6-e,table 6(e),0.11,AI Credits per one million Tokens
@@ -13205,6 +13265,7 @@ snowflake:claude-sonnet-5#price_output@ai-complete--table-6-a,"ai_complete, tabl
 snowflake:claude-sonnet-5#price_output@table-6-b,table 6(b),5.0,AI Credits per one million Tokens
 snowflake:claude-sonnet-5#price_output@table-6-d,table 6(d),6.5,AI Credits per one million Tokens
 snowflake:claude-sonnet-5#price_output@table-6-e,table 6(e),5.5,AI Credits per one million Tokens
+snowflake:claude-sonnet-5-5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.06,AI Credits per one million Tokens
 snowflake:claude-sonnet-5-5#price_cache_read@table-6-b,table 6(b),0.05,AI Credits per one million Tokens
 snowflake:claude-sonnet-5-5#price_cache_read@table-6-d,table 6(d),0.065,AI Credits per one million Tokens
 snowflake:claude-sonnet-5-5#price_cache_read@table-6-e,table 6(e),0.055,AI Credits per one million Tokens
@@ -13230,13 +13291,16 @@ snowflake:deepseek-v4-flash#price_output@table-6-d,table 6(d),0.858,AI Credits p
 snowflake:deepseek-v4-flash#price_output@table-6-e,table 6(e),0.726,AI Credits per one million Tokens
 snowflake:e5-base-v2#price_tokens@ai-embed--table-6-a,"ai_embed, table 6(a)",0.03,AI Credits per one million Tokens
 snowflake:extract-answer#price_tokens@extract-answer--table-6-a,"extract answer, table 6(a)",0.11,AI Credits per one million Tokens
+snowflake:gemini-2-5-flash#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.018,AI Credits per one million Tokens
 snowflake:gemini-2-5-flash#price_cache_read@table-6-d,table 6(d),0.02,AI Credits per one million Tokens
 snowflake:gemini-2-5-flash#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.18,AI Credits per one million Tokens
 snowflake:gemini-2-5-flash#price_input@table-6-d,table 6(d),0.18,AI Credits per one million Tokens
 snowflake:gemini-2-5-flash#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",1.5,AI Credits per one million Tokens
 snowflake:gemini-2-5-flash#price_output@table-6-d,table 6(d),1.48,AI Credits per one million Tokens
+snowflake:gemini-2-5-flash-lite#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.006,AI Credits per one million Tokens
 snowflake:gemini-2-5-flash-lite#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.06,AI Credits per one million Tokens
 snowflake:gemini-2-5-flash-lite#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",0.24,AI Credits per one million Tokens
+snowflake:gemini-3.1-flash-lite#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.015,AI Credits per one million Tokens
 snowflake:gemini-3.1-flash-lite#price_cache_read@table-6-d,table 6(d),0.017,AI Credits per one million Tokens
 snowflake:gemini-3.1-flash-lite#price_cache_read@table-6-e,table 6(e),0.014,AI Credits per one million Tokens
 snowflake:gemini-3.1-flash-lite#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.15,AI Credits per one million Tokens
@@ -13245,18 +13309,22 @@ snowflake:gemini-3.1-flash-lite#price_input@table-6-e,table 6(e),0.138,AI Credit
 snowflake:gemini-3.1-flash-lite#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",0.9,AI Credits per one million Tokens
 snowflake:gemini-3.1-flash-lite#price_output@table-6-d,table 6(d),0.975,AI Credits per one million Tokens
 snowflake:gemini-3.1-flash-lite#price_output@table-6-e,table 6(e),0.825,AI Credits per one million Tokens
+snowflake:gemini-3.1-pro#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.12,AI Credits per one million Tokens
 snowflake:gemini-3.1-pro#price_cache_read@table-6-d,table 6(d),0.13,AI Credits per one million Tokens
 snowflake:gemini-3.1-pro#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",1.2,AI Credits per one million Tokens
 snowflake:gemini-3.1-pro#price_input@table-6-d,table 6(d),1.3,AI Credits per one million Tokens
 snowflake:gemini-3.1-pro#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",7.2,AI Credits per one million Tokens
 snowflake:gemini-3.1-pro#price_output@table-6-d,table 6(d),7.81,AI Credits per one million Tokens
+snowflake:gemini-3.1-pro-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.24,AI Credits per one million Tokens
 snowflake:gemini-3.1-pro-long-context#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",2.4,AI Credits per one million Tokens
 snowflake:gemini-3.1-pro-long-context#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",10.8,AI Credits per one million Tokens
+snowflake:gemini-3.5-flash#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.09,AI Credits per one million Tokens
 snowflake:gemini-3.5-flash#price_cache_read@table-6-d,table 6(d),0.1,AI Credits per one million Tokens
 snowflake:gemini-3.5-flash#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.9,AI Credits per one million Tokens
 snowflake:gemini-3.5-flash#price_input@table-6-d,table 6(d),0.98,AI Credits per one million Tokens
 snowflake:gemini-3.5-flash#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",5.4,AI Credits per one million Tokens
 snowflake:gemini-3.5-flash#price_output@table-6-d,table 6(d),5.85,AI Credits per one million Tokens
+snowflake:gemini-3.7-flash#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.045,AI Credits per one million Tokens
 snowflake:gemini-3.7-flash#price_cache_read@table-6-d,table 6(d),0.049,AI Credits per one million Tokens
 snowflake:gemini-3.7-flash#price_cache_read@table-6-e,table 6(e),0.041,AI Credits per one million Tokens
 snowflake:gemini-3.7-flash#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.45,AI Credits per one million Tokens
@@ -13265,6 +13333,7 @@ snowflake:gemini-3.7-flash#price_input@table-6-e,table 6(e),0.413,AI Credits per
 snowflake:gemini-3.7-flash#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",2.25,AI Credits per one million Tokens
 snowflake:gemini-3.7-flash#price_output@table-6-d,table 6(d),2.438,AI Credits per one million Tokens
 snowflake:gemini-3.7-flash#price_output@table-6-e,table 6(e),2.063,AI Credits per one million Tokens
+snowflake:gemini-3.8-flash#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.045,AI Credits per one million Tokens
 snowflake:gemini-3.8-flash#price_cache_read@table-6-d,table 6(d),0.049,AI Credits per one million Tokens
 snowflake:gemini-3.8-flash#price_cache_read@table-6-e,table 6(e),0.041,AI Credits per one million Tokens
 snowflake:gemini-3.8-flash#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.45,AI Credits per one million Tokens
@@ -13273,6 +13342,7 @@ snowflake:gemini-3.8-flash#price_input@table-6-e,table 6(e),0.413,AI Credits per
 snowflake:gemini-3.8-flash#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",2.25,AI Credits per one million Tokens
 snowflake:gemini-3.8-flash#price_output@table-6-d,table 6(d),2.438,AI Credits per one million Tokens
 snowflake:gemini-3.8-flash#price_output@table-6-e,table 6(e),2.063,AI Credits per one million Tokens
+snowflake:gemini-4-argon#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.06,AI Credits per one million Tokens
 snowflake:gemini-4-argon#price_cache_read@table-6-d,table 6(d),0.065,AI Credits per one million Tokens
 snowflake:gemini-4-argon#price_cache_read@table-6-e,table 6(e),0.055,AI Credits per one million Tokens
 snowflake:gemini-4-argon#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",1.2,AI Credits per one million Tokens
@@ -13301,26 +13371,31 @@ snowflake:glm-5.3#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",
 snowflake:glm-5.3#price_output@table-6-b,table 6(b),2.64,AI Credits per one million Tokens
 snowflake:glm-5.3#price_output@table-6-d,table 6(d),3.432,AI Credits per one million Tokens
 snowflake:glm-5.3#price_output@table-6-e,table 6(e),2.904,AI Credits per one million Tokens
+snowflake:grok-4.20#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.12,AI Credits per one million Tokens
 snowflake:grok-4.20#price_cache_read@table-6-b,table 6(b),0.1,AI Credits per one million Tokens
 snowflake:grok-4.20#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.75,AI Credits per one million Tokens
 snowflake:grok-4.20#price_input@table-6-b,table 6(b),0.625,AI Credits per one million Tokens
 snowflake:grok-4.20#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",1.5,AI Credits per one million Tokens
 snowflake:grok-4.20#price_output@table-6-b,table 6(b),1.25,AI Credits per one million Tokens
+snowflake:grok-4.20-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.24,AI Credits per one million Tokens
 snowflake:grok-4.20-long-context#price_cache_read@table-6-b,table 6(b),0.2,AI Credits per one million Tokens
 snowflake:grok-4.20-long-context#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",1.5,AI Credits per one million Tokens
 snowflake:grok-4.20-long-context#price_input@table-6-b,table 6(b),1.25,AI Credits per one million Tokens
 snowflake:grok-4.20-long-context#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",3.0,AI Credits per one million Tokens
 snowflake:grok-4.20-long-context#price_output@table-6-b,table 6(b),2.5,AI Credits per one million Tokens
+snowflake:grok-4.3#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.12,AI Credits per one million Tokens
 snowflake:grok-4.3#price_cache_read@table-6-b,table 6(b),0.1,AI Credits per one million Tokens
 snowflake:grok-4.3#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.75,AI Credits per one million Tokens
 snowflake:grok-4.3#price_input@table-6-b,table 6(b),0.625,AI Credits per one million Tokens
 snowflake:grok-4.3#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",1.5,AI Credits per one million Tokens
 snowflake:grok-4.3#price_output@table-6-b,table 6(b),1.25,AI Credits per one million Tokens
+snowflake:grok-4.3-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.24,AI Credits per one million Tokens
 snowflake:grok-4.3-long-context#price_cache_read@table-6-b,table 6(b),0.2,AI Credits per one million Tokens
 snowflake:grok-4.3-long-context#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",1.5,AI Credits per one million Tokens
 snowflake:grok-4.3-long-context#price_input@table-6-b,table 6(b),1.25,AI Credits per one million Tokens
 snowflake:grok-4.3-long-context#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",3.0,AI Credits per one million Tokens
 snowflake:grok-4.3-long-context#price_output@table-6-b,table 6(b),2.5,AI Credits per one million Tokens
+snowflake:grok-4.6#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.3,AI Credits per one million Tokens
 snowflake:grok-4.6#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:grok-4.6#price_cache_read@table-6-d,table 6(d),0.325,AI Credits per one million Tokens
 snowflake:grok-4.6#price_cache_read@table-6-e,table 6(e),0.275,AI Credits per one million Tokens
@@ -13332,6 +13407,7 @@ snowflake:grok-4.6#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)"
 snowflake:grok-4.6#price_output@table-6-b,table 6(b),3.0,AI Credits per one million Tokens
 snowflake:grok-4.6#price_output@table-6-d,table 6(d),3.9,AI Credits per one million Tokens
 snowflake:grok-4.6#price_output@table-6-e,table 6(e),3.3,AI Credits per one million Tokens
+snowflake:grok-4.7#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.3,AI Credits per one million Tokens
 snowflake:grok-4.7#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:grok-4.7#price_cache_read@table-6-d,table 6(d),0.325,AI Credits per one million Tokens
 snowflake:grok-4.7#price_cache_read@table-6-e,table 6(e),0.275,AI Credits per one million Tokens
@@ -13344,6 +13420,7 @@ snowflake:grok-4.7#price_output@table-6-b,table 6(b),3.0,AI Credits per one mill
 snowflake:grok-4.7#price_output@table-6-d,table 6(d),3.9,AI Credits per one million Tokens
 snowflake:grok-4.7#price_output@table-6-e,table 6(e),3.3,AI Credits per one million Tokens
 snowflake:guard#price_tokens@guard--table-6-a,"guard, table 6(a)",0.25,AI Credits per one million Tokens
+snowflake:kimi-k3#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.18,AI Credits per one million Tokens
 snowflake:kimi-k3#price_cache_read@table-6-b,table 6(b),0.15,AI Credits per one million Tokens
 snowflake:kimi-k3#price_cache_read@table-6-d,table 6(d),0.195,AI Credits per one million Tokens
 snowflake:kimi-k3#price_cache_read@table-6-e,table 6(e),0.165,AI Credits per one million Tokens
@@ -13396,6 +13473,7 @@ snowflake:mixtral-8x7b#price_input@ai-complete--table-6-a,"ai_complete, table 6(
 snowflake:mixtral-8x7b#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",0.42,AI Credits per one million Tokens
 snowflake:multilingual-e5-large#price_tokens@ai-embed--table-6-a,"ai_embed, table 6(a)",0.05,AI Credits per one million Tokens
 snowflake:nv-embed-qa-4#price_tokens@ai-embed--table-6-a,"ai_embed, table 6(a)",0.05,AI Credits per one million Tokens
+snowflake:openai-gpt-4.1#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.3,AI Credits per one million Tokens
 snowflake:openai-gpt-4.1#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:openai-gpt-4.1#price_cache_read@table-6-d,table 6(d),0.33,AI Credits per one million Tokens
 snowflake:openai-gpt-4.1#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",1.2,AI Credits per one million Tokens
@@ -13404,6 +13482,7 @@ snowflake:openai-gpt-4.1#price_input@table-6-d,table 6(d),1.3,AI Credits per one
 snowflake:openai-gpt-4.1#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",4.8,AI Credits per one million Tokens
 snowflake:openai-gpt-4.1#price_output@table-6-b,table 6(b),4.0,AI Credits per one million Tokens
 snowflake:openai-gpt-4.1#price_output@table-6-d,table 6(d),5.2,AI Credits per one million Tokens
+snowflake:openai-gpt-5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.075,AI Credits per one million Tokens
 snowflake:openai-gpt-5#price_cache_read@table-6-b,table 6(b),0.065,AI Credits per one million Tokens
 snowflake:openai-gpt-5#price_cache_read@table-6-d,table 6(d),0.08,AI Credits per one million Tokens
 snowflake:openai-gpt-5#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.75,AI Credits per one million Tokens
@@ -13412,6 +13491,7 @@ snowflake:openai-gpt-5#price_input@table-6-d,table 6(d),0.81,AI Credits per one 
 snowflake:openai-gpt-5#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",6.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5#price_output@table-6-b,table 6(b),5.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5#price_output@table-6-d,table 6(d),6.51,AI Credits per one million Tokens
+snowflake:openai-gpt-5-mini#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.015,AI Credits per one million Tokens
 snowflake:openai-gpt-5-mini#price_cache_read@table-6-b,table 6(b),0.015,AI Credits per one million Tokens
 snowflake:openai-gpt-5-mini#price_cache_read@table-6-d,table 6(d),0.02,AI Credits per one million Tokens
 snowflake:openai-gpt-5-mini#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.15,AI Credits per one million Tokens
@@ -13420,11 +13500,13 @@ snowflake:openai-gpt-5-mini#price_input@table-6-d,table 6(d),0.16,AI Credits per
 snowflake:openai-gpt-5-mini#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",1.2,AI Credits per one million Tokens
 snowflake:openai-gpt-5-mini#price_output@table-6-b,table 6(b),1.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5-mini#price_output@table-6-d,table 6(d),1.3,AI Credits per one million Tokens
+snowflake:openai-gpt-5-nano#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.003,AI Credits per one million Tokens
 snowflake:openai-gpt-5-nano#price_cache_read@table-6-b,table 6(b),0.005,AI Credits per one million Tokens
 snowflake:openai-gpt-5-nano#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.033,AI Credits per one million Tokens
 snowflake:openai-gpt-5-nano#price_input@table-6-b,table 6(b),0.03,AI Credits per one million Tokens
 snowflake:openai-gpt-5-nano#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",0.24,AI Credits per one million Tokens
 snowflake:openai-gpt-5-nano#price_output@table-6-b,table 6(b),0.22,AI Credits per one million Tokens
+snowflake:openai-gpt-5.1#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.075,AI Credits per one million Tokens
 snowflake:openai-gpt-5.1#price_cache_read@table-6-b,table 6(b),0.065,AI Credits per one million Tokens
 snowflake:openai-gpt-5.1#price_cache_read@table-6-d,table 6(d),0.08,AI Credits per one million Tokens
 snowflake:openai-gpt-5.1#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.75,AI Credits per one million Tokens
@@ -13433,6 +13515,7 @@ snowflake:openai-gpt-5.1#price_input@table-6-d,table 6(d),0.81,AI Credits per on
 snowflake:openai-gpt-5.1#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",6.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5.1#price_output@table-6-b,table 6(b),5.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5.1#price_output@table-6-d,table 6(d),6.51,AI Credits per one million Tokens
+snowflake:openai-gpt-5.2#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.105,AI Credits per one million Tokens
 snowflake:openai-gpt-5.2#price_cache_read@table-6-b,table 6(b),0.09,AI Credits per one million Tokens
 snowflake:openai-gpt-5.2#price_cache_read@table-6-d,table 6(d),0.11,AI Credits per one million Tokens
 snowflake:openai-gpt-5.2#price_cache_read@table-6-e,table 6(e),0.1,AI Credits per one million Tokens
@@ -13444,6 +13527,7 @@ snowflake:openai-gpt-5.2#price_output@ai-complete--table-6-a,"ai_complete, table
 snowflake:openai-gpt-5.2#price_output@table-6-b,table 6(b),7.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5.2#price_output@table-6-d,table 6(d),9.11,AI Credits per one million Tokens
 snowflake:openai-gpt-5.2#price_output@table-6-e,table 6(e),7.7,AI Credits per one million Tokens
+snowflake:openai-gpt-5.4#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.15,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4#price_cache_read@table-6-b,table 6(b),0.125,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4#price_cache_read@table-6-d,table 6(d),0.16,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4#price_cache_read@table-6-e,table 6(e),0.14,AI Credits per one million Tokens
@@ -13455,21 +13539,25 @@ snowflake:openai-gpt-5.4#price_output@ai-complete--table-6-a,"ai_complete, table
 snowflake:openai-gpt-5.4#price_output@table-6-b,table 6(b),7.5,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4#price_output@table-6-d,table 6(d),9.76,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4#price_output@table-6-e,table 6(e),8.25,AI Credits per one million Tokens
+snowflake:openai-gpt-5.4-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.3,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-long-context#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-long-context#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",3.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-long-context#price_input@table-6-b,table 6(b),2.5,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-long-context#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",13.5,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-long-context#price_output@table-6-b,table 6(b),11.25,AI Credits per one million Tokens
+snowflake:openai-gpt-5.4-mini#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.045,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-mini#price_cache_read@table-6-b,table 6(b),0.038,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-mini#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.45,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-mini#price_input@table-6-b,table 6(b),0.375,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-mini#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",2.7,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-mini#price_output@table-6-b,table 6(b),2.25,AI Credits per one million Tokens
+snowflake:openai-gpt-5.4-nano#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.012,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-nano#price_cache_read@table-6-b,table 6(b),0.01,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-nano#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.12,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-nano#price_input@table-6-b,table 6(b),0.1,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-nano#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",0.75,AI Credits per one million Tokens
 snowflake:openai-gpt-5.4-nano#price_output@table-6-b,table 6(b),0.625,AI Credits per one million Tokens
+snowflake:openai-gpt-5.5#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.3,AI Credits per one million Tokens
 snowflake:openai-gpt-5.5#price_cache_read@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:openai-gpt-5.5#price_cache_read@table-6-d,table 6(d),0.33,AI Credits per one million Tokens
 snowflake:openai-gpt-5.5#price_cache_read@table-6-e,table 6(e),0.28,AI Credits per one million Tokens
@@ -13481,6 +13569,7 @@ snowflake:openai-gpt-5.5#price_output@ai-complete--table-6-a,"ai_complete, table
 snowflake:openai-gpt-5.5#price_output@table-6-b,table 6(b),15.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5.5#price_output@table-6-d,table 6(d),19.5,AI Credits per one million Tokens
 snowflake:openai-gpt-5.5#price_output@table-6-e,table 6(e),16.5,AI Credits per one million Tokens
+snowflake:openai-gpt-5.5-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.6,AI Credits per one million Tokens
 snowflake:openai-gpt-5.5-long-context#price_cache_read@table-6-b,table 6(b),0.5,AI Credits per one million Tokens
 snowflake:openai-gpt-5.5-long-context#price_cache_read@table-6-d,table 6(d),0.65,AI Credits per one million Tokens
 snowflake:openai-gpt-5.5-long-context#price_cache_read@table-6-e,table 6(e),0.55,AI Credits per one million Tokens
@@ -13492,6 +13581,7 @@ snowflake:openai-gpt-5.5-long-context#price_output@ai-complete--table-6-a,"ai_co
 snowflake:openai-gpt-5.5-long-context#price_output@table-6-b,table 6(b),22.5,AI Credits per one million Tokens
 snowflake:openai-gpt-5.5-long-context#price_output@table-6-d,table 6(d),29.25,AI Credits per one million Tokens
 snowflake:openai-gpt-5.5-long-context#price_output@table-6-e,table 6(e),24.75,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-luna#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.012,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna#price_cache_read@table-6-b,table 6(b),0.01,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna#price_cache_read@table-6-d,table 6(d),0.013,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna#price_cache_read@table-6-e,table 6(e),0.011,AI Credits per one million Tokens
@@ -13506,6 +13596,7 @@ snowflake:openai-gpt-5.6-luna#price_output@ai-complete--table-6-a,"ai_complete, 
 snowflake:openai-gpt-5.6-luna#price_output@table-6-b,table 6(b),0.6,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna#price_output@table-6-d,table 6(d),0.78,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna#price_output@table-6-e,table 6(e),0.66,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-luna-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.024,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna-long-context#price_cache_read@table-6-b,table 6(b),0.02,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna-long-context#price_cache_read@table-6-d,table 6(d),0.026,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna-long-context#price_cache_read@table-6-e,table 6(e),0.022,AI Credits per one million Tokens
@@ -13520,6 +13611,7 @@ snowflake:openai-gpt-5.6-luna-long-context#price_output@ai-complete--table-6-a,"
 snowflake:openai-gpt-5.6-luna-long-context#price_output@table-6-b,table 6(b),0.9,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna-long-context#price_output@table-6-d,table 6(d),1.17,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-luna-long-context#price_output@table-6-e,table 6(e),0.99,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.24,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-sol#price_cache_read@table-6-b,table 6(b),0.2,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-sol#price_cache_read@table-6-d,table 6(d),0.26,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-sol#price_cache_read@table-6-e,table 6(e),0.22,AI Credits per one million Tokens
@@ -13534,6 +13626,7 @@ snowflake:openai-gpt-5.6-sol#price_output@ai-complete--table-6-a,"ai_complete, t
 snowflake:openai-gpt-5.6-sol#price_output@table-6-b,table 6(b),10.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-sol#price_output@table-6-d,table 6(d),13.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-sol#price_output@table-6-e,table 6(e),11.0,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-sol-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.48,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-sol-long-context#price_cache_read@table-6-b,table 6(b),0.4,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-sol-long-context#price_cache_read@table-6-d,table 6(d),0.52,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-sol-long-context#price_cache_read@table-6-e,table 6(e),0.44,AI Credits per one million Tokens
@@ -13548,6 +13641,7 @@ snowflake:openai-gpt-5.6-sol-long-context#price_output@ai-complete--table-6-a,"a
 snowflake:openai-gpt-5.6-sol-long-context#price_output@table-6-b,table 6(b),15.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-sol-long-context#price_output@table-6-d,table 6(d),19.5,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-sol-long-context#price_output@table-6-e,table 6(e),16.5,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-terra#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.12,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra#price_cache_read@table-6-b,table 6(b),0.1,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra#price_cache_read@table-6-d,table 6(d),0.13,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra#price_cache_read@table-6-e,table 6(e),0.11,AI Credits per one million Tokens
@@ -13562,6 +13656,7 @@ snowflake:openai-gpt-5.6-terra#price_output@ai-complete--table-6-a,"ai_complete,
 snowflake:openai-gpt-5.6-terra#price_output@table-6-b,table 6(b),6.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra#price_output@table-6-d,table 6(d),7.8,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra#price_output@table-6-e,table 6(e),6.6,AI Credits per one million Tokens
+snowflake:openai-gpt-5.6-terra-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.24,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra-long-context#price_cache_read@table-6-b,table 6(b),0.2,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra-long-context#price_cache_read@table-6-d,table 6(d),0.26,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra-long-context#price_cache_read@table-6-e,table 6(e),0.22,AI Credits per one million Tokens
@@ -13576,6 +13671,7 @@ snowflake:openai-gpt-5.6-terra-long-context#price_output@ai-complete--table-6-a,
 snowflake:openai-gpt-5.6-terra-long-context#price_output@table-6-b,table 6(b),9.0,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra-long-context#price_output@table-6-d,table 6(d),11.7,AI Credits per one million Tokens
 snowflake:openai-gpt-5.6-terra-long-context#price_output@table-6-e,table 6(e),9.9,AI Credits per one million Tokens
+snowflake:openai-gpt-6-astra#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.6,AI Credits per one million Tokens
 snowflake:openai-gpt-6-astra#price_cache_read@table-6-b,table 6(b),0.5,AI Credits per one million Tokens
 snowflake:openai-gpt-6-astra#price_cache_read@table-6-d,table 6(d),0.65,AI Credits per one million Tokens
 snowflake:openai-gpt-6-astra#price_cache_read@table-6-e,table 6(e),0.55,AI Credits per one million Tokens
@@ -13590,6 +13686,7 @@ snowflake:openai-gpt-6-astra#price_output@ai-complete--table-6-a,"ai_complete, t
 snowflake:openai-gpt-6-astra#price_output@table-6-b,table 6(b),25.0,AI Credits per one million Tokens
 snowflake:openai-gpt-6-astra#price_output@table-6-d,table 6(d),32.5,AI Credits per one million Tokens
 snowflake:openai-gpt-6-astra#price_output@table-6-e,table 6(e),27.5,AI Credits per one million Tokens
+snowflake:openai-gpt-6-astra-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",1.2,AI Credits per one million Tokens
 snowflake:openai-gpt-6-astra-long-context#price_cache_read@table-6-b,table 6(b),1.0,AI Credits per one million Tokens
 snowflake:openai-gpt-6-astra-long-context#price_cache_read@table-6-d,table 6(d),1.3,AI Credits per one million Tokens
 snowflake:openai-gpt-6-astra-long-context#price_cache_read@table-6-e,table 6(e),1.1,AI Credits per one million Tokens
@@ -13604,6 +13701,7 @@ snowflake:openai-gpt-6-astra-long-context#price_output@ai-complete--table-6-a,"a
 snowflake:openai-gpt-6-astra-long-context#price_output@table-6-b,table 6(b),37.5,AI Credits per one million Tokens
 snowflake:openai-gpt-6-astra-long-context#price_output@table-6-d,table 6(d),48.75,AI Credits per one million Tokens
 snowflake:openai-gpt-6-astra-long-context#price_output@table-6-e,table 6(e),41.25,AI Credits per one million Tokens
+snowflake:openai-gpt-6-luna#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.006,AI Credits per one million Tokens
 snowflake:openai-gpt-6-luna#price_cache_read@table-6-b,table 6(b),0.005,AI Credits per one million Tokens
 snowflake:openai-gpt-6-luna#price_cache_read@table-6-d,table 6(d),0.007,AI Credits per one million Tokens
 snowflake:openai-gpt-6-luna#price_cache_read@table-6-e,table 6(e),0.006,AI Credits per one million Tokens
@@ -13618,6 +13716,7 @@ snowflake:openai-gpt-6-luna#price_output@ai-complete--table-6-a,"ai_complete, ta
 snowflake:openai-gpt-6-luna#price_output@table-6-b,table 6(b),0.25,AI Credits per one million Tokens
 snowflake:openai-gpt-6-luna#price_output@table-6-d,table 6(d),0.325,AI Credits per one million Tokens
 snowflake:openai-gpt-6-luna#price_output@table-6-e,table 6(e),0.275,AI Credits per one million Tokens
+snowflake:openai-gpt-6-luna-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.012,AI Credits per one million Tokens
 snowflake:openai-gpt-6-luna-long-context#price_cache_read@table-6-b,table 6(b),0.01,AI Credits per one million Tokens
 snowflake:openai-gpt-6-luna-long-context#price_cache_read@table-6-d,table 6(d),0.013,AI Credits per one million Tokens
 snowflake:openai-gpt-6-luna-long-context#price_cache_read@table-6-e,table 6(e),0.011,AI Credits per one million Tokens
@@ -13632,6 +13731,7 @@ snowflake:openai-gpt-6-luna-long-context#price_output@ai-complete--table-6-a,"ai
 snowflake:openai-gpt-6-luna-long-context#price_output@table-6-b,table 6(b),0.375,AI Credits per one million Tokens
 snowflake:openai-gpt-6-luna-long-context#price_output@table-6-d,table 6(d),0.488,AI Credits per one million Tokens
 snowflake:openai-gpt-6-luna-long-context#price_output@table-6-e,table 6(e),0.413,AI Credits per one million Tokens
+snowflake:openai-gpt-6-sol#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.12,AI Credits per one million Tokens
 snowflake:openai-gpt-6-sol#price_cache_read@table-6-b,table 6(b),0.1,AI Credits per one million Tokens
 snowflake:openai-gpt-6-sol#price_cache_read@table-6-d,table 6(d),0.13,AI Credits per one million Tokens
 snowflake:openai-gpt-6-sol#price_cache_read@table-6-e,table 6(e),0.11,AI Credits per one million Tokens
@@ -13646,6 +13746,7 @@ snowflake:openai-gpt-6-sol#price_output@ai-complete--table-6-a,"ai_complete, tab
 snowflake:openai-gpt-6-sol#price_output@table-6-b,table 6(b),5.0,AI Credits per one million Tokens
 snowflake:openai-gpt-6-sol#price_output@table-6-d,table 6(d),6.5,AI Credits per one million Tokens
 snowflake:openai-gpt-6-sol#price_output@table-6-e,table 6(e),5.5,AI Credits per one million Tokens
+snowflake:openai-gpt-6-sol-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.24,AI Credits per one million Tokens
 snowflake:openai-gpt-6-sol-long-context#price_cache_read@table-6-b,table 6(b),0.2,AI Credits per one million Tokens
 snowflake:openai-gpt-6-sol-long-context#price_cache_read@table-6-d,table 6(d),0.26,AI Credits per one million Tokens
 snowflake:openai-gpt-6-sol-long-context#price_cache_read@table-6-e,table 6(e),0.22,AI Credits per one million Tokens
@@ -13660,6 +13761,7 @@ snowflake:openai-gpt-6-sol-long-context#price_output@ai-complete--table-6-a,"ai_
 snowflake:openai-gpt-6-sol-long-context#price_output@table-6-b,table 6(b),7.5,AI Credits per one million Tokens
 snowflake:openai-gpt-6-sol-long-context#price_output@table-6-d,table 6(d),9.75,AI Credits per one million Tokens
 snowflake:openai-gpt-6-sol-long-context#price_output@table-6-e,table 6(e),8.25,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-sol#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.06,AI Credits per one million Tokens
 snowflake:openai-gpt-6.1-sol#price_cache_read@table-6-b,table 6(b),0.05,AI Credits per one million Tokens
 snowflake:openai-gpt-6.1-sol#price_cache_read@table-6-d,table 6(d),0.065,AI Credits per one million Tokens
 snowflake:openai-gpt-6.1-sol#price_cache_read@table-6-e,table 6(e),0.055,AI Credits per one million Tokens
@@ -13674,6 +13776,7 @@ snowflake:openai-gpt-6.1-sol#price_output@ai-complete--table-6-a,"ai_complete, t
 snowflake:openai-gpt-6.1-sol#price_output@table-6-b,table 6(b),5.0,AI Credits per one million Tokens
 snowflake:openai-gpt-6.1-sol#price_output@table-6-d,table 6(d),6.5,AI Credits per one million Tokens
 snowflake:openai-gpt-6.1-sol#price_output@table-6-e,table 6(e),5.5,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-sol-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.12,AI Credits per one million Tokens
 snowflake:openai-gpt-6.1-sol-long-context#price_cache_read@table-6-b,table 6(b),0.1,AI Credits per one million Tokens
 snowflake:openai-gpt-6.1-sol-long-context#price_cache_read@table-6-d,table 6(d),0.13,AI Credits per one million Tokens
 snowflake:openai-gpt-6.1-sol-long-context#price_cache_read@table-6-e,table 6(e),0.11,AI Credits per one million Tokens
@@ -13688,6 +13791,36 @@ snowflake:openai-gpt-6.1-sol-long-context#price_output@ai-complete--table-6-a,"a
 snowflake:openai-gpt-6.1-sol-long-context#price_output@table-6-b,table 6(b),7.5,AI Credits per one million Tokens
 snowflake:openai-gpt-6.1-sol-long-context#price_output@table-6-d,table 6(d),9.75,AI Credits per one million Tokens
 snowflake:openai-gpt-6.1-sol-long-context#price_output@table-6-e,table 6(e),8.25,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.03,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_cache_read@table-6-b,table 6(b),0.025,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_cache_read@table-6-d,table 6(d),0.033,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_cache_read@table-6-e,table 6(e),0.028,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_cache_write@table-6-b,table 6(b),0.625,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_cache_write@table-6-d,table 6(d),0.813,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_cache_write@table-6-e,table 6(e),0.688,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.6,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_input@table-6-b,table 6(b),0.5,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_input@table-6-d,table 6(d),0.65,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_input@table-6-e,table 6(e),0.55,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",3.0,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_output@table-6-b,table 6(b),2.5,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_output@table-6-d,table 6(d),3.25,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra#price_output@table-6-e,table 6(e),2.75,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_cache_read@ai-complete--table-6-a,"ai_complete, table 6(a)",0.06,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_cache_read@table-6-b,table 6(b),0.05,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_cache_read@table-6-d,table 6(d),0.065,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_cache_read@table-6-e,table 6(e),0.055,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_cache_write@table-6-b,table 6(b),1.25,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_cache_write@table-6-d,table 6(d),1.625,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_cache_write@table-6-e,table 6(e),1.375,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",1.2,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_input@table-6-b,table 6(b),1.0,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_input@table-6-d,table 6(d),1.3,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_input@table-6-e,table 6(e),1.1,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",4.5,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_output@table-6-b,table 6(b),3.75,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_output@table-6-d,table 6(d),4.875,AI Credits per one million Tokens
+snowflake:openai-gpt-6.1-terra-long-context#price_output@table-6-e,table 6(e),4.125,AI Credits per one million Tokens
 snowflake:pixtral-large#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",1.2,AI Credits per one million Tokens
 snowflake:pixtral-large#price_output@ai-complete--table-6-a,"ai_complete, table 6(a)",3.6,AI Credits per one million Tokens
 snowflake:qwen3-32b#price_input@ai-complete--table-6-a,"ai_complete, table 6(a)",0.09,AI Credits per one million Tokens
@@ -13731,7 +13864,8 @@ snowflake:snowflake-cortex#pricing_table_title@table-6-e,table 6(e),"Snowflake A
 snowflake:snowflake-cortex#pricing_table_title@table-6-f,table 6(f),"Snowflake AI Features Table, Fine-tuning",text
 snowflake:snowflake-cortex#pricing_table_title@table-6-g,table 6(g),"Snowflake AI Features Table, Other",text
 snowflake:snowflake-cortex#pricing_table_title@table-6-h,table 6(h),"Snowflake AI Features Table, Provisioned Throughput",text
-snowflake:snowflake-cortex#source_effective_date,,2026-10-15,date
+snowflake:snowflake-cortex#pricing_table_title@table-6-i,table 6(i),Cortex Training On Demand,text
+snowflake:snowflake-cortex#source_effective_date,,2026-10-29,date
 snowflake:summarize#price_tokens@summarize--table-6-a,"summarize, table 6(a)",0.13,AI Credits per one million Tokens
 snowflake:voyage-multilingual-2#price_tokens@ai-embed--table-6-a,"ai_embed, table 6(a)",0.07,AI Credits per one million Tokens
 snowflake:voyage-multimodal-3#price_tokens@ai-embed--table-6-a,"ai_embed, table 6(a)",0.06,AI Credits per one million Tokens
