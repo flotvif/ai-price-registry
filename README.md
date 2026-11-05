@@ -66,6 +66,8 @@ counted.
 
 CC-BY-4.0. Free reuse with attribution: `Bertrande, https://bertrande.com`.
 
+Snapshots are archived on Zenodo: [doi:10.5281/zenodo.23979617](https://doi.org/10.5281/zenodo.23979617), which always resolves to the latest one.
+
 The read API answers the same question by date:
 `https://bertrande.com/v1/services/{id}/{parameter}?on=2026-09-03`. Asked about a date
 before our first reading, it returns a **416** and says since when we have been
