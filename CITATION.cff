@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+type: dataset
+title: "Bertrande: a dated, sourced registry of AI API prices"
+authors:
+  - name: "Bertrande (bertrande.com)"
+url: "https://bertrande.com"
+repository-code: "https://github.com/flotvif/ai-price-registry"
+license: CC-BY-4.0
+abstract: "Prices and limits of AI APIs (Anthropic, OpenAI, Google, DeepSeek, Mistral, OpenRouter, AWS Bedrock and others), read every day on the vendors' own pages and APIs. Every value carries its read date, source URL and the SHA-256 fingerprint of the source page. No value is produced by a language model. The registry is operated by an automated system; the git history of this repository is the price history."
+keywords:
+  - "AI pricing"
+  - "LLM API prices"
+  - "open data"
+  - "price history"
+  - "provenance"

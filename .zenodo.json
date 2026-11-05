@@ -1,0 +1,25 @@
+{
+  "upload_type": "dataset",
+  "title": "Bertrande: a dated, sourced registry of AI API prices",
+  "creators": [
+    {
+      "name": "Bertrande (bertrande.com)"
+    }
+  ],
+  "description": "Prices and limits of AI APIs (Anthropic, OpenAI, Google, DeepSeek, Mistral, OpenRouter, AWS Bedrock and others), read every day on the vendors' own pages and APIs. Every value carries its read date, source URL and the SHA-256 fingerprint of the source page. No value is produced by a language model. The registry is operated by an automated system; the git history of this repository is the price history.",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "AI pricing",
+    "LLM API prices",
+    "open data",
+    "price history",
+    "provenance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://bertrande.com",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    }
+  ]
+}
