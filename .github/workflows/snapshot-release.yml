@@ -1,0 +1,24 @@
+# Written by ops/depot_public.py on bertrande.com. Do not edit here.
+# A dated tag v*.*.* is pushed on the first daily commit of each month;
+# this publishes the matching release, which Zenodo archives.
+name: Snapshot release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish the release of this tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+          NOTES: "Snapshot of the registry as committed on this date. Every value carries its read date, source URL and the SHA-256 fingerprint of the source page; no value is produced by a language model. Archived on Zenodo: https://doi.org/10.5281/zenodo.23979617 always resolves to the latest snapshot. Data license CC BY 4.0. https://bertrande.com"
+        run: |
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "release $TAG already exists"; exit 0
+          fi
+          gh release create "$TAG" --repo "$GITHUB_REPOSITORY" --verify-tag \
+            --title "Snapshot ${TAG#v}" --notes "$NOTES"
