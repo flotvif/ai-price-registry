@@ -8832,9 +8832,9 @@ openrouter:google--gemma-4-26b-a4b-it#context_length,,262144.0,tokens
 openrouter:google--gemma-4-26b-a4b-it#input_modalities,,"image, text, video",list
 openrouter:google--gemma-4-26b-a4b-it#max_output_tokens,,235929.0,tokens
 openrouter:google--gemma-4-26b-a4b-it#output_modalities,,text,list
-openrouter:google--gemma-4-26b-a4b-it#price_cache_read,,0.0375,USD per 1M tokens
-openrouter:google--gemma-4-26b-a4b-it#price_input,,0.0675,USD per 1M tokens
-openrouter:google--gemma-4-26b-a4b-it#price_output,,0.225,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_cache_read,,0.05,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_input,,0.09,USD per 1M tokens
+openrouter:google--gemma-4-26b-a4b-it#price_output,,0.3,USD per 1M tokens
 openrouter:google--gemma-4-26b-a4b-it#released_at,,2026-04-03,date
 openrouter:google--gemma-4-26b-a4b-it#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_completion_tokens, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:google--gemma-4-26b-a4b-it:free#context_length,,262144.0,tokens
@@ -9205,7 +9205,7 @@ openrouter:meta--muse-spark-1.3-contributor#released_at,,2026-09-02,date
 openrouter:meta--muse-spark-1.3-contributor#supported_parameters,,"include_reasoning, max_tokens, reasoning, reasoning_effort, repetition_penalty, response_format, structured_outputs, temperature, tool_choice, tools, top_k, top_p",list
 openrouter:meta--muse-spark-open#context_length,,1048576.0,tokens
 openrouter:meta--muse-spark-open#input_modalities,,"audio, file, image, text, video",list
-openrouter:meta--muse-spark-open#max_output_tokens,,943718.0,tokens
+openrouter:meta--muse-spark-open#max_output_tokens,,131072.0,tokens
 openrouter:meta--muse-spark-open#output_modalities,,text,list
 openrouter:meta--muse-spark-open#price_cache_read,,0.15,USD per 1M tokens
 openrouter:meta--muse-spark-open#price_input,,1.25,USD per 1M tokens
@@ -9364,7 +9364,7 @@ openrouter:minimax--minimax-m2.7#price_cache_read,,0.042,USD per 1M tokens
 openrouter:minimax--minimax-m2.7#price_input,,0.21,USD per 1M tokens
 openrouter:minimax--minimax-m2.7#price_output,,0.84,USD per 1M tokens
 openrouter:minimax--minimax-m2.7#released_at,,2026-03-18,date
-openrouter:minimax--minimax-m2.7#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, max_tokens, min_p, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, temperature, tool_choice, tools, top_k, top_p",list
+openrouter:minimax--minimax-m2.7#supported_parameters,,"frequency_penalty, include_reasoning, max_tokens, presence_penalty, reasoning, repetition_penalty, response_format, seed, stop, temperature, tool_choice, tools, top_k, top_p",list
 openrouter:minimax--minimax-m2.7:free#context_length,,196608.0,tokens
 openrouter:minimax--minimax-m2.7:free#input_modalities,,text,list
 openrouter:minimax--minimax-m2.7:free#max_output_tokens,,176947.0,tokens
@@ -9634,10 +9634,11 @@ openrouter:mistralai--mistral-small-3.1-24b-instruct#released_at,,2025-03-17,dat
 openrouter:mistralai--mistral-small-3.1-24b-instruct#supported_parameters,,"frequency_penalty, logit_bias, logprobs, max_tokens, min_p, presence_penalty, repetition_penalty, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:mistralai--mistral-small-3.2-24b-instruct#context_length,,256000.0,tokens
 openrouter:mistralai--mistral-small-3.2-24b-instruct#input_modalities,,"image, text",list
-openrouter:mistralai--mistral-small-3.2-24b-instruct#max_output_tokens,,16384.0,tokens
+openrouter:mistralai--mistral-small-3.2-24b-instruct#max_output_tokens,,26214.0,tokens
 openrouter:mistralai--mistral-small-3.2-24b-instruct#output_modalities,,text,list
-openrouter:mistralai--mistral-small-3.2-24b-instruct#price_input,,0.075,USD per 1M tokens
-openrouter:mistralai--mistral-small-3.2-24b-instruct#price_output,,0.2,USD per 1M tokens
+openrouter:mistralai--mistral-small-3.2-24b-instruct#price_cache_read,,0.01,USD per 1M tokens
+openrouter:mistralai--mistral-small-3.2-24b-instruct#price_input,,0.1,USD per 1M tokens
+openrouter:mistralai--mistral-small-3.2-24b-instruct#price_output,,0.3,USD per 1M tokens
 openrouter:mistralai--mistral-small-3.2-24b-instruct#released_at,,2025-06-20,date
 openrouter:mistralai--mistral-small-3.2-24b-instruct#supported_parameters,,"frequency_penalty, logit_bias, logprobs, max_tokens, min_p, presence_penalty, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:mistralai--mixtral-8x22b-instruct#context_length,,65536.0,tokens
@@ -11010,11 +11011,11 @@ openrouter:openai--gpt-oss-120b:batch#released_at,,2025-08-05,date
 openrouter:openai--gpt-oss-120b:batch#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, max_tokens, min_p, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_p",list
 openrouter:openai--gpt-oss-20b#context_length,,131072.0,tokens
 openrouter:openai--gpt-oss-20b#input_modalities,,text,list
-openrouter:openai--gpt-oss-20b#max_output_tokens,,117964.0,tokens
+openrouter:openai--gpt-oss-20b#max_output_tokens,,32768.0,tokens
 openrouter:openai--gpt-oss-20b#output_modalities,,text,list
-openrouter:openai--gpt-oss-20b#price_cache_read,,0.03,USD per 1M tokens
-openrouter:openai--gpt-oss-20b#price_input,,0.03,USD per 1M tokens
-openrouter:openai--gpt-oss-20b#price_output,,0.13,USD per 1M tokens
+openrouter:openai--gpt-oss-20b#price_cache_read,,0.009,USD per 1M tokens
+openrouter:openai--gpt-oss-20b#price_input,,0.018,USD per 1M tokens
+openrouter:openai--gpt-oss-20b#price_output,,0.09,USD per 1M tokens
 openrouter:openai--gpt-oss-20b#released_at,,2025-08-05,date
 openrouter:openai--gpt-oss-20b#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_tokens, min_p, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:openai--gpt-oss-20b:batch#context_length,,131072.0,tokens
@@ -12544,9 +12545,9 @@ openrouter:z-ai--glm-4.5-air#context_length,,131072.0,tokens
 openrouter:z-ai--glm-4.5-air#input_modalities,,text,list
 openrouter:z-ai--glm-4.5-air#max_output_tokens,,98304.0,tokens
 openrouter:z-ai--glm-4.5-air#output_modalities,,text,list
-openrouter:z-ai--glm-4.5-air#price_cache_read,,0.025,USD per 1M tokens
-openrouter:z-ai--glm-4.5-air#price_input,,0.13,USD per 1M tokens
-openrouter:z-ai--glm-4.5-air#price_output,,0.85,USD per 1M tokens
+openrouter:z-ai--glm-4.5-air#price_cache_read,,0.03,USD per 1M tokens
+openrouter:z-ai--glm-4.5-air#price_input,,0.2,USD per 1M tokens
+openrouter:z-ai--glm-4.5-air#price_output,,1.1,USD per 1M tokens
 openrouter:z-ai--glm-4.5-air#released_at,,2025-07-25,date
 openrouter:z-ai--glm-4.5-air#supported_parameters,,"frequency_penalty, include_reasoning, max_tokens, presence_penalty, reasoning, repetition_penalty, seed, stop, temperature, tool_choice, tools, top_k, top_p",list
 openrouter:z-ai--glm-4.5v#context_length,,65536.0,tokens
@@ -12831,9 +12832,9 @@ openrouter:~moonshotai--kimi-latest#context_length,,1048576.0,tokens
 openrouter:~moonshotai--kimi-latest#input_modalities,,"image, text, video",list
 openrouter:~moonshotai--kimi-latest#max_output_tokens,,943718.0,tokens
 openrouter:~moonshotai--kimi-latest#output_modalities,,text,list
-openrouter:~moonshotai--kimi-latest#price_cache_read,,0.16,USD per 1M tokens
-openrouter:~moonshotai--kimi-latest#price_input,,0.1634,USD per 1M tokens
-openrouter:~moonshotai--kimi-latest#price_output,,10.5539,USD per 1M tokens
+openrouter:~moonshotai--kimi-latest#price_cache_read,,0.18,USD per 1M tokens
+openrouter:~moonshotai--kimi-latest#price_input,,0.1824,USD per 1M tokens
+openrouter:~moonshotai--kimi-latest#price_output,,9.7471,USD per 1M tokens
 openrouter:~moonshotai--kimi-latest#released_at,,2026-04-27,date
 openrouter:~moonshotai--kimi-latest#supported_parameters,,"frequency_penalty, include_reasoning, logit_bias, logprobs, max_completion_tokens, max_tokens, min_p, parallel_tool_calls, presence_penalty, reasoning, reasoning_effort, repetition_penalty, response_format, seed, stop, structured_outputs, temperature, tool_choice, tools, top_k, top_logprobs, top_p",list
 openrouter:~openai--gpt-astra-latest#context_length,,1050000.0,tokens
