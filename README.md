@@ -14,10 +14,10 @@ by parameter id, never by name, so every commit diff reads line by line as
 
 | File | Contents | What its diff tells you |
 |---|---|---|
-| `values.csv` | 14489 values, no provenance | **exactly the values that changed** |
+| `values.csv` | 14502 values, no provenance | **exactly the values that changed** |
 | `registry.csv` | the same rows, with date, source URL, source level and SHA-256 fingerprint | what was observed again, even at an unchanged value |
-| `measurements.csv` | 3130 continuous measurements: availability, latency, throughput, exchange rates | new readings, every day |
-| `changes.csv` | 1194 confirmed changes, newest first, each with the date, source URL, level and fingerprint of the observation before and after | |
+| `measurements.csv` | 3146 continuous measurements: availability, latency, throughput, exchange rates | new readings, every day |
+| `changes.csv` | 1214 confirmed changes, newest first, each with the date, source URL, level and fingerprint of the observation before and after | |
 
 `values.csv` and `registry.csv` carry the same rows. The first holds state
 only, so re-reading an unchanged price leaves it untouched; the second holds
